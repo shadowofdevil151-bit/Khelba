@@ -24,21 +24,21 @@ export default function Sidebar({ expanded, onExpandedChange }) {
 
     return <>
         {expanded && <button className="fixed inset-0 z-30 bg-black/45 backdrop-blur-[2px] md:hidden" onClick={() => onExpandedChange(false)} aria-label="নেভিগেশন বন্ধ করুন"/>}
-        <aside className={`fixed bottom-6 left-6 top-6 z-40 flex flex-col rounded-[0.5rem] border border-slate-500/25 bg-[#2f2f2f]/95 px-2.5 py-3  backdrop-blur-xl transition-[width] duration-[450ms] ease-[cubic-bezier(.22,1,.36,1)] ${expanded ? "w-[17rem]" : "w-[85px]"}`}>
+        <aside className={`fixed bottom-6 left-6 top-6 z-40 hidden flex-col rounded-[0.5rem] border border-slate-500/25 bg-[#2f2f2f]/95 px-2.5 py-3 backdrop-blur-xl transition-[width] duration-[450ms] ease-[cubic-bezier(.22,1,.36,1)] md:flex w-[85px] ${expanded ? "lg:w-[17rem]" : "lg:w-[85px]"}`}>
             <div className={`relative mb-7 flex h-10 shrink-0 items-center ${expanded ? "px-1" : "justify-center"}`}>
                 <Link href="/dashboard" aria-label="খেলবা ড্যাশবোর্ড" className="flex min-w-0 items-center gap-2.5 overflow-hidden">
                     <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-brass-200 to-brass-400 font-serif text-xl font-bold text-ink-950">K</span>
                     <span className={`overflow-hidden whitespace-nowrap transition-[width,opacity,transform] duration-[350ms] ease-out ${expanded ? "w-32 translate-x-0 opacity-100 delay-75" : "w-0 -translate-x-1 opacity-0"}`}>
                         <span className="block font-serif text-lg leading-5 text-paper">Khelba</span>
-                        <span className="mt-0.5 block text-[8px] tracking-[.1em] text-paper/40">শিখুন · খেলুন · এগিয়ে যান</span>
+                        <span className="mt-0.5 block text-[8px] tracking-[.1em] text-paper/40">শিখুন · খেলুন · এগিয়ে যান</span>
                     </span>
                 </Link>
                 <button
                     type="button"
                     onClick={() => onExpandedChange(!expanded)}
-                    aria-label={expanded ? "সাইডবার ছোট করুন" : "সাইডবার বড় করুন"}
+                    aria-label={expanded ? "সাইডবার ছোট করুন" : "সাইডবার বড় করুন"}
                     aria-expanded={expanded}
-                    className="group absolute -right-4 top-1/2 grid h-12 w-8 -translate-y-1/2 place-items-center rounded-r-xl rounded-l-md border border-l-0 border-slate-400/30 bg-[#30343b] text-paper/65 shadow-[4px_0_16px_rgba(0,0,0,.24)] transition-[background-color,color,width,box-shadow] duration-200 hover:w-9 hover:bg-[#3a414b] hover:text-white hover:shadow-[4px_0_20px_rgba(129,140,248,.2)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200"
+                    className="group absolute -right-4 top-1/2 hidden h-12 w-8 -translate-y-1/2 place-items-center rounded-r-xl rounded-l-md border border-l-0 border-slate-400/30 bg-[#30343b] text-paper/65 shadow-[4px_0_16px_rgba(0,0,0,.24)] transition-[background-color,color,width,box-shadow] duration-200 hover:w-9 hover:bg-[#3a414b] hover:text-white hover:shadow-[4px_0_20px_rgba(129,140,248,.2)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200 lg:grid"
                 >
                     {expanded ? <ChevronLeft size={15}/> : <ChevronRight size={15}/>}
                 </button>

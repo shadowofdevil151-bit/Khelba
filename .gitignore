@@ -48,3 +48,9 @@ coverage/
 # OS generated files
 .DS_Store
 Thumbs.db
+.xml
+responsive/repomix-output.xml
+repomix-frontend.xml
+repomix-backend.xml
+responsive/
+social-backend.xml

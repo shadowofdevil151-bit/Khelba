@@ -273,3 +273,91 @@ select option { background: #242424; color: #e7edf7; }
 .social-tab-active-requests      { @apply bg-violet-500/15 text-violet-200 shadow-[inset_0_-2px_0_0_rgb(167_139_250)]; }
 .social-tab-active-friends       { @apply bg-emerald-500/15 text-emerald-200 shadow-[inset_0_-2px_0_0_rgb(52_211_153)]; }
 .social-tab-active-notifications { @apply bg-amber-500/15 text-amber-200 shadow-[inset_0_-2px_0_0_rgb(251_191_36)]; }
+
+/* ══════════════════════════════════════════════════════════════════
+   CHUNK 0 — Mobile-first responsive layer (additive only)
+   - New CSS variables used only by the mobile chrome
+   - Utilities below are opt-in classes; existing rules untouched
+   ══════════════════════════════════════════════════════════════════ */
+
+:root {
+    /* Mobile navigation offsets (used by .mobile-top-bar / .app-main / .kl-viewport-lock) */
+    --kl-mobile-topbar-h: 3.5rem;      /* 56px */
+    --kl-mobile-bottomnav-h: 4rem;     /* 64px */
+    --kl-safe-top: env(safe-area-inset-top, 0px);
+    --kl-safe-bottom: env(safe-area-inset-bottom, 0px);
+    --kl-safe-left: env(safe-area-inset-left, 0px);
+    --kl-safe-right: env(safe-area-inset-right, 0px);
+}
+
+/* Zero horizontal scroll + Bengali body baseline — mobile only */
+@media (max-width: 767px) {
+    html, body { overflow-x: hidden; }
+    body { font-size: 14px; line-height: 1.7; }
+    p, li, dd, blockquote { line-height: 1.7; }
+    .touch-target { min-height: 44px; min-width: 44px; }
+    .touch-gap { gap: 8px; }
+}
+
+/* Sticky mobile top bar: content min-height = 56px, plus safe-area top */
+.mobile-top-bar {
+    min-height: calc(var(--kl-mobile-topbar-h) + var(--kl-safe-top));
+    padding-top: var(--kl-safe-top);
+    padding-left: calc(1rem + var(--kl-safe-left));
+    padding-right: calc(1rem + var(--kl-safe-right));
+}
+
+/* Fixed mobile bottom nav: push tap targets above iOS home indicator */
+.mobile-bottom-nav {
+    padding-bottom: var(--kl-safe-bottom);
+    padding-left: var(--kl-safe-left);
+    padding-right: var(--kl-safe-right);
+}
+
+/* main content padding-bottom clears bottom nav + safe area on mobile */
+.app-main { padding-bottom: calc(var(--kl-mobile-bottomnav-h) + var(--kl-safe-bottom) + 1rem); }
+@media (min-width: 768px) {
+    .app-main { padding-bottom: 0; }
+}
+
+/* Drawer / overlay primitives (reserved for later chunks: Notes contents,
+   Profile tab sheet, Social right panel, etc.) */
+.kl-overlay-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    background: rgba(0, 0, 0, .55);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    animation: kl-overlay-fade-in 180ms ease-out both;
+}
+.kl-drawer {
+    position: fixed;
+    z-index: 40;
+    background: #242424;
+    border: 1px solid rgba(255, 255, 255, .08);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, .45);
+    animation-duration: 220ms;
+    animation-timing-function: cubic-bezier(.22, 1, .36, 1);
+    animation-fill-mode: both;
+}
+.kl-drawer-left   { inset: 0 auto 0 0; max-width: 80vw; border-top-right-radius: 16px; border-bottom-right-radius: 16px; animation-name: kl-drawer-in-left; }
+.kl-drawer-right  { inset: 0 0 0 auto; max-width: 80vw; border-top-left-radius: 16px;  border-bottom-left-radius: 16px;  animation-name: kl-drawer-in-right; }
+.kl-drawer-bottom { inset: auto 0 0 0; max-height: 85dvh; border-radius: 16px 16px 0 0; padding-bottom: var(--kl-safe-bottom); animation-name: kl-drawer-in-bottom; }
+
+/* Full-viewport mobile lock — use on /social chat container */
+.kl-viewport-lock {
+    height: calc(100dvh - var(--kl-mobile-topbar-h) - var(--kl-mobile-bottomnav-h) - var(--kl-safe-top) - var(--kl-safe-bottom));
+    min-height: 0;
+    overflow: hidden;
+}
+
+@keyframes kl-overlay-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes kl-drawer-in-left   { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+@keyframes kl-drawer-in-right  { from { transform: translateX(100%); }  to { transform: translateX(0); } }
+@keyframes kl-drawer-in-bottom { from { transform: translateY(100%); }  to { transform: translateY(0); } }
+
+@media (prefers-reduced-motion: reduce) {
+    .kl-overlay-backdrop,
+    .kl-drawer { animation: none !important; }
+}

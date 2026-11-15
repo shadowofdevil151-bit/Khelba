@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Khelba — Console</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%235b5bd6'/%3E%3Cpath d='M9 22 16 8l7 14h-4l-3-6-3 6z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/academic.css">
+</head>
+<body>
+  <nav class="appnav" aria-label="Sections">
+    <div class="appnav-brand"><span class="brand-mark" aria-hidden="true">K</span><strong>Khelba</strong></div>
+    <div class="appnav-tabs" role="tablist">
+      <button class="nav-tab active" role="tab" data-section="battle" aria-selected="true">⚔ Battle</button>
+      <button class="nav-tab" role="tab" data-section="academic" aria-selected="false">✎ Academic</button>
+    </div>
+    <button id="nav-theme" class="secondary nav-theme" type="button">☾ Theme</button>
+  </nav>
+
+  <!-- ===================== BATTLE ===================== -->
+  <main class="workspace" id="battle-section">
+    <aside class="developer-panel" aria-label="Battle developer tools">
+      <header class="dev-heading">
+        <div class="brand-mark" aria-hidden="true">K</div>
+        <div>
+          <p class="eyebrow">Khelba · sandbox</p>
+          <h1>Battle console</h1>
+        </div>
+      </header>
+
+      <section class="card" aria-labelledby="connection-title">
+        <div class="card-head">
+          <h2 id="connection-title">Connection</h2>
+          <div id="connection-pill" class="pill" data-state="idle" role="status" aria-live="polite">
+            <span class="dot" aria-hidden="true"></span><span id="connection-text">Disconnected</span>
+          </div>
+        </div>
+        <form id="connection-form" autocomplete="off" novalidate>
+          <label><span>Backend origin</span>
+            <input id="api-origin" type="url" value="http://localhost:3000" inputmode="url" spellcheck="false" required>
+          </label>
+          <label><span>Access token</span>
+            <div class="input-row">
+              <input id="access-token" type="password" placeholder="Paste access token" value="eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..3LbnDy19z3XoS7uk.e9P4nkUIDDIhT7lx0j4jg91gGrQkzCDCMP0or34cJohdr080CZO4TXrDs8AmI-a13JEpQwbRk09X9W5ie8f-VRGyuEE7V5B9I3VSqOhQ7NN75y84X2eITWCwUeBxsKbr-9gODPrMjJxy4UVzFJzNevMMa9dWIU1iXcmfPWbJizFtFy2SdlAZln-HzAo.ipBAur7LO9W3BB3JJ_gKgA" spellcheck="false" autocomplete="off" required>
+              <button id="toggle-token" type="button" class="ghost" aria-pressed="false">Show</button>
+            </div>
+          </label>
+          <div class="actions">
+            <button id="connect" type="submit">Connect</button>
+            <button id="disconnect" type="button" class="secondary" disabled>Disconnect</button>
+          </div>
+          <p id="connection-note" class="notice" data-tone="error" role="alert" hidden></p>
+          <p class="hint">Token stays in memory; sent to HTTP as a Bearer token and in the Socket.IO auth handshake. The Academic section shares this origin and token.</p>
+        </form>
+      </section>
+
+      <section class="card" aria-labelledby="match-title">
+        <h2 id="match-title">Matchmaking</h2>
+        <form id="match-form" novalidate>
+          <div class="grid">
+            <label><span>Subject code</span><input id="subject-code" maxlength="32" value="BIO" autocomplete="off" spellcheck="false"></label>
+            <label><span>Chapter</span><input id="chapter" type="number" min="1" step="1" value="1" inputmode="numeric"></label>
+          </div>
+          <div class="actions">
+            <button id="start-battle" type="submit" disabled>Find opponent</button>
+            <button id="quit-battle" type="button" class="danger" disabled>Forfeit</button>
+          </div>
+        </form>
+        <p id="match-status" class="notice" data-tone="idle" role="status" aria-live="polite">Not searching.</p>
+        <details id="match-raw-wrap" class="raw" hidden><summary>Raw response</summary><pre id="match-raw"></pre></details>
+      </section>
+
+      <section class="card event-card" aria-labelledby="log-title">
+        <div class="card-head">
+          <h2 id="log-title">Live events <span id="log-count" class="count">0</span></h2>
+          <button id="clear-log" type="button" class="ghost">Clear</button>
+        </div>
+        <ol id="event-log" class="event-log" aria-live="off"></ol>
+      </section>
+    </aside>
+
+    <section class="game-shell" aria-label="Battle game">
+      <header class="game-header">
+        <div>
+          <p class="eyebrow">1v1 · live match</p>
+          <h2>Knowledge battle</h2>
+        </div>
+        <div class="game-actions">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">☾ <span>Dark mode</span></button>
+          <span class="game-chip"><span class="live-dot"></span> LIVE</span>
+        </div>
+      </header>
+
+      <div class="arena">
+        <div class="matchup">
+          <article class="player-card" id="self-player">
+            <div class="avatar-wrap"><img id="self-avatar" alt="" hidden><span id="self-avatar-fallback" class="avatar-fallback">Y</span><span class="player-presence"></span></div>
+            <div class="player-copy"><span class="player-tag">YOU</span><strong id="self-name">You</strong><span id="self-score" class="player-score">0 correct</span></div>
+          </article>
+          <div class="versus"><span>VS</span></div>
+          <article class="player-card opponent-card" id="opponent-player">
+            <div class="avatar-wrap"><img id="opponent-avatar" alt="" hidden><span id="opponent-avatar-fallback" class="avatar-fallback">?</span><span class="player-presence opponent-presence"></span></div>
+            <div class="player-copy"><span class="player-tag">OPPONENT</span><strong id="opponent-name">Waiting…</strong><span id="opponent-score" class="player-score">0 correct</span></div>
+          </article>
+        </div>
+        <p id="opponent-feedback" class="opponent-feedback" hidden></p>
+        <section class="chat-panel" aria-label="Battle chat">
+          <div class="chat-heading"><strong>Battle chat</strong><span id="chat-status">Messages are temporary</span></div>
+          <ol id="chat-messages" class="chat-messages" aria-live="polite"></ol>
+          <form id="chat-form" class="chat-form">
+            <input id="chat-input" placeholder="Send a message…" autocomplete="off" aria-label="Chat message" disabled>
+            <button id="chat-send" type="submit" disabled>Send</button>
+          </form>
+        </section>
+
+        <div class="round-status">
+          <span id="battle-round">READY WHEN YOU ARE</span>
+          <div class="timer" id="round-timer" aria-live="off"><span class="timer-icon" aria-hidden="true">◷</span><span id="timer-value">—</span></div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Battle progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="progress-bar"></span></div>
+
+        <p id="battle-note" class="battle-note" role="status" aria-live="polite" hidden></p>
+        <div id="question" class="question empty"><p>Find an opponent to begin your battle.</p></div>
+        <div id="answers" class="answers"></div>
+        <p class="hint kbd-hint">Choose an answer · use keys 1–4</p>
+
+        <section id="battle-result" class="result-panel" aria-live="polite" hidden>
+          <div class="result-icon" aria-hidden="true">✦</div>
+          <p class="eyebrow">MATCH COMPLETE</p>
+          <h3 id="result-title">Battle finished</h3>
+          <p id="result-subtitle" class="result-subtitle"></p>
+          <div id="result-scores" class="result-scores"></div>
+          <div class="result-stats">
+            <div><span>Your correct</span><strong id="result-correct">—</strong></div>
+            <div><span>Accuracy</span><strong id="result-accuracy">—</strong></div>
+            <div><span>Your points</span><strong id="result-points">—</strong></div>
+            <div><span>Time used</span><strong id="result-time">—</strong></div>
+            <div><span>Avg. answer</span><strong id="result-average">—</strong></div>
+            <div><span>Timed out</span><strong id="result-timeouts">—</strong></div>
+          </div>
+          <button id="play-again" type="button">Play again</button>
+        </section>
+      </div>
+      <footer class="game-footer"><span id="battle-meta">No active battle</span><span>Powered by Khelba</span></footer>
+    </section>
+  </main>
+
+  <!-- ===================== ACADEMIC ===================== -->
+  <section id="academic" class="academic" hidden aria-label="Academic practice">
+    <header class="a-hero">
+      <div>
+        <p class="eyebrow">Khelba · academic</p>
+        <h1>Practice studio</h1>
+        <p class="a-muted">Practise chapter questions, review mistakes and track your progress.</p>
+      </div>
+    </header>
+
+    <section class="a-panel a-scope" aria-label="Connection and scope">
+      <label class="a-f a-grow2"><span>Backend origin</span><input id="a-origin" type="url" spellcheck="false"></label>
+      <label class="a-f a-grow3"><span>Access token</span>
+        <div class="input-row"><input id="a-token" type="password" placeholder="Shared with the Battle section" spellcheck="false" autocomplete="off"><button id="a-toggle-token" class="ghost" type="button">Show</button></div>
+      </label>
+      <label class="a-f"><span>Subject code</span><input id="a-subject" value="275" maxlength="32" spellcheck="false"></label>
+      <label class="a-f a-narrow"><span>Chapter</span><input id="a-chapter" type="number" min="1" value="5"></label>
+      <label class="a-f a-narrow"><span>Page size</span><input id="a-limit" type="number" min="1" max="600" value="50"></label>
+    </section>
+
+    <nav class="a-tabs" role="tablist" aria-label="Academic sections">
+      <button class="a-tab active" role="tab" data-tab="practice">✎ Practice</button>
+      <button class="a-tab" role="tab" data-tab="wrong">✕ Wrong <b id="a-count-wrong" class="a-badge" hidden></b></button>
+      <button class="a-tab" role="tab" data-tab="right">✓ Right <b id="a-count-right" class="a-badge" hidden></b></button>
+      <button class="a-tab" role="tab" data-tab="report">▤ Analytics</button>
+      <button class="a-tab" role="tab" data-tab="tools">⚙ Tools</button>
+    </nav>
+
+    <div class="a-layout">
+      <div class="a-stage">
+        <div class="a-view active" id="a-view-practice">
+          <div class="a-panel">
+            <div class="a-head">
+              <div><h2>Practice session</h2><p class="a-muted">Load a batch of unanswered questions, answer them, then submit.</p></div>
+              <button id="a-load-practice">Load questions</button>
+            </div>
+            <div id="a-practice-empty" class="a-empty"><div class="a-empty-icon">✎</div><p>No questions loaded yet.</p><span>Set subject and chapter above, then press <b>Load questions</b>.</span></div>
+            <div id="a-practice-session" hidden>
+              <div class="a-session-top">
+                <span id="a-practice-count" class="a-chip">1 / 1</span>
+                <span id="a-practice-answered" class="a-chip ok">0 answered</span>
+              </div>
+              <div class="a-progress"><span id="a-practice-bar"></span></div>
+              <div id="a-practice-dots" class="a-dots"></div>
+              <article id="a-practice-card" class="a-qcard"></article>
+              <div class="a-row a-between">
+                <button id="a-practice-prev" class="secondary">← Previous</button>
+                <button id="a-practice-next" class="secondary">Next →</button>
+              </div>
+              <div class="a-submit-bar">
+                <span id="a-practice-summary" class="a-muted">Answer at least one question to submit.</span>
+                <div class="a-row">
+                  <button id="a-practice-more" class="secondary" hidden>Next batch →</button>
+                  <button id="a-practice-submit" disabled>Submit answers</button>
+                </div>
+              </div>
+              <div id="a-practice-result" class="a-result" hidden></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="a-view" id="a-view-wrong">
+          <div class="a-panel">
+            <div class="a-head">
+              <div><h2>Review wrong answers</h2><p class="a-muted">Study mistakes, then mark them as done.</p></div>
+              <div class="a-row"><button id="a-done-selected" class="secondary" disabled>Mark selected done</button><button id="a-load-wrong">Load</button></div>
+            </div>
+            <div class="a-review-legend" aria-label="Answer color legend"><span class="is-correct">Green: correct answer</span><span class="is-wrong">Red: your last wrong answer</span></div>
+            <div id="a-wrong-list" class="a-qlist"><div class="a-empty"><div class="a-empty-icon">✕</div><p>Nothing loaded.</p></div></div>
+            <div class="a-pager" data-kind="wrong" hidden><button data-dir="prev" class="secondary">← Prev</button><span class="a-page-label">Page 1</span><button data-dir="next" class="secondary">Next →</button></div>
+          </div>
+        </div>
+
+        <div class="a-view" id="a-view-right">
+          <div class="a-panel">
+            <div class="a-head">
+              <div><h2>Review right answers</h2><p class="a-muted">Questions you already got correct.</p></div>
+              <button id="a-load-right">Load</button>
+            </div>
+            <div id="a-right-list" class="a-qlist"><div class="a-empty"><div class="a-empty-icon">✓</div><p>Nothing loaded.</p></div></div>
+            <div class="a-pager" data-kind="right" hidden><button data-dir="prev" class="secondary">← Prev</button><span class="a-page-label">Page 1</span><button data-dir="next" class="secondary">Next →</button></div>
+          </div>
+        </div>
+
+        <div class="a-view" id="a-view-report">
+          <div class="a-panel">
+            <div class="a-head">
+              <div><h2>Subject analytics</h2><p class="a-muted">Uses the subject code only.</p></div>
+              <button id="a-load-report">Load report</button>
+            </div>
+            <div id="a-report-body"><div class="a-empty"><div class="a-empty-icon">▤</div><p>No report yet.</p></div></div>
+          </div>
+        </div>
+
+        <div class="a-view" id="a-view-tools">
+          <div class="a-panel">
+            <h2>Restart chapter practice</h2>
+            <p class="a-muted">Deletes progress for the chosen chapters of the current subject.</p>
+            <label class="a-f"><span>Chapters (comma separated)</span><input id="a-delete-chapters" placeholder="e.g. 5, 6"></label>
+            <button id="a-delete-run" class="danger">Restart practice</button>
+          </div>
+          <div class="a-panel">
+            <h2>Custom request</h2>
+            <div class="a-row">
+              <select id="a-raw-method"><option>GET</option><option>POST</option><option>DELETE</option><option>PUT</option><option>PATCH</option></select>
+              <input id="a-raw-path" value="/academic/report" spellcheck="false">
+            </div>
+            <label class="a-f"><span>Query string</span><input id="a-raw-query" placeholder="subject_code=275"></label>
+            <label class="a-f"><span>JSON body</span><textarea id="a-raw-body" rows="5" spellcheck="false"></textarea></label>
+            <button id="a-raw-run">Send</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="a-panel a-inspector" aria-label="Response inspector">
+        <div class="a-head tight">
+          <h2>Inspector</h2>
+          <div class="a-row"><span id="a-insp-status" class="a-chip">idle</span><button id="a-insp-copy" class="ghost" type="button">Copy</button></div>
+        </div>
+        <p id="a-insp-title" class="a-muted">Last request appears here.</p>
+        <pre id="a-insp-body">—</pre>
+        <h3>History</h3>
+        <ol id="a-history" class="a-history"></ol>
+      </aside>
+    </div>
+  </section>
+
+  <div id="a-toast" class="a-toast" role="status" aria-live="polite" hidden></div>
+  <script src="/client.js" defer></script>
+  <script src="/academic.js" defer></script>
+</body>
+</html>

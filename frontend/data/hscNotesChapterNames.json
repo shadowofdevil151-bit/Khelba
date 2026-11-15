@@ -1,0 +1,711 @@
+[
+  {
+    "subject_code": "ACC",
+    "subject_name": "হিসাববিজ্ঞান",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: হিসাববিজ্ঞানের পরিচিতি",
+      "2": "অধ্যায় ২: হিসাবের বইসমূহ",
+      "3": "অধ্যায় ৩: ব্যাংক সমন্বয় বিবরণী",
+      "4": "অধ্যায় ৪: রেওয়ামিল",
+      "5": "অধ্যায় ৫: হিসাববিজ্ঞানের নীতিমালা",
+      "6": "অধ্যায় ৬: প্রাপ্য হিসাবসমূহের হিসাবরক্ষণ",
+      "7": "অধ্যায় ৭: কার্যপত্র",
+      "8": "অধ্যায় ৮: দৃশ্যমান ও অদৃশ্যমান সম্পদের হিসাবরক্ষণ",
+      "9": "অধ্যায় ৯: আর্থিক বিবরণী",
+      "10": "অধ্যায় ১০: একতরফা দাখিলা পদ্ধতি"
+    }
+  },
+  {
+    "subject_code": "ACC",
+    "subject_name": "হিসাববিজ্ঞান",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: অব্যবসায়ী প্রতিষ্ঠানের হিসাব",
+      "2": "অধ্যায় ২: অংশীদারী প্রতিষ্ঠানের হিসাব",
+      "3": "অধ্যায় ৩: নগদ প্রবাহ বিবরণী",
+      "4": "অধ্যায় ৪: কোম্পানির হিসাব",
+      "5": "অধ্যায় ৫: যৌথ মূলধনী কোম্পানির আর্থিক বিবরণী",
+      "6": "অধ্যায় ৬: আর্থিক বিবরণী বিশ্লেষণ",
+      "7": "অধ্যায় ৭: কোম্পানীর হিসাব",
+      "8": "অধ্যায় ৮: মজুদ পণ্যের হিসাবরক্ষণ পদ্ধতি",
+      "9": "অধ্যায় ৯: ব্যয় ও ব্যয়ের শ্রেণীবিভাগ",
+      "10": "অধ্যায় ১০: ব্যবস্থাপনা হিসাববিজ্ঞান পরিচিতি"
+    }
+  },
+  {
+    "subject_code": "AS",
+    "subject_name": "কৃষিশিক্ষা",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter ১: বাংলাদেশের কৃষি (Agriculture of Bangladesh)",
+      "2": "Chapter ২: ভূমি সম্পৃক্ত কৃষি প্রযুক্তি (Land Related Agro-technology)",
+      "3": "Chapter ৩: বিশেষ উৎপাদন সম্পৃক্ত কৃষি প্রযুক্তি (Special Production Related Agriculture Technology)",
+      "4": "Chapter ৪: কৃষি ও জলবায়ু (Agriculture and Climate)",
+      "5": "Chapter ৫: মাঠ ও উদ্যান ফসল উৎপাদন (Field and Horticulture Crop Production)",
+      "6": "Chapter ৬: ফল ও শাকসবজি প্রক্রিয়াজাতকরণ ও সংরক্ষণ (Processing and Preservation of Fruits and Vegetables)"
+    }
+  },
+  {
+    "subject_code": "AS",
+    "subject_name": "কৃষিশিক্ষা",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter ১: মৎস্য চাষ (Aquaculture)",
+      "2": "Chapter ২: পোল্ট্রি পালন (Poultry Rearing)",
+      "3": "Chapter ৩: পশুপালন (Animal Husbandry)",
+      "4": "Chapter ৪: বনায়ন (Afforestation)",
+      "5": "Chapter ৫: কৃষি অর্থনীতি ও সমবায় (Agriculture Economics and Co-operative)"
+    }
+  },
+  {
+    "subject_code": "BLG",
+    "subject_name": "জীববিজ্ঞান",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: কোষ ও এর গঠন",
+      "2": "অধ্যায় ২: কোষ বিভাজন",
+      "3": "অধ্যায় ৩: কোষ রসায়ন",
+      "4": "অধ্যায় ৪: অণুজীব",
+      "5": "অধ্যায় ৫: শৈবাল ও ছত্রাক",
+      "6": "অধ্যায় ৬: ব্রায়োফাইটা ও টেরিডোফাইটা",
+      "7": "অধ্যায় ৭: নগ্নবীজী ও আবৃতবীজী",
+      "8": "অধ্যায় ৮: টিস্যু ও টিস্যুতন্ত্র",
+      "9": "অধ্যায় ৯: উদ্ভিদ শারীরতত্ত্ব",
+      "10": "অধ্যায় ১০: উদ্ভিদের প্রজনন",
+      "11": "অধ্যায় ১১: জীবপ্রযুক্তি",
+      "12": "অধ্যায় ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ"
+    }
+  },
+  {
+    "subject_code": "BLG",
+    "subject_name": "জীববিজ্ঞান",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস",
+      "2": "অধ্যায় ২: প্রাণীর পরিচিতি",
+      "3": "অধ্যায় ৩: মানব শারীরতত্ত্ব: পরিপাক ও শোষণ",
+      "4": "অধ্যায় ৪: মানব শারীরতত্ত্ব: রক্ত ও সংবহন",
+      "5": "অধ্যায় ৫: মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া",
+      "6": "অধ্যায় ৬: মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন",
+      "7": "অধ্যায় ৭: মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা",
+      "8": "অধ্যায় ৮: মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ",
+      "9": "অধ্যায় ৯: মানব জীবনের ধারাবাহিকতা",
+      "10": "অধ্যায় ১০: মানবদেহের প্রতিরক্ষা (ইমিউনিটি)",
+      "11": "অধ্যায় ১১: জিনতত্ত্ব ও বিবর্তন",
+      "12": "অধ্যায় ১২: প্রাণীর আচরণ"
+    }
+  },
+  {
+    "subject_code": "BNG",
+    "subject_name": "বাংলা",
+    "paper": 1,
+    "chapters": {
+      "1": "খাঁতু বর্ণন",
+      "2": "বিভীষণের প্রতি মেঘনাদ",
+      "3": "সোনার তরী",
+      "4": "একতান",
+      "5": "বিদ্রোহী",
+      "6": "সাম্যবাদী",
+      "7": "সুচেতনা",
+      "8": "প্রতিদান",
+      "9": "তাহারেই পড়ে মনে",
+      "10": "সেই অস্ত্র",
+      "11": "পদ্মা",
+      "12": "আঠারো বছর বয়স",
+      "13": "ফেব্রুয়ারি ১৯৬৯",
+      "14": "আমি কিংবদন্তির কথা বলছি",
+      "15": "নূরলদীনের কথা মনে পড়ে যায়",
+      "16": "প্রত্যাবর্তনের লজ্জা",
+      "17": "বাঙালার নব্য লেখকদিগের প্রতি নিবেদন",
+      "18": "অপরিচিতা",
+      "19": "সাহিত্যে খেলা",
+      "20": "বিলাসী",
+      "21": "অর্ধাঙ্গী",
+      "22": "আহ্বান",
+      "23": "যৌবনের গান",
+      "24": "জীবন ও বৃক্ষ",
+      "25": "মানব-কল্যাণ",
+      "26": "গন্তব্য কাবুল",
+      "27": "মাসি-পিসি",
+      "28": "কপিলদাস মুর্মুর শেষ কাজ",
+      "29": "জাদুঘরে কেন যাব",
+      "30": "নেকলেস",
+      "31": "রেইনকোট",
+      "32": "লালসালু",
+      "33": "সিরাজউদ্দৌলা"
+    }
+  },
+  {
+    "subject_code": "BOM",
+    "subject_name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: ব্যবসায়ের মৌলিক ধারণা",
+      "2": "অধ্যায় ২: একমালিকানা ব্যবসায়",
+      "3": "অধ্যায় ৩: একমালিকানা ব্যবসায়",
+      "4": "অধ্যায় ৪: অংশীদারি ব্যবসায়",
+      "5": "অধ্যায় ৫: যৌথ মূলধনী ব্যবসায়",
+      "6": "অধ্যায় ৬: সমবায় সমিতি",
+      "7": "অধ্যায় ৭: রাষ্ট্রীয় ব্যবসায়",
+      "8": "অধ্যায় ৮: ব্যবসায়ের আইনগত দিক",
+      "9": "অধ্যায় ৯: ব্যবসায় সহায়ক সেবা",
+      "10": "অধ্যায় ১০: ব্যবসায় উদ্যোগ",
+      "11": "অধ্যায় ১১: ব্যবসায়ে তথ্য ও যোগাযোগ প্রযুক্তির ব্যবহার",
+      "12": "অধ্যায় ১২: ব্যবসায় নৈতিকতা ও সামাজিক দায়বদ্ধতা"
+    }
+  },
+  {
+    "subject_code": "BOM",
+    "subject_name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: ব্যবস্থাপনার প্রাথমিক পরিচিতি",
+      "2": "অধ্যায় ২: ব্যবস্থাপনার নীতি",
+      "3": "অধ্যায় ৩: পরিকল্পনা প্রণয়ন ও সিদ্ধান্ত গ্রহণ",
+      "4": "অধ্যায় ৪: সংগঠিতকরণ",
+      "5": "অধ্যায় ৫: কর্মীসংস্থান",
+      "6": "অধ্যায় ৬: নেতৃত্ব",
+      "7": "অধ্যায় ৭: প্রেষণা",
+      "8": "অধ্যায় ৮: যোগাযোগ",
+      "9": "অধ্যায় ৯: সমন্বয়সাধন",
+      "10": "অধ্যায় ১০: নিয়ন্ত্রণ"
+    }
+  },
+  {
+    "subject_code": "CGG",
+    "subject_name": "পৌরনীতি ও সুশাসন",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter 1: পৌরনীতি ও সুশাসন পরিচিতি (Introduction to Civics and Good Governance)",
+      "2": "Chapter 2: সুশাসন (Good Governance)",
+      "3": "Chapter 3: মূল্যবোধ, আইন, স্বাধীনতা ও সাম্য (Values, Law, Liberty & Equality)",
+      "4": "Chapter 4: ই-গভর্নেন্স (E-Governance)",
+      "5": "Chapter 5: নাগরিক অধিকার ও কর্তব্য এবং মানবাধিকার (Rights, Duties & Human Rights)",
+      "6": "Chapter 6: রাজনৈতিক দল, নেতৃত্ব ও সুশাসন (Political Party, Leadership & Good Governance)",
+      "7": "Chapter 7: সরকার ও সরকারের অঙ্গসমূহ (Government and Its Organs)",
+      "8": "Chapter 8: জনমত ও রাজনৈতিক সংস্কৃতি (Public Opinion and Political Culture)",
+      "9": "Chapter 9: জনসেবা ও আমলাতন্ত্র (Public Service and Bureaucracy)",
+      "10": "Chapter 10: জাতি, জাতীয়তা ও দেশপ্রেম (Nation, Nationality & Patriotism)"
+    }
+  },
+  {
+    "subject_code": "CGG",
+    "subject_name": "পৌরনীতি ও সুশাসন",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter 1: ব্রিটিশ ভারতের প্রতিনিধিত্বশীল সরকারের বিকাশ ও ভারত বিভাগ (Development of Representative Government in British India & Partition)",
+      "2": "Chapter 2: পাকিস্তান থেকে বাংলাদেশ (১৯৪৭-১৯৭১) (From Pakistan to Bangladesh)",
+      "3": "Chapter 3: রাজনৈতিক ব্যক্তিত্ব: বাংলাদেশের স্বাধীনতা লাভ (Political Personality: Achievement of Independence)",
+      "4": "Chapter 4: বাংলাদেশের সংবিধান (The Constitution of Bangladesh)",
+      "5": "Chapter 5: বাংলাদেশের সরকার ও প্রশাসনিক কাঠামো (Government & Administrative Structure of Bangladesh)",
+      "6": "Chapter 6: স্থানীয় শাসন (Local Government)",
+      "7": "Chapter 7: সাংবিধানিক প্রতিষ্ঠান (Constitutional Institutions)",
+      "8": "Chapter 8: বাংলাদেশের নির্বাচন ব্যবস্থা (Election System of Bangladesh)",
+      "9": "Chapter 9: বাংলাদেশের বৈদেশিক নীতি (Foreign Policy of Bangladesh)",
+      "10": "Chapter 10: নাগরিক সমস্যা ও আমাদের করণীয় (Civic Problems and Our Duties)"
+    }
+  },
+  {
+    "subject_code": "CHM",
+    "subject_name": "রসায়ন",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: ল্যাবরেটরির নিরাপদ ব্যবহার (Safe Use of Laboratory)",
+      "2": "অধ্যায় ২: গুণগত রসায়ন (Qualitative Chemistry)",
+      "3": "অধ্যায় ৩: মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন (Periodic Properties and Bonding in Elements)",
+      "4": "অধ্যায় ৪: রাসায়নিক পরিবর্তন (Chemical Change)",
+      "5": "অধ্যায় ৫: কর্মমুখী রসায়ন (Vocational Chemistry)"
+    }
+  },
+  {
+    "subject_code": "CHM",
+    "subject_name": "রসায়ন",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: পরিবেশ রসায়ন (Environmental Chemistry)",
+      "2": "অধ্যায় ২: জৈব রসায়ন (Organic Chemistry)",
+      "3": "অধ্যায় ৩: পরিমাণগত রসায়ন (Stoichiometric Chemistry)",
+      "4": "অধ্যায় ৪: তড়িৎ রসায়ন (Electrochemistry)",
+      "5": "অধ্যায় ৫: অর্থনৈতিক রসায়ন (Economic Chemistry)"
+    }
+  },
+  {
+    "subject_code": "ECN",
+    "subject_name": "অর্থনীতি",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter ১: মৌলিক অর্থনৈতিক সমস্যা এবং এর সমাধান (Basic Economic Problem and its Solution)",
+      "2": "Chapter ২: ভোক্তা ও উৎপাদকের আচরণ (Consumer and Producer's Behaviour)",
+      "3": "Chapter ৩: উৎপাদন, উৎপাদন ব্যয় ও আয় (Production, Production Cost and Revenue)",
+      "4": "Chapter ৪: বাজার (Market)",
+      "5": "Chapter ৫: শ্রমবাজার (Labour Market)",
+      "6": "Chapter ৬: মূলধন (Capital)",
+      "7": "Chapter ৭: সংগঠন (Organization)",
+      "8": "Chapter ৮: খাজনা (Rent)",
+      "9": "Chapter ৯: সামগ্রিক আয় ও ব্যয় (Aggregate Income and Expenditure)",
+      "10": "Chapter ১০: মুদ্রা ও ব্যাংক ব্যবস্থা (Money & Banking)"
+    }
+  },
+  {
+    "subject_code": "ECN",
+    "subject_name": "অর্থনীতি",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter ১: বাংলাদেশের অর্থনীতি পরিচয় (Introduction of Bangladesh Economy)",
+      "2": "Chapter ২: বাংলাদেশের কৃষি (Agriculture of Bangladesh)",
+      "3": "Chapter ৩: বাংলাদেশের শিল্প (Industries of Bangladesh)",
+      "4": "Chapter ৪: জনসংখ্যা, মানব সম্পদ এবং আত্মকর্মসংস্থান (Population, Human Resource and Self-employment)",
+      "5": "Chapter ৫: খাদ্য নিরাপত্তা (Food Security)",
+      "6": "Chapter ৬: অর্থায়ন (Financing)",
+      "7": "Chapter ৭: মুদ্রাস্ফীতি (Inflation)",
+      "8": "Chapter ৮: আন্তর্জাতিক বাণিজ্য (International Trade)",
+      "9": "Chapter ৯: সরকারি অর্থব্যবস্থা (Public Finance)",
+      "10": "Chapter ১০: উন্নয়ন পরিকল্পনা (Development Planning)"
+    }
+  },
+  {
+    "subject_code": "FIB",
+    "subject_name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: প্রাথমিক পরিচিতি",
+      "2": "অধ্যায় ২: আর্থিক বাজারের আইনগত দিকসমূহ",
+      "3": "অধ্যায় ৩: অর্থের সময় মূল্য",
+      "4": "অধ্যায় ৪: আর্থিক বিশ্লেষণ",
+      "5": "অধ্যায় ৫: স্বল্প ও মধ্যমেয়াদি অর্থায়ন",
+      "6": "অধ্যায় ৬: দীর্ঘমেয়াদি অর্থায়ন",
+      "7": "অধ্যায় ৭: মূলধন ব্যয়",
+      "8": "অধ্যায় ৮: মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত",
+      "9": "অধ্যায় ৯: ঝুঁকি এবং মুনাফার হার"
+    }
+  },
+  {
+    "subject_code": "FIB",
+    "subject_name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: ব্যাংক ব্যবস্থার প্রাথমিক পরিচিতি",
+      "2": "অধ্যায় ২: কেন্দ্রীয় ব্যাংক",
+      "3": "অধ্যায় ৩: বাণিজ্যিক ব্যাংক",
+      "4": "অধ্যায় ৪: ব্যাংকিং হিসাব",
+      "5": "অধ্যায় ৫: হস্তান্তরযোগ্য ঋণের দলিল",
+      "6": "অধ্যায় ৬: চেক, বিনিময় বিল ও প্রতিশ্রুতিপত্র",
+      "7": "অধ্যায় ৭: ব্যাংক ফান্ড",
+      "8": "অধ্যায় ৮: বৈদেশিক বিনিময় ও বৈদেশিক মুদ্রা",
+      "9": "অধ্যায় ৯: ইলেকট্রনিক ও আধুনিক ব্যাংকিং",
+      "10": "অধ্যায় ১০: বিমার মৌলিক ধারণা",
+      "11": "অধ্যায় ১১: জীবন বিমা",
+      "12": "অধ্যায় ১২: নৌবিমা",
+      "13": "অধ্যায় ১৩: অগ্নি বিমা",
+      "14": "অধ্যায় ১৪: বিবিধ বিমা"
+    }
+  },
+  {
+    "subject_code": "GEO",
+    "subject_name": "ভূগোল ও পরিবেশ",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: প্রাকৃতিক ভূগোল (Physical Geography)",
+      "2": "অধ্যায় ২: পৃথিবীর গঠন (Structure of the Earth)",
+      "3": "অধ্যায় ৩: ভূমিরূপ পরিবর্তন (Change of Landforms)",
+      "4": "অধ্যায় ৪: বায়ুমণ্ডল ও বায়ু দূষণ (Atmosphere and Air Pollution)",
+      "5": "অধ্যায় ৫: জলবায়ুর উপাদান ও নিয়ামক (Factors and Elements of Climate)",
+      "6": "অধ্যায় ৬: জলবায়ু অঞ্চল ও জলবায়ু পরিবর্তন (Climatic Regions and Climate Change)",
+      "7": "অধ্যায় ৭: বারিমণ্ডল (Hydrosphere)",
+      "8": "অধ্যায় ৮: সমুদ্রস্রোত ও জোয়ার-ভাটা (Ocean Currents & Ebb-Tide)",
+      "9": "অধ্যায় ৯: জীবমণ্ডল (Biosphere)",
+      "10": "অধ্যায় ১০: ব্যবহারিক: মানচিত্র ও স্কেল (Practical: Map and Scale)"
+    }
+  },
+  {
+    "subject_code": "GEO",
+    "subject_name": "ভূগোল ও পরিবেশ",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: মানব ভূগোল (Human Geography)",
+      "2": "অধ্যায় ২: জনসংখ্যা (Population)",
+      "3": "অধ্যায় ৩: মানব বসতি (Human Settlement)",
+      "4": "অধ্যায় ৪: কৃষি (Agriculture)",
+      "5": "অধ্যায় ৫: খনিজ ও শক্তি সম্পদ (Mineral & Energy Resources)",
+      "6": "অধ্যায় ৬: শিল্প (Industry)",
+      "7": "অধ্যায় ৭: পরিবহন ও যোগাযোগ (Transport and Communication)",
+      "8": "অধ্যায় ৮: বাণিজ্য (Trade)",
+      "9": "অধ্যায় ৯: দূষণ ও দুর্যোগ (Pollution and Disaster)",
+      "10": "অধ্যায় ১০: মানচিত্র অভিক্ষেপ (Map Projection)"
+    }
+  },
+  {
+    "subject_code": "HS",
+    "subject_name": "গার্হস্থ্য বিজ্ঞান",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter 1: গৃহ ব্যবস্থাপনা (Home Management)",
+      "2": "Chapter 2: গৃহ ব্যবস্থাপনার ধাপ (Stages of Home Management)",
+      "3": "Chapter 3: গৃহ সম্পদ ব্যবস্থাপনা (Management of Domestic Resource)",
+      "4": "Chapter 4: সময় ও শক্তি ব্যবস্থাপনা (Time and Energy Management)",
+      "5": "Chapter 5: সঞ্চয়, বিনিয়োগ ও ঋণ (Savings, Investment and Loan)",
+      "6": "Chapter 6: আবাসস্থান পরিকল্পনা (Planning of Residence Area)",
+      "7": "Chapter 7: গৃহ নির্মাণসামগ্রী ও আনুষঙ্গিক বিষয় (Construction Materials of House and Related Objects)",
+      "8": "Chapter 8: আসবাবপত্র নির্বাচন, বিন্যাস ও গৃহসজ্জা (Furniture Selection, Arrangement and Interior Decoration)",
+      "9": "Chapter 9: গৃহ প্রাঙ্গণ, ছাদ ও বারান্দার ব্যবহার (Use of Yard, Roof and Verandah)",
+      "10": "Chapter 10: পরিবেশ সংরক্ষণ ও দুর্যোগ ব্যবস্থাপনা (Conservation of Environment and Disaster Management)",
+      "11": "Chapter 11: বাংলাদেশের ঐতিহ্যবাহী বস্ত্র (Traditional Cloths of Bangladesh)",
+      "12": "Chapter 12: ফ্যাশন, স্টাইল ও ডিজাইন (Fashion, Style and Design)",
+      "13": "Chapter 13: বস্ত্র রং ও ছাপা (Dyeing and Printing Cloths)",
+      "14": "Chapter 14: পোশাকে শিল্পকলার নীতি ও উপাদান (Application of Principles and Element of Art in Cloths)",
+      "15": "Chapter 15: পোশাকের ছাঁট ও সেলাই (Dress Cutting and Stitching)",
+      "16": "Chapter 16: বস্ত্রের দাগ অপসারণ ও পোশাক সংস্কার (Stain Removal and Clothing Repair)"
+    }
+  },
+  {
+    "subject_code": "HS",
+    "subject_name": "গার্হস্থ্য বিজ্ঞান",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter 1: বাংলাদেশের বর্তমান পরিবার কাঠামো (Current Family Structure of Bangladesh)",
+      "2": "Chapter 2: প্রজননতন্ত্র, মাতৃগর্ভে শিশুর বৃদ্ধি ও পারিপার্শ্বিক প্রভাব (Reproductive System, Prenatal Development and Environmental Influences)",
+      "3": "Chapter 3: গর্ভবতী মায়ের যত্ন (Prenatal Care)",
+      "4": "Chapter 4: নবজাতক, প্রসূতি মায়ের যত্ন ও শিশুর টিকা (Newborn Baby, Care of Lactating Mother and Child's Vaccination)",
+      "5": "Chapter 5: শিশুর ক্রমবিকাশ (Gradual Development of Child)",
+      "6": "Chapter 6: বিশেষ চাহিদাসম্পন্ন শিশু (Special Children)",
+      "7": "Chapter 7: তারুণ্যের বিকাশ ও বিপর্যয় রোধ (Adolescent Development and Prevention of Setbacks)",
+      "8": "Chapter 8: মানসিক স্বাস্থ্য ও প্রজনন স্বাস্থ্য (Mental Health and Reproductive Health)",
+      "9": "Chapter 9: খাদ্য ও খাদ্যের উপাদান (Food and Food Elements)",
+      "10": "Chapter 10: পরিপাকতন্ত্র, পরিপাক ও শোষণ (Digestive System, Digestion and Absorption)",
+      "11": "Chapter 11: শক্তি চাহিদা (Energy Requirements)",
+      "12": "Chapter 12: মৌলিক খাদ্যদ্রব্য, সুষম খাদ্য ও মেনু পরিকল্পনা (Basic Food Group, Balanced Diet and Menu Planning)",
+      "13": "Chapter 13: রোগ ও পথ্য ব্যবস্থাপনা (Disease and Diet Management)",
+      "14": "Chapter 14: খাদ্য সংরক্ষণ ও রন্ধন (Food Preservation and Cooking)",
+      "15": "Chapter 15: জনস্বাস্থ্য সমস্যা (Public Health Problem)"
+    }
+  },
+  {
+    "subject_code": "HST",
+    "subject_name": "ইতিহাস",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter ১: ভারতবর্ষে ইউরোপীয়দের আগমন: ইংরেজ আধিপত্য প্রতিষ্ঠা (Advent of the Europeans in India: Setting up Predominance of the English)",
+      "2": "Chapter ২: ইংরেজ উপনিবেশিক শাসন: কোম্পানি আমল (Colonial Rule of the English: The Company Period)",
+      "3": "Chapter ৩: ইংরেজ উপনিবেশিক শাসন: ব্রিটিশ আমল (Colonial Rule of English: British Period)",
+      "4": "Chapter ৪: পাকিস্তানি আমলে বাংলা: ভাষা আন্দোলন ও এর গতিপ্রকৃতি (Bangla Under Pakistani Rule: Language Movement and its Course)",
+      "5": "Chapter ৫: পূর্ব বাংলার স্বায়ত্তশাসন ও স্বাধিকার আন্দোলন (Movement for Autonomy and Independence of East Bengal)",
+      "6": "Chapter ৬: বাংলাদেশের স্বাধীনতা ঘোষণা ও মুক্তিযুদ্ধ (Declaration of Independence and Liberation War of Bangladesh)",
+      "7": "Chapter ৭: মুক্তিযুদ্ধে বাংলাদেশ সরকারের (মুজিবনগর) কার্যক্রম (Activities of Bangladesh Govt. in the War of Liberation)",
+      "8": "Chapter ৮: মুক্তিযুদ্ধে প্রবাসী বাঙালি ও বহির্বিশ্ব (Role of Bengalis Living Abroad and Other Countries in Our War of Independence)"
+    }
+  },
+  {
+    "subject_code": "HST",
+    "subject_name": "ইতিহাস",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter ১: শিল্পবিপ্লব (The Industrial Revolution)",
+      "2": "Chapter ২: ফরাসি বিপ্লব (French Revolution)",
+      "3": "Chapter ৩: প্রথম বিশ্বযুদ্ধ এবং ভার্সাই সন্ধি ও লীগ অব নেশনস (The First World War and The Treaty of Versailles and League of Nations)",
+      "4": "Chapter ৪: বলশেভিক বিপ্লব (Bolshevik Revolution)",
+      "5": "Chapter ৫: হিটলার ও মুসোলিনির উত্থান এবং দ্বিতীয় বিশ্বযুদ্ধ (The Rise of Hitler and Mussolini and the Second World War)",
+      "6": "Chapter ৬: জাতিসংঘ এবং বিশ্বশান্তি (United Nations and World Peace)",
+      "7": "Chapter ৭: স্নায়ুযুদ্ধ: পুঁজিবাদ ও সমাজতন্ত্রের দ্বন্দ্ব (Cold War: World Conflict Between Capitalism & Socialism)",
+      "8": "Chapter ৮: স্নায়ুযুদ্ধ-পরবর্তী বিশ্ব (The World After The Cold War)",
+      "9": "Chapter ৯: বর্ণবাদবিরোধী আন্দোলন (Movement Against Racism)",
+      "10": "Chapter ১০: বাংলাদেশের সামাজিক উন্নয়ন (Social Development of Bangladesh)"
+    }
+  },
+  {
+    "subject_code": "ICT",
+    "subject_name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: তথ্য ও যোগাযোগ প্রযুক্তি—বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+      "2": "অধ্যায় ২: কমিউনিকেশন সিস্টেম ও কম্পিউটার নেটওয়ার্কিং",
+      "3": "অধ্যায় ৩: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+      "4": "অধ্যায় ৪: ওয়েব ডিজাইন পরিচিতি ও HTML",
+      "5": "অধ্যায় ৫: প্রোগ্রামিং ভাষা — C",
+      "6": "অধ্যায় ৬: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম"
+    }
+  },
+  {
+    "subject_code": "IHC",
+    "subject_name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter ১: প্রাক-ইসলামি আরব (The Pre-Islamic Arab)",
+      "2": "Chapter ২: হযরত মুহাম্মদ (স.) (৫৭০–৬৩২ খ্রিষ্টাব্দ) (Hazrat Muhammad (SM.) (570–632 AD))",
+      "3": "Chapter ৩: খুলাফায়ে রাশেদিন (৬৩২-৬৬১ খ্রি.) (Khulafa-i-Rashidin)",
+      "4": "Chapter ৪: উমাইয়া খিলাফত (৬৬১-৭৫০ খ্রি.) (The Umayyad Khilafat)",
+      "5": "Chapter ৫: আব্বাসীয় খিলাফত (৭৫০-১২৫৮ খ্রি.) (The Abbasid Khilafat)",
+      "6": "Chapter ৬: স্পেনে উমাইয়া শাসন (৭১১-১৪৯২ খ্রি.) (The Umayyad Rules in Spain)",
+      "7": "Chapter ৭: উত্তর আফ্রিকায় ফাতেমী খিলাফত (৯০৯-১১৭১ খ্রি.) (The Fatimids Khilafat in North Africa)"
+    }
+  },
+  {
+    "subject_code": "IHC",
+    "subject_name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter ১: ভারতে মুসলিম শাসন প্রতিষ্ঠা (Establishment of Muslim Rule in India)",
+      "2": "Chapter ২: দিল্লি সালতানাত যুগ (১২০৬-১৫২৬ খ্রি.) (The Age of Delhi Sultanate)",
+      "3": "Chapter ৩: ভারতীয় উপমহাদেশে মুঘল শাসন (Rule of the Mughal in India Sub-continent)",
+      "4": "Chapter ৪: বাংলায় কোম্পানি ও ঔপনিবেশিক শাসন (Company and Colonial Rule of Bengal)",
+      "5": "Chapter ৫: বাংলার ইতিহাস (পাকিস্তান আমল) (History of Bengal (Pakistan Period))",
+      "6": "Chapter ৬: স্বাধীন সার্বভৌম বাংলাদেশের অভ্যুদয় (The Emergence of Independent & Sovereign Bangladesh)"
+    }
+  },
+  {
+    "subject_code": "ISL",
+    "subject_name": "ইসলাম শিক্ষা",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: ইসলামি শিক্ষা ও সংস্কৃতি",
+      "2": "অধ্যায় ২: ইসলাম ও ব্যক্তিজীবন",
+      "3": "অধ্যায় ৩: ইসলাম ও পারিবারিক জীবন",
+      "4": "অধ্যায় ৪: ইসলাম ও সমাজজীবন",
+      "5": "অধ্যায় ৫: ইসলামের অর্থব্যবস্থা",
+      "6": "অধ্যায় ৬: ইসলামি রাষ্ট্রব্যবস্থা",
+      "7": "অধ্যায় ৭: ইসলামের আন্তর্জাতিক ব্যবস্থা"
+    }
+  },
+  {
+    "subject_code": "ISL",
+    "subject_name": "ইসলাম শিক্ষা",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: আল-কুরআন",
+      "2": "অধ্যায় ২: আল-হাদিস",
+      "3": "অধ্যায় ৩: আল-ইজমা",
+      "4": "অধ্যায় ৪: আল-কিয়াস",
+      "5": "অধ্যায় ৫: ফিকহশাস্ত্র",
+      "6": "অধ্যায় ৬: মৌলিক ইবাদত",
+      "7": "অধ্যায় ৭: তাসাউফ"
+    }
+  },
+  {
+    "subject_code": "LGC",
+    "subject_name": "যুক্তিবিদ্যা",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter ১: যুক্তিবিদ্যার পরিচয় (Introduction to Logic)",
+      "2": "Chapter ২: যুক্তিবিদ্যার প্রায়োগিক দিক (Applied Aspect of Logic)",
+      "3": "Chapter ৩: যুক্তির উপাদান (Elements of Argument)",
+      "4": "Chapter ৪: বিধেয়ক (Predicables)",
+      "5": "Chapter ৫: অনুমান (Inference)",
+      "6": "Chapter ৬: অবরোহ অনুমান (Deductive Inference)",
+      "7": "Chapter ৭: আরোহ অনুমান ও আরোহ অনুমানের ভিত্তি (Inductive Inference and the Ground of Inductive Inference)",
+      "8": "Chapter ৮: প্রতীকী যুক্তিবিদ্যা (Symbolic Logic)"
+    }
+  },
+  {
+    "subject_code": "LGC",
+    "subject_name": "যুক্তিবিদ্যা",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter ১: যৌক্তিক সংজ্ঞা (Logical Definition)",
+      "2": "Chapter ২: যৌক্তিক বিভাগ (Logical Division)",
+      "3": "Chapter ৩: আরোহের প্রকারভেদ (Classification of Induction)",
+      "4": "Chapter ৪: প্রকল্প (Hypothesis)",
+      "5": "Chapter ৫: কার্যকারণ সম্পর্ক প্রমাণ পদ্ধতি (Method of Causation Relation Proof)",
+      "6": "Chapter ৬: ব্যাখ্যা (Explanation)",
+      "7": "Chapter ৭: শ্রেণিকরণ (Classification)",
+      "8": "Chapter ৮: সম্ভাবনা (Probability)"
+    }
+  },
+  {
+    "subject_code": "MAT",
+    "subject_name": "উচ্চতর গণিত",
+    "paper": 1,
+    "chapters": {
+      "1": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১: ম্যাট্রিক্স ও নির্ণায়ক (Matrix & Determinant)",
+      "2": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ২: ভেক্টর (Vector)",
+      "3": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৩: সরলরেখা (Straight Line)",
+      "4": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৪: বৃত্ত (Circle)",
+      "5": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৫: দ্বিপদী বিস্তৃতি ও বিন্যাস-সমাবেশ (Binomial Expansion, Permutation & Combination)",
+      "6": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৬: ত্রিকোণমিতিক অনুপাত (Trigonometric Ratios)",
+      "7": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৭: সংযুক্ত কোণের ত্রিকোণমিতিক অনুপাত ও ত্রিভুজের ধর্ম (Compound Angles & Properties of Triangles)",
+      "8": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৮: ফাংশন ও ফাংশনের লেখচিত্র (Functions & Graphs)",
+      "9": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৯: অন্তরীকরণ (Differentiation)",
+      "10": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১০: যোগজীকরণ (Integration)"
+    }
+  },
+  {
+    "subject_code": "MAT",
+    "subject_name": "উচ্চতর গণিত",
+    "paper": 2,
+    "chapters": {
+      "1": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (Real Numbers & Inequalities)",
+      "2": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ২: যোগাশ্রয়ী প্রোগ্রাম (Linear Programming)",
+      "3": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৩: জটিল সংখ্যা (Complex Numbers)",
+      "4": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৪: বহুপদী ও বহুপদী সমীকরণ (Polynomials & Polynomial Equations)",
+      "5": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৫: দ্বিপদী বিস্তৃতি (Binomial Expansion)",
+      "6": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৬: কনিক (Conics)",
+      "7": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৭: বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ (Inverse Trigonometric Functions & Trigonometric Equations)",
+      "8": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৮: স্থিতিবিদ্যা (Statics)",
+      "9": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৯: সমতলে বস্তুকণার গতি (Motion of Particles in a Plane)",
+      "10": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১০: বিস্তার পরিমাপ ও সম্ভাবনা (Measures of Dispersion & Probability)"
+    }
+  },
+  {
+    "subject_code": "PHY",
+    "subject_name": "পদার্থবিজ্ঞান",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: ভৌতজগৎ ও পরিমাপ (Physical World and Measurement)",
+      "2": "অধ্যায় ২: ভেক্টর (Vector)",
+      "3": "অধ্যায় ৩: গতিবিদ্যা (Dynamics)",
+      "4": "অধ্যায় ৪: নিউটনীয় বলবিদ্যা (Newtonian Mechanics)",
+      "5": "অধ্যায় ৫: কাজ, শক্তি ও ক্ষমতা (Work, Energy and Power)",
+      "6": "অধ্যায় ৬: মহাকর্ষ ও অভিকর্ষ (Gravitation and Gravity)",
+      "7": "অধ্যায় ৭: পদার্থের গাঠনিক ধর্ম (Structural Properties of Matter)",
+      "8": "অধ্যায় ৮: পর্যায়বৃত্তিক গতি (Periodic Motion)",
+      "9": "অধ্যায় ৯: তরঙ্গ (Waves)",
+      "10": "অধ্যায় ১০: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব (Ideal Gas and Kinetic Theory of Gas)"
+    }
+  },
+  {
+    "subject_code": "PHY",
+    "subject_name": "পদার্থবিজ্ঞান",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: তাপগতিবিদ্যা (Thermodynamics)",
+      "2": "অধ্যায় ২: স্থির তড়িৎ (Static Electricity)",
+      "3": "অধ্যায় ৩: চল তড়িৎ (Current Electricity)",
+      "4": "অধ্যায় ৪: তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব (Magnetic Effects of Electric Current & Magnetism)",
+      "5": "অধ্যায় ৫: তাড়িতচৌম্বকীয় আবেশ ও পরিবর্তী প্রবাহ (Electromagnetic Induction and Alternating Current)",
+      "6": "অধ্যায় ৬: জ্যামিতিক আলোকবিজ্ঞান (Geometrical Optics)",
+      "7": "অধ্যায় ৭: জ্যোতি আলোকবিজ্ঞান (Physical Optics)",
+      "8": "অধ্যায় ৮: আধুনিক পদার্থবিজ্ঞানের সূচনা (Beginning of Modern Physics)",
+      "9": "অধ্যায় ৯: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান (Atomic Model & Nuclear Physics)",
+      "10": "অধ্যায় ১০: সেমিকন্ডাক্টর ও ইলেকট্রনিক্স (Semiconductor and Electronics)",
+      "11": "অধ্যায় ১১: জ্যোতির্বিজ্ঞান (Astronomy)"
+    }
+  },
+  {
+    "subject_code": "PMM",
+    "subject_name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+    "paper": 1,
+    "chapters": {
+      "1": "অধ্যায় ১: উৎপাদনের ধারণা, উপযোগ ও উৎপাদনশীলতা",
+      "2": "অধ্যায় ২: উৎপাদনের উপকরণসমূহ",
+      "3": "অধ্যায় ৩: উৎপাদনের মাত্রা",
+      "4": "অধ্যায় ৪: সমষ্টিক পর্যায়ে উৎপাদন",
+      "5": "অধ্যায় ৫: উৎপাদন ব্যবস্থাপনা",
+      "6": "অধ্যায় ৬: পণ্য ডিজাইন",
+      "7": "অধ্যায় ৭: মান ব্যবস্থাপনা",
+      "8": "অধ্যায় ৮: উৎপাদন ক্ষমতা",
+      "9": "অধ্যায় ৯: ব্যবসায়ের অবস্থান",
+      "10": "অধ্যায় ১০: লে-আউট বা বিন্যাস"
+    }
+  },
+  {
+    "subject_code": "PMM",
+    "subject_name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+    "paper": 2,
+    "chapters": {
+      "1": "অধ্যায় ১: বিপণন পরিচিতি",
+      "2": "অধ্যায় ২: বিপণন পরিবেশ",
+      "3": "অধ্যায় ৩: বিপণন কার্যাবলি",
+      "4": "অধ্যায় ৪: বাজার বিভক্তিকরণ ও বিপণন মিশ্রণ",
+      "5": "অধ্যায় ৫: পণ্য ও পণ্যের মূল্য নির্ধারণ",
+      "6": "অধ্যায় ৬: পণ্য বণ্টন প্রণালী",
+      "7": "অধ্যায় ৭: পাইকারি ও খুচরা ব্যবসায়",
+      "8": "অধ্যায় ৮: বিপণন প্রসার ও বিজ্ঞাপন",
+      "9": "অধ্যায় ৯: ব্যক্তিক বিক্রয় ও বিক্রয়িকতা",
+      "10": "অধ্যায় ১০: বিপণনে সমসাময়িক বিষয়াবলি"
+    }
+  },
+  {
+    "subject_code": "PSY",
+    "subject_name": "মনোবিজ্ঞান",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter ১: মনোবিজ্ঞান পরিচিতি (Introduction to Psychology)",
+      "2": "Chapter ২: আচরণের ধারণা ও প্রভাববিস্তারকারী উপাদান (Pattern of Behaviour & Influencing Factors)",
+      "3": "Chapter ৩: আচরণের জৈবিক ভিত্তি (Biological Bases of Behaviour)",
+      "4": "Chapter ৪: প্রেষণা ও আবেগ (Motivation and Emotion)",
+      "5": "Chapter ৫: শিক্ষণ ও স্মৃতি (Learning and Memory)",
+      "6": "Chapter ৬: সংবেদন ও প্রত্যক্ষণ (Sensation and Perception)",
+      "7": "Chapter ৭: বয়ঃসন্ধিকাল ও মানসিক স্বাস্থ্য (Puberty and Mental Health)",
+      "8": "Chapter ৮: পরিসংখ্যান পরিচিতি (Introduction to Statistics)"
+    }
+  },
+  {
+    "subject_code": "PSY",
+    "subject_name": "মনোবিজ্ঞান",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter ১: বুদ্ধি (Intelligence)",
+      "2": "Chapter ২: ব্যক্তিত্ব (Personality)",
+      "3": "Chapter ৩: মনোভাব (Attitudes)",
+      "4": "Chapter ৪: আচরণের উপর পরিবেশের প্রভাব (Effect of Environment on Behaviour)",
+      "5": "Chapter ৫: মানসিক চাপ এবং চাপ মোকাবেলা (Mental Stress and Reaction to Stress)",
+      "6": "Chapter ৬: মূল্যবোধ (Value)",
+      "7": "Chapter ৭: মনোবিজ্ঞানে গবেষণার পদ্ধতিসমূহ (Research Methods in Psychology)",
+      "8": "Chapter ৮: পরিসংখ্যান (Statistics)"
+    }
+  },
+  {
+    "subject_code": "SOC",
+    "subject_name": "সমাজবিজ্ঞান",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter 1: সমাজবিজ্ঞানের উৎপত্তি ও বিকাশ (Origin and Development of Sociology)",
+      "2": "Chapter 2: সমাজবিজ্ঞানের বৈজ্ঞানিক মর্যাদা (Scientific Status of Sociology)",
+      "3": "Chapter 3: সমাজবিজ্ঞানীদের মতবাদ ও অবদান (Theory and Contribution of Sociologists)",
+      "4": "Chapter 4: সমাজবিজ্ঞানের মৌল প্রত্যয় (Basic Concepts of Sociology)",
+      "5": "Chapter 5: সামাজিক প্রতিষ্ঠান (Social Institutions)",
+      "6": "Chapter 6: সমাজজীবনে প্রভাব বিস্তারকারী উপাদান (Factors Influencing on Social Life)",
+      "7": "Chapter 7: সামাজিকীকরণ প্রক্রিয়া (Socialization Process)",
+      "8": "Chapter 8: সামাজিক স্তরবিন্যাস ও অসমতা (Social Stratification and Inequality)",
+      "9": "Chapter 9: সামাজিক ব্যবস্থা (Social System) - অর্থনৈতিক ব্যবস্থা ও সম্পত্তি",
+      "10": "Chapter 10: বিচ্যুতিমূলক আচরণ এবং অপরাধ (Deviant Behaviour and Crime)"
+    }
+  },
+  {
+    "subject_code": "SOC",
+    "subject_name": "সমাজবিজ্ঞান",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter 1: বাংলাদেশে সমাজবিজ্ঞান চর্চার বিকাশ (Manifestation of Sociology Practice in Bangladesh)",
+      "2": "Chapter 2: বাংলাদেশের সমাজ ও সংস্কৃতি (Society and Culture of Bangladesh)",
+      "3": "Chapter 3: প্রত্নতত্ত্বের ভিত্তিতে বাংলাদেশের সমাজ ও সভ্যতা (Society and Civilization of Bangladesh on the Basis of Archaeology)",
+      "4": "Chapter 4: বাংলাদেশের নৃগোষ্ঠীর জীবনধারা (Life Style of Ethnic Group in Bangladesh)",
+      "5": "Chapter 5: বাংলাদেশের অভ্যুদয়ের সামাজিক প্রেক্ষাপট (Social Background of the Emergence of Bangladesh)",
+      "6": "Chapter 6: বাংলাদেশের গ্রামীণ ও শহুরে সমাজ (Rural and Urban Society of Bangladesh)",
+      "7": "Chapter 7: বাংলাদেশে বিবাহ, পরিবার এবং জ্ঞাতিসম্পর্ক (Marriage, Family and Kinship in Bangladesh)",
+      "8": "Chapter 8: বাংলাদেশের সামাজিক পরিবর্তন (Social Change in Bangladesh)",
+      "9": "Chapter 9: বাংলাদেশের সামাজিক সমস্যা ও প্রতিকারের উপায় (Social Problem of Bangladesh and Its Way of Remedy)",
+      "10": "Chapter 10: বাংলাদেশের সামাজিক উন্নয়ন (Social Development of Bangladesh)"
+    }
+  },
+  {
+    "subject_code": "SW",
+    "subject_name": "সমাজকর্ম",
+    "paper": 1,
+    "chapters": {
+      "1": "Chapter 1: সমাজকর্ম: প্রকৃতি ও পরিধি (Social Work: Nature and Scope)",
+      "2": "Chapter 2: সমাজকর্ম পেশার ঐতিহাসিক প্রেক্ষাপট (Historical Context of Social Work Profession)",
+      "3": "Chapter 3: পেশা ও বৃত্তি (Profession and Occupation)",
+      "4": "Chapter 4: সমাজকর্ম সংশ্লিষ্ট প্রত্যয়সমূহ (Concepts Related to Social Work)",
+      "5": "Chapter 5: সমাজকর্ম ও সামাজিক বিজ্ঞান (Social Work and Social Sciences)",
+      "6": "Chapter 6: সমাজকর্ম পদ্ধতি (Social Work Methods)",
+      "7": "Chapter 7: সামাজিক নীতি ও পরিকল্পনা এবং সমাজকর্ম (Social Policy, Planning and Social Work)",
+      "8": "Chapter 8: সমাজকর্ম পেশার সমস্যা ও সম্ভাবনা (Problems and Prospects of Social Work Profession)"
+    }
+  },
+  {
+    "subject_code": "SW",
+    "subject_name": "সমাজকর্ম",
+    "paper": 2,
+    "chapters": {
+      "1": "Chapter 1: বাংলাদেশে মৌলিক মানবিক চাহিদা (Basic Human Needs in Bangladesh)",
+      "2": "Chapter 2: সমাজকর্মের শাখা (Branches of Social Work)",
+      "3": "Chapter 3: সামাজিক সমস্যা সমাধানে সমাজকর্মের অনুশীলন (Social Work Practice in Solving Social Problems)",
+      "4": "Chapter 4: সামাজিক প্রতিষ্ঠান (Social Institutions)",
+      "5": "Chapter 5: সামাজিক আইন ও সমাজকর্ম (Social Legislation and Social Work)",
+      "6": "Chapter 6: বাংলাদেশে সরকারি সমাজসেবা (Government Social Services in Bangladesh)",
+      "7": "Chapter 7: বাংলাদেশে বেসরকারি সমাজ উন্নয়ন কার্যক্রম (Non-government Social Development Activities in Bangladesh)",
+      "8": "Chapter 8: বাংলাদেশে আন্তর্জাতিক সংস্থার সমাজ উন্নয়ন কার্যক্রম (Social Development Activities of International Agencies in Bangladesh)",
+      "9": "Chapter 9: সমাজকর্ম শিক্ষায় মাঠকর্ম ও অনুশীলন (Field Work and Practice in Social Work Education)"
+    }
+  }
+]

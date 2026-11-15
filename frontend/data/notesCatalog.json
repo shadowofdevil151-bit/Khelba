@@ -1,0 +1,2639 @@
+{
+  "level": "HSC",
+  "streams": [
+    {
+      "id": "SCIENCE",
+      "name": "বিজ্ঞান"
+    },
+    {
+      "id": "ARTS",
+      "name": "মানবিক"
+    },
+    {
+      "id": "COMMERCE",
+      "name": "ব্যবসায় শিক্ষা"
+    }
+  ],
+  "subjects": [
+    {
+      "code": "ACC-1st",
+      "shortCode": "ACC",
+      "paper": 1,
+      "name": "হিসাববিজ্ঞান",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "acc-1",
+          "title": "অধ্যায় ১: হিসাববিজ্ঞানের পরিচিতি",
+          "file": "ACC-1st/acc-1.md"
+        },
+        {
+          "slug": "acc-2",
+          "title": "অধ্যায় ২: হিসাবের বইসমূহ",
+          "file": "ACC-1st/acc-2.md"
+        },
+        {
+          "slug": "acc-3",
+          "title": "অধ্যায় ৩: ব্যাংক সমন্বয় বিবরণী",
+          "file": "ACC-1st/acc-3.md"
+        },
+        {
+          "slug": "acc-4",
+          "title": "অধ্যায় ৪: রেওয়ামিল",
+          "file": "ACC-1st/acc-4.md"
+        },
+        {
+          "slug": "acc-5",
+          "title": "অধ্যায় ৫: হিসাববিজ্ঞানের নীতিমালা",
+          "file": "ACC-1st/acc-5.md"
+        },
+        {
+          "slug": "acc-6",
+          "title": "অধ্যায় ৬: প্রাপ্য হিসাবসমূহের হিসাবরক্ষণ",
+          "file": "ACC-1st/acc-6.md"
+        },
+        {
+          "slug": "acc-7",
+          "title": "অধ্যায় ৭: কার্যপত্র",
+          "file": "ACC-1st/acc-7.md"
+        },
+        {
+          "slug": "acc-8",
+          "title": "অধ্যায় ৮: দৃশ্যমান ও অদৃশ্যমান সম্পদের হিসাবরক্ষণ",
+          "file": "ACC-1st/acc-8.md"
+        },
+        {
+          "slug": "acc-9",
+          "title": "অধ্যায় ৯: আর্থিক বিবরণী",
+          "file": "ACC-1st/acc-9.md"
+        },
+        {
+          "slug": "acc-10",
+          "title": "অধ্যায় ১০: একতরফা দাখিলা পদ্ধতি",
+          "file": "ACC-1st/acc-10.md"
+        }
+      ]
+    },
+    {
+      "code": "ACC-2nd",
+      "shortCode": "ACC",
+      "paper": 2,
+      "name": "হিসাববিজ্ঞান",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "acc-1",
+          "title": "অধ্যায় ১: অব্যবসায়ী প্রতিষ্ঠানের হিসাব",
+          "file": "ACC-2nd/acc-1.md"
+        },
+        {
+          "slug": "acc-2",
+          "title": "অধ্যায় ২: অংশীদারী প্রতিষ্ঠানের হিসাব",
+          "file": "ACC-2nd/acc-2.md"
+        },
+        {
+          "slug": "acc-3",
+          "title": "অধ্যায় ৩: নগদ প্রবাহ বিবরণী",
+          "file": "ACC-2nd/acc-3.md"
+        },
+        {
+          "slug": "acc-4",
+          "title": "অধ্যায় ৪: কোম্পানির হিসাব",
+          "file": "ACC-2nd/acc-4.md"
+        },
+        {
+          "slug": "acc-5",
+          "title": "অধ্যায় ৫: যৌথ মূলধনী কোম্পানির আর্থিক বিবরণী",
+          "file": "ACC-2nd/acc-5.md"
+        },
+        {
+          "slug": "acc-6",
+          "title": "অধ্যায় ৬: আর্থিক বিবরণী বিশ্লেষণ",
+          "file": "ACC-2nd/acc-6.md"
+        },
+        {
+          "slug": "acc-7",
+          "title": "অধ্যায় ৭: কোম্পানীর হিসাব",
+          "file": "ACC-2nd/acc-7.md"
+        },
+        {
+          "slug": "acc-8",
+          "title": "অধ্যায় ৮: মজুদ পণ্যের হিসাবরক্ষণ পদ্ধতি",
+          "file": "ACC-2nd/acc-8.md"
+        },
+        {
+          "slug": "acc-9",
+          "title": "অধ্যায় ৯: ব্যয় ও ব্যয়ের শ্রেণীবিভাগ",
+          "file": "ACC-2nd/acc-9.md"
+        },
+        {
+          "slug": "acc-10",
+          "title": "অধ্যায় ১০: ব্যবস্থাপনা হিসাববিজ্ঞান পরিচিতি",
+          "file": "ACC-2nd/acc-10.md"
+        }
+      ]
+    },
+    {
+      "code": "AS-1st",
+      "shortCode": "AS",
+      "paper": 1,
+      "name": "কৃষিশিক্ষা",
+      "streams": [
+        "SCIENCE",
+        "ARTS"
+      ],
+      "chapterCount": 6,
+      "chapters": [
+        {
+          "slug": "as-1",
+          "title": "Chapter ১: বাংলাদেশের কৃষি (Agriculture of Bangladesh)",
+          "file": "AS-1st/as-1.md"
+        },
+        {
+          "slug": "as-2",
+          "title": "Chapter ২: ভূমি সম্পৃক্ত কৃষি প্রযুক্তি (Land Related Agro-technology)",
+          "file": "AS-1st/as-2.md"
+        },
+        {
+          "slug": "as-3",
+          "title": "Chapter ৩: বিশেষ উৎপাদন সম্পৃক্ত কৃষি প্রযুক্তি (Special Production Related Agriculture Technology)",
+          "file": "AS-1st/as-3.md"
+        },
+        {
+          "slug": "as-4",
+          "title": "Chapter ৪: কৃষি ও জলবায়ু (Agriculture and Climate)",
+          "file": "AS-1st/as-4.md"
+        },
+        {
+          "slug": "as-5",
+          "title": "Chapter ৫: মাঠ ও উদ্যান ফসল উৎপাদন (Field and Horticulture Crop Production)",
+          "file": "AS-1st/as-5.md"
+        },
+        {
+          "slug": "as-6",
+          "title": "Chapter ৬: ফল ও শাকসবজি প্রক্রিয়াজাতকরণ ও সংরক্ষণ (Processing and Preservation of Fruits and Vegetables)",
+          "file": "AS-1st/as-6.md"
+        }
+      ]
+    },
+    {
+      "code": "AS-2nd",
+      "shortCode": "AS",
+      "paper": 2,
+      "name": "কৃষিশিক্ষা",
+      "streams": [
+        "SCIENCE",
+        "ARTS"
+      ],
+      "chapterCount": 5,
+      "chapters": [
+        {
+          "slug": "as-1",
+          "title": "Chapter ১: মৎস্য চাষ (Aquaculture)",
+          "file": "AS-2nd/as-1.md"
+        },
+        {
+          "slug": "as-2",
+          "title": "Chapter ২: পোল্ট্রি পালন (Poultry Rearing)",
+          "file": "AS-2nd/as-2.md"
+        },
+        {
+          "slug": "as-3",
+          "title": "Chapter ৩: পশুপালন (Animal Husbandry)",
+          "file": "AS-2nd/as-3.md"
+        },
+        {
+          "slug": "as-4",
+          "title": "Chapter ৪: বনায়ন (Afforestation)",
+          "file": "AS-2nd/as-4.md"
+        },
+        {
+          "slug": "as-5",
+          "title": "Chapter ৫: কৃষি অর্থনীতি ও সমবায় (Agriculture Economics and Co-operative)",
+          "file": "AS-2nd/as-5.md"
+        }
+      ]
+    },
+    {
+      "code": "BLG-1st",
+      "shortCode": "BLG",
+      "paper": 1,
+      "name": "জীববিজ্ঞান",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 12,
+      "chapters": [
+        {
+          "slug": "blg-1",
+          "title": "অধ্যায় ১: কোষ ও এর গঠন",
+          "file": "BLG-1st/blg-1.md"
+        },
+        {
+          "slug": "blg-2",
+          "title": "অধ্যায় ২: কোষ বিভাজন",
+          "file": "BLG-1st/blg-2.md"
+        },
+        {
+          "slug": "blg-3",
+          "title": "অধ্যায় ৩: কোষ রসায়ন",
+          "file": "BLG-1st/blg-3.md"
+        },
+        {
+          "slug": "blg-4",
+          "title": "অধ্যায় ৪: অণুজীব",
+          "file": "BLG-1st/blg-4.md"
+        },
+        {
+          "slug": "blg-5",
+          "title": "অধ্যায় ৫: শৈবাল ও ছত্রাক",
+          "file": "BLG-1st/blg-5.md"
+        },
+        {
+          "slug": "blg-6",
+          "title": "অধ্যায় ৬: ব্রায়োফাইটা ও টেরিডোফাইটা",
+          "file": "BLG-1st/blg-6.md"
+        },
+        {
+          "slug": "blg-7",
+          "title": "অধ্যায় ৭: নগ্নবীজী ও আবৃতবীজী",
+          "file": "BLG-1st/blg-7.md"
+        },
+        {
+          "slug": "blg-8",
+          "title": "অধ্যায় ৮: টিস্যু ও টিস্যুতন্ত্র",
+          "file": "BLG-1st/blg-8.md"
+        },
+        {
+          "slug": "blg-9",
+          "title": "অধ্যায় ৯: উদ্ভিদ শারীরতত্ত্ব",
+          "file": "BLG-1st/blg-9.md"
+        },
+        {
+          "slug": "blg-10",
+          "title": "অধ্যায় ১০: উদ্ভিদের প্রজনন",
+          "file": "BLG-1st/blg-10.md"
+        },
+        {
+          "slug": "blg-11",
+          "title": "অধ্যায় ১১: জীবপ্রযুক্তি",
+          "file": "BLG-1st/blg-11.md"
+        },
+        {
+          "slug": "blg-12",
+          "title": "অধ্যায় ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+          "file": "BLG-1st/blg-12.md"
+        }
+      ]
+    },
+    {
+      "code": "BLG-2nd",
+      "shortCode": "BLG",
+      "paper": 2,
+      "name": "জীববিজ্ঞান",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 12,
+      "chapters": [
+        {
+          "slug": "blg-1",
+          "title": "অধ্যায় ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস",
+          "file": "BLG-2nd/blg-1.md"
+        },
+        {
+          "slug": "blg-2",
+          "title": "অধ্যায় ২: প্রাণীর পরিচিতি",
+          "file": "BLG-2nd/blg-2.md"
+        },
+        {
+          "slug": "blg-3",
+          "title": "অধ্যায় ৩: মানব শারীরতত্ত্ব: পরিপাক ও শোষণ",
+          "file": "BLG-2nd/blg-3.md"
+        },
+        {
+          "slug": "blg-4",
+          "title": "অধ্যায় ৪: মানব শারীরতত্ত্ব: রক্ত ও সংবহন",
+          "file": "BLG-2nd/blg-4.md"
+        },
+        {
+          "slug": "blg-5",
+          "title": "অধ্যায় ৫: মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া",
+          "file": "BLG-2nd/blg-5.md"
+        },
+        {
+          "slug": "blg-6",
+          "title": "অধ্যায় ৬: মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন",
+          "file": "BLG-2nd/blg-6.md"
+        },
+        {
+          "slug": "blg-7",
+          "title": "অধ্যায় ৭: মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা",
+          "file": "BLG-2nd/blg-7.md"
+        },
+        {
+          "slug": "blg-8",
+          "title": "অধ্যায় ৮: মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ",
+          "file": "BLG-2nd/blg-8.md"
+        },
+        {
+          "slug": "blg-9",
+          "title": "অধ্যায় ৯: মানব জীবনের ধারাবাহিকতা",
+          "file": "BLG-2nd/blg-9.md"
+        },
+        {
+          "slug": "blg-10",
+          "title": "অধ্যায় ১০: মানবদেহের প্রতিরক্ষা (ইমিউনিটি)",
+          "file": "BLG-2nd/blg-10.md"
+        },
+        {
+          "slug": "blg-11",
+          "title": "অধ্যায় ১১: জিনতত্ত্ব ও বিবর্তন",
+          "file": "BLG-2nd/blg-11.md"
+        },
+        {
+          "slug": "blg-12",
+          "title": "অধ্যায় ১২: প্রাণীর আচরণ",
+          "file": "BLG-2nd/blg-12.md"
+        }
+      ]
+    },
+    {
+      "code": "BNG-1st",
+      "shortCode": "BNG",
+      "paper": 1,
+      "name": "বাংলা",
+      "streams": [
+        "SCIENCE",
+        "ARTS",
+        "COMMERCE"
+      ],
+      "chapterCount": 33,
+      "chapters": [
+        {
+          "slug": "poetry-bng-1",
+          "title": "খাঁতু বর্ণন",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-1.md"
+        },
+        {
+          "slug": "poetry-bng-2",
+          "title": "বিভীষণের প্রতি মেঘনাদ",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-2.md"
+        },
+        {
+          "slug": "poetry-bng-3",
+          "title": "সোনার তরী",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-3.md"
+        },
+        {
+          "slug": "poetry-bng-4",
+          "title": "একতান",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-4.md"
+        },
+        {
+          "slug": "poetry-bng-5",
+          "title": "বিদ্রোহী",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-5.md"
+        },
+        {
+          "slug": "poetry-bng-6",
+          "title": "সাম্যবাদী",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-6.md"
+        },
+        {
+          "slug": "poetry-bng-7",
+          "title": "সুচেতনা",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-7.md"
+        },
+        {
+          "slug": "poetry-bng-8",
+          "title": "প্রতিদান",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-8.md"
+        },
+        {
+          "slug": "poetry-bng-9",
+          "title": "তাহারেই পড়ে মনে",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-9.md"
+        },
+        {
+          "slug": "poetry-bng-10",
+          "title": "সেই অস্ত্র",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-10.md"
+        },
+        {
+          "slug": "poetry-bng-11",
+          "title": "পদ্মা",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-11.md"
+        },
+        {
+          "slug": "poetry-bng-12",
+          "title": "আঠারো বছর বয়স",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-12.md"
+        },
+        {
+          "slug": "poetry-bng-13",
+          "title": "ফেব্রুয়ারি ১৯৬৯",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-13.md"
+        },
+        {
+          "slug": "poetry-bng-14",
+          "title": "আমি কিংবদন্তির কথা বলছি",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-14.md"
+        },
+        {
+          "slug": "poetry-bng-15",
+          "title": "নূরলদীনের কথা মনে পড়ে যায়",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-15.md"
+        },
+        {
+          "slug": "poetry-bng-16",
+          "title": "প্রত্যাবর্তনের লজ্জা",
+          "section": "poetry",
+          "file": "BNG-1st/poetry/bng-16.md"
+        },
+        {
+          "slug": "prose-bng-1",
+          "title": "বাঙালার নব্য লেখকদিগের প্রতি নিবেদন",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-1.md"
+        },
+        {
+          "slug": "prose-bng-2",
+          "title": "অপরিচিতা",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-2.md"
+        },
+        {
+          "slug": "prose-bng-3",
+          "title": "সাহিত্যে খেলা",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-3.md"
+        },
+        {
+          "slug": "prose-bng-4",
+          "title": "বিলাসী",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-4.md"
+        },
+        {
+          "slug": "prose-bng-5",
+          "title": "অর্ধাঙ্গী",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-5.md"
+        },
+        {
+          "slug": "prose-bng-6",
+          "title": "আহ্বান",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-6.md"
+        },
+        {
+          "slug": "prose-bng-7",
+          "title": "যৌবনের গান",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-7.md"
+        },
+        {
+          "slug": "prose-bng-8",
+          "title": "জীবন ও বৃক্ষ",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-8.md"
+        },
+        {
+          "slug": "prose-bng-9",
+          "title": "মানব-কল্যাণ",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-9.md"
+        },
+        {
+          "slug": "prose-bng-10",
+          "title": "গন্তব্য কাবুল",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-10.md"
+        },
+        {
+          "slug": "prose-bng-11",
+          "title": "মাসি-পিসি",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-11.md"
+        },
+        {
+          "slug": "prose-bng-12",
+          "title": "কপিলদাস মুর্মুর শেষ কাজ",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-12.md"
+        },
+        {
+          "slug": "prose-bng-13",
+          "title": "জাদুঘরে কেন যাব",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-13.md"
+        },
+        {
+          "slug": "prose-bng-14",
+          "title": "নেকলেস",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-14.md"
+        },
+        {
+          "slug": "prose-bng-15",
+          "title": "রেইনকোট",
+          "section": "prose",
+          "file": "BNG-1st/prose/bng-15.md"
+        },
+        {
+          "slug": "sohopath-bng-1",
+          "title": "লালসালু",
+          "section": "sohopath",
+          "file": "BNG-1st/sohopath/bng-1.md"
+        },
+        {
+          "slug": "sohopath-bng-2",
+          "title": "সিরাজউদ্দৌলা",
+          "section": "sohopath",
+          "file": "BNG-1st/sohopath/bng-2.md"
+        }
+      ]
+    },
+    {
+      "code": "BOM-1st",
+      "shortCode": "BOM",
+      "paper": 1,
+      "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 12,
+      "chapters": [
+        {
+          "slug": "bom-1",
+          "title": "অধ্যায় ১: ব্যবসায়ের মৌলিক ধারণা",
+          "file": "BOM-1st/bom-1.md"
+        },
+        {
+          "slug": "bom-2",
+          "title": "অধ্যায় ২: একমালিকানা ব্যবসায়",
+          "file": "BOM-1st/bom-2.md"
+        },
+        {
+          "slug": "bom-3",
+          "title": "অধ্যায় ৩: একমালিকানা ব্যবসায়",
+          "file": "BOM-1st/bom-3.md"
+        },
+        {
+          "slug": "bom-4",
+          "title": "অধ্যায় ৪: অংশীদারি ব্যবসায়",
+          "file": "BOM-1st/bom-4.md"
+        },
+        {
+          "slug": "bom-5",
+          "title": "অধ্যায় ৫: যৌথ মূলধনী ব্যবসায়",
+          "file": "BOM-1st/bom-5.md"
+        },
+        {
+          "slug": "bom-6",
+          "title": "অধ্যায় ৬: সমবায় সমিতি",
+          "file": "BOM-1st/bom-6.md"
+        },
+        {
+          "slug": "bom-7",
+          "title": "অধ্যায় ৭: রাষ্ট্রীয় ব্যবসায়",
+          "file": "BOM-1st/bom-7.md"
+        },
+        {
+          "slug": "bom-8",
+          "title": "অধ্যায় ৮: ব্যবসায়ের আইনগত দিক",
+          "file": "BOM-1st/bom-8.md"
+        },
+        {
+          "slug": "bom-9",
+          "title": "অধ্যায় ৯: ব্যবসায় সহায়ক সেবা",
+          "file": "BOM-1st/bom-9.md"
+        },
+        {
+          "slug": "bom-10",
+          "title": "অধ্যায় ১০: ব্যবসায় উদ্যোগ",
+          "file": "BOM-1st/bom-10.md"
+        },
+        {
+          "slug": "bom-11",
+          "title": "অধ্যায় ১১: ব্যবসায়ে তথ্য ও যোগাযোগ প্রযুক্তির ব্যবহার",
+          "file": "BOM-1st/bom-11.md"
+        },
+        {
+          "slug": "bom-12",
+          "title": "অধ্যায় ১২: ব্যবসায় নৈতিকতা ও সামাজিক দায়বদ্ধতা",
+          "file": "BOM-1st/bom-12.md"
+        }
+      ]
+    },
+    {
+      "code": "BOM-2nd",
+      "shortCode": "BOM",
+      "paper": 2,
+      "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "bom-1",
+          "title": "অধ্যায় ১: ব্যবস্থাপনার প্রাথমিক পরিচিতি",
+          "file": "BOM-2nd/bom-1.md"
+        },
+        {
+          "slug": "bom-2",
+          "title": "অধ্যায় ২: ব্যবস্থাপনার নীতি",
+          "file": "BOM-2nd/bom-2.md"
+        },
+        {
+          "slug": "bom-3",
+          "title": "অধ্যায় ৩: পরিকল্পনা প্রণয়ন ও সিদ্ধান্ত গ্রহণ",
+          "file": "BOM-2nd/bom-3.md"
+        },
+        {
+          "slug": "bom-4",
+          "title": "অধ্যায় ৪: সংগঠিতকরণ",
+          "file": "BOM-2nd/bom-4.md"
+        },
+        {
+          "slug": "bom-5",
+          "title": "অধ্যায় ৫: কর্মীসংস্থান",
+          "file": "BOM-2nd/bom-5.md"
+        },
+        {
+          "slug": "bom-6",
+          "title": "অধ্যায় ৬: নেতৃত্ব",
+          "file": "BOM-2nd/bom-6.md"
+        },
+        {
+          "slug": "bom-7",
+          "title": "অধ্যায় ৭: প্রেষণা",
+          "file": "BOM-2nd/bom-7.md"
+        },
+        {
+          "slug": "bom-8",
+          "title": "অধ্যায় ৮: যোগাযোগ",
+          "file": "BOM-2nd/bom-8.md"
+        },
+        {
+          "slug": "bom-9",
+          "title": "অধ্যায় ৯: সমন্বয়সাধন",
+          "file": "BOM-2nd/bom-9.md"
+        },
+        {
+          "slug": "bom-10",
+          "title": "অধ্যায় ১০: নিয়ন্ত্রণ",
+          "file": "BOM-2nd/bom-10.md"
+        }
+      ]
+    },
+    {
+      "code": "CGG-1st",
+      "shortCode": "CGG",
+      "paper": 1,
+      "name": "পৌরনীতি ও সুশাসন",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "cgg-1",
+          "title": "Chapter 1: পৌরনীতি ও সুশাসন পরিচিতি (Introduction to Civics and Good Governance)",
+          "file": "CGG-1st/cgg-1.md"
+        },
+        {
+          "slug": "cgg-2",
+          "title": "Chapter 2: সুশাসন (Good Governance)",
+          "file": "CGG-1st/cgg-2.md"
+        },
+        {
+          "slug": "cgg-3",
+          "title": "Chapter 3: মূল্যবোধ, আইন, স্বাধীনতা ও সাম্য (Values, Law, Liberty & Equality)",
+          "file": "CGG-1st/cgg-3.md"
+        },
+        {
+          "slug": "cgg-4",
+          "title": "Chapter 4: ই-গভর্নেন্স (E-Governance)",
+          "file": "CGG-1st/cgg-4.md"
+        },
+        {
+          "slug": "cgg-5",
+          "title": "Chapter 5: নাগরিক অধিকার ও কর্তব্য এবং মানবাধিকার (Rights, Duties & Human Rights)",
+          "file": "CGG-1st/cgg-5.md"
+        },
+        {
+          "slug": "cgg-6",
+          "title": "Chapter 6: রাজনৈতিক দল, নেতৃত্ব ও সুশাসন (Political Party, Leadership & Good Governance)",
+          "file": "CGG-1st/cgg-6.md"
+        },
+        {
+          "slug": "cgg-7",
+          "title": "Chapter 7: সরকার ও সরকারের অঙ্গসমূহ (Government and Its Organs)",
+          "file": "CGG-1st/cgg-7.md"
+        },
+        {
+          "slug": "cgg-8",
+          "title": "Chapter 8: জনমত ও রাজনৈতিক সংস্কৃতি (Public Opinion and Political Culture)",
+          "file": "CGG-1st/cgg-8.md"
+        },
+        {
+          "slug": "cgg-9",
+          "title": "Chapter 9: জনসেবা ও আমলাতন্ত্র (Public Service and Bureaucracy)",
+          "file": "CGG-1st/cgg-9.md"
+        },
+        {
+          "slug": "cgg-10",
+          "title": "Chapter 10: জাতি, জাতীয়তা ও দেশপ্রেম (Nation, Nationality & Patriotism)",
+          "file": "CGG-1st/cgg-10.md"
+        }
+      ]
+    },
+    {
+      "code": "CGG-2nd",
+      "shortCode": "CGG",
+      "paper": 2,
+      "name": "পৌরনীতি ও সুশাসন",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "cgg-1",
+          "title": "Chapter 1: ব্রিটিশ ভারতের প্রতিনিধিত্বশীল সরকারের বিকাশ ও ভারত বিভাগ (Development of Representative Government in British India & Partition)",
+          "file": "CGG-2nd/cgg-1.md"
+        },
+        {
+          "slug": "cgg-2",
+          "title": "Chapter 2: পাকিস্তান থেকে বাংলাদেশ (১৯৪৭-১৯৭১) (From Pakistan to Bangladesh)",
+          "file": "CGG-2nd/cgg-2.md"
+        },
+        {
+          "slug": "cgg-3",
+          "title": "Chapter 3: রাজনৈতিক ব্যক্তিত্ব: বাংলাদেশের স্বাধীনতা লাভ (Political Personality: Achievement of Independence)",
+          "file": "CGG-2nd/cgg-3.md"
+        },
+        {
+          "slug": "cgg-4",
+          "title": "Chapter 4: বাংলাদেশের সংবিধান (The Constitution of Bangladesh)",
+          "file": "CGG-2nd/cgg-4.md"
+        },
+        {
+          "slug": "cgg-5",
+          "title": "Chapter 5: বাংলাদেশের সরকার ও প্রশাসনিক কাঠামো (Government & Administrative Structure of Bangladesh)",
+          "file": "CGG-2nd/cgg-5.md"
+        },
+        {
+          "slug": "cgg-6",
+          "title": "Chapter 6: স্থানীয় শাসন (Local Government)",
+          "file": "CGG-2nd/cgg-6.md"
+        },
+        {
+          "slug": "cgg-7",
+          "title": "Chapter 7: সাংবিধানিক প্রতিষ্ঠান (Constitutional Institutions)",
+          "file": "CGG-2nd/cgg-7.md"
+        },
+        {
+          "slug": "cgg-8",
+          "title": "Chapter 8: বাংলাদেশের নির্বাচন ব্যবস্থা (Election System of Bangladesh)",
+          "file": "CGG-2nd/cgg-8.md"
+        },
+        {
+          "slug": "cgg-9",
+          "title": "Chapter 9: বাংলাদেশের বৈদেশিক নীতি (Foreign Policy of Bangladesh)",
+          "file": "CGG-2nd/cgg-9.md"
+        },
+        {
+          "slug": "cgg-10",
+          "title": "Chapter 10: নাগরিক সমস্যা ও আমাদের করণীয় (Civic Problems and Our Duties)",
+          "file": "CGG-2nd/cgg-10.md"
+        }
+      ]
+    },
+    {
+      "code": "CHM-1st",
+      "shortCode": "CHM",
+      "paper": 1,
+      "name": "রসায়ন",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 5,
+      "chapters": [
+        {
+          "slug": "chm-1",
+          "title": "অধ্যায় ১: ল্যাবরেটরির নিরাপদ ব্যবহার (Safe Use of Laboratory)",
+          "file": "CHM-1st/chm-1.md"
+        },
+        {
+          "slug": "chm-2",
+          "title": "অধ্যায় ২: গুণগত রসায়ন (Qualitative Chemistry)",
+          "file": "CHM-1st/chm-2.md"
+        },
+        {
+          "slug": "chm-3",
+          "title": "অধ্যায় ৩: মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন (Periodic Properties and Bonding in Elements)",
+          "file": "CHM-1st/chm-3.md"
+        },
+        {
+          "slug": "chm-4",
+          "title": "অধ্যায় ৪: রাসায়নিক পরিবর্তন (Chemical Change)",
+          "file": "CHM-1st/chm-4.md"
+        },
+        {
+          "slug": "chm-5",
+          "title": "অধ্যায় ৫: কর্মমুখী রসায়ন (Vocational Chemistry)",
+          "file": "CHM-1st/chm-5.md"
+        }
+      ]
+    },
+    {
+      "code": "CHM-2nd",
+      "shortCode": "CHM",
+      "paper": 2,
+      "name": "রসায়ন",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 5,
+      "chapters": [
+        {
+          "slug": "chm-1",
+          "title": "অধ্যায় ১: পরিবেশ রসায়ন (Environmental Chemistry)",
+          "file": "CHM-2nd/chm-1.md"
+        },
+        {
+          "slug": "chm-2",
+          "title": "অধ্যায় ২: জৈব রসায়ন (Organic Chemistry)",
+          "file": "CHM-2nd/chm-2.md"
+        },
+        {
+          "slug": "chm-3",
+          "title": "অধ্যায় ৩: পরিমাণগত রসায়ন (Stoichiometric Chemistry)",
+          "file": "CHM-2nd/chm-3.md"
+        },
+        {
+          "slug": "chm-4",
+          "title": "অধ্যায় ৪: তড়িৎ রসায়ন (Electrochemistry)",
+          "file": "CHM-2nd/chm-4.md"
+        },
+        {
+          "slug": "chm-5",
+          "title": "অধ্যায় ৫: অর্থনৈতিক রসায়ন (Economic Chemistry)",
+          "file": "CHM-2nd/chm-5.md"
+        }
+      ]
+    },
+    {
+      "code": "ECN-1st",
+      "shortCode": "ECN",
+      "paper": 1,
+      "name": "অর্থনীতি",
+      "streams": [
+        "ARTS",
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "ecn-1",
+          "title": "Chapter ১: মৌলিক অর্থনৈতিক সমস্যা এবং এর সমাধান (Basic Economic Problem and its Solution)",
+          "file": "ECN-1st/ecn-1.md"
+        },
+        {
+          "slug": "ecn-2",
+          "title": "Chapter ২: ভোক্তা ও উৎপাদকের আচরণ (Consumer and Producer's Behaviour)",
+          "file": "ECN-1st/ecn-2.md"
+        },
+        {
+          "slug": "ecn-3",
+          "title": "Chapter ৩: উৎপাদন, উৎপাদন ব্যয় ও আয় (Production, Production Cost and Revenue)",
+          "file": "ECN-1st/ecn-3.md"
+        },
+        {
+          "slug": "ecn-4",
+          "title": "Chapter ৪: বাজার (Market)",
+          "file": "ECN-1st/ecn-4.md"
+        },
+        {
+          "slug": "ecn-5",
+          "title": "Chapter ৫: শ্রমবাজার (Labour Market)",
+          "file": "ECN-1st/ecn-5.md"
+        },
+        {
+          "slug": "ecn-6",
+          "title": "Chapter ৬: মূলধন (Capital)",
+          "file": "ECN-1st/ecn-6.md"
+        },
+        {
+          "slug": "ecn-7",
+          "title": "Chapter ৭: সংগঠন (Organization)",
+          "file": "ECN-1st/ecn-7.md"
+        },
+        {
+          "slug": "ecn-8",
+          "title": "Chapter ৮: খাজনা (Rent)",
+          "file": "ECN-1st/ecn-8.md"
+        },
+        {
+          "slug": "ecn-9",
+          "title": "Chapter ৯: সামগ্রিক আয় ও ব্যয় (Aggregate Income and Expenditure)",
+          "file": "ECN-1st/ecn-9.md"
+        },
+        {
+          "slug": "ecn-10",
+          "title": "Chapter ১০: মুদ্রা ও ব্যাংক ব্যবস্থা (Money & Banking)",
+          "file": "ECN-1st/ecn-10.md"
+        }
+      ]
+    },
+    {
+      "code": "ECN-2nd",
+      "shortCode": "ECN",
+      "paper": 2,
+      "name": "অর্থনীতি",
+      "streams": [
+        "ARTS",
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "ecn-1",
+          "title": "Chapter ১: বাংলাদেশের অর্থনীতি পরিচয় (Introduction of Bangladesh Economy)",
+          "file": "ECN-2nd/ecn-1.md"
+        },
+        {
+          "slug": "ecn-2",
+          "title": "Chapter ২: বাংলাদেশের কৃষি (Agriculture of Bangladesh)",
+          "file": "ECN-2nd/ecn-2.md"
+        },
+        {
+          "slug": "ecn-3",
+          "title": "Chapter ৩: বাংলাদেশের শিল্প (Industries of Bangladesh)",
+          "file": "ECN-2nd/ecn-3.md"
+        },
+        {
+          "slug": "ecn-4",
+          "title": "Chapter ৪: জনসংখ্যা, মানব সম্পদ এবং আত্মকর্মসংস্থান (Population, Human Resource and Self-employment)",
+          "file": "ECN-2nd/ecn-4.md"
+        },
+        {
+          "slug": "ecn-5",
+          "title": "Chapter ৫: খাদ্য নিরাপত্তা (Food Security)",
+          "file": "ECN-2nd/ecn-5.md"
+        },
+        {
+          "slug": "ecn-6",
+          "title": "Chapter ৬: অর্থায়ন (Financing)",
+          "file": "ECN-2nd/ecn-6.md"
+        },
+        {
+          "slug": "ecn-7",
+          "title": "Chapter ৭: মুদ্রাস্ফীতি (Inflation)",
+          "file": "ECN-2nd/ecn-7.md"
+        },
+        {
+          "slug": "ecn-8",
+          "title": "Chapter ৮: আন্তর্জাতিক বাণিজ্য (International Trade)",
+          "file": "ECN-2nd/ecn-8.md"
+        },
+        {
+          "slug": "ecn-9",
+          "title": "Chapter ৯: সরকারি অর্থব্যবস্থা (Public Finance)",
+          "file": "ECN-2nd/ecn-9.md"
+        },
+        {
+          "slug": "ecn-10",
+          "title": "Chapter ১০: উন্নয়ন পরিকল্পনা (Development Planning)",
+          "file": "ECN-2nd/ecn-10.md"
+        }
+      ]
+    },
+    {
+      "code": "FIB-1st",
+      "shortCode": "FIB",
+      "paper": 1,
+      "name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 9,
+      "chapters": [
+        {
+          "slug": "fib-1",
+          "title": "অধ্যায় ১: প্রাথমিক পরিচিতি",
+          "file": "FIB-1st/fib-1.md"
+        },
+        {
+          "slug": "fib-2",
+          "title": "অধ্যায় ২: আর্থিক বাজারের আইনগত দিকসমূহ",
+          "file": "FIB-1st/fib-2.md"
+        },
+        {
+          "slug": "fib-3",
+          "title": "অধ্যায় ৩: অর্থের সময় মূল্য",
+          "file": "FIB-1st/fib-3.md"
+        },
+        {
+          "slug": "fib-4",
+          "title": "অধ্যায় ৪: আর্থিক বিশ্লেষণ",
+          "file": "FIB-1st/fib-4.md"
+        },
+        {
+          "slug": "fib-5",
+          "title": "অধ্যায় ৫: স্বল্প ও মধ্যমেয়াদি অর্থায়ন",
+          "file": "FIB-1st/fib-5.md"
+        },
+        {
+          "slug": "fib-6",
+          "title": "অধ্যায় ৬: দীর্ঘমেয়াদি অর্থায়ন",
+          "file": "FIB-1st/fib-6.md"
+        },
+        {
+          "slug": "fib-7",
+          "title": "অধ্যায় ৭: মূলধন ব্যয়",
+          "file": "FIB-1st/fib-7.md"
+        },
+        {
+          "slug": "fib-8",
+          "title": "অধ্যায় ৮: মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত",
+          "file": "FIB-1st/fib-8.md"
+        },
+        {
+          "slug": "fib-9",
+          "title": "অধ্যায় ৯: ঝুঁকি এবং মুনাফার হার",
+          "file": "FIB-1st/fib-9.md"
+        }
+      ]
+    },
+    {
+      "code": "FIB-2nd",
+      "shortCode": "FIB",
+      "paper": 2,
+      "name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 14,
+      "chapters": [
+        {
+          "slug": "fib-1",
+          "title": "অধ্যায় ১: ব্যাংক ব্যবস্থার প্রাথমিক পরিচিতি",
+          "file": "FIB-2nd/fib-1.md"
+        },
+        {
+          "slug": "fib-2",
+          "title": "অধ্যায় ২: কেন্দ্রীয় ব্যাংক",
+          "file": "FIB-2nd/fib-2.md"
+        },
+        {
+          "slug": "fib-3",
+          "title": "অধ্যায় ৩: বাণিজ্যিক ব্যাংক",
+          "file": "FIB-2nd/fib-3.md"
+        },
+        {
+          "slug": "fib-4",
+          "title": "অধ্যায় ৪: ব্যাংকিং হিসাব",
+          "file": "FIB-2nd/fib-4.md"
+        },
+        {
+          "slug": "fib-5",
+          "title": "অধ্যায় ৫: হস্তান্তরযোগ্য ঋণের দলিল",
+          "file": "FIB-2nd/fib-5.md"
+        },
+        {
+          "slug": "fib-6",
+          "title": "অধ্যায় ৬: চেক, বিনিময় বিল ও প্রতিশ্রুতিপত্র",
+          "file": "FIB-2nd/fib-6.md"
+        },
+        {
+          "slug": "fib-7",
+          "title": "অধ্যায় ৭: ব্যাংক ফান্ড",
+          "file": "FIB-2nd/fib-7.md"
+        },
+        {
+          "slug": "fib-8",
+          "title": "অধ্যায় ৮: বৈদেশিক বিনিময় ও বৈদেশিক মুদ্রা",
+          "file": "FIB-2nd/fib-8.md"
+        },
+        {
+          "slug": "fib-9",
+          "title": "অধ্যায় ৯: ইলেকট্রনিক ও আধুনিক ব্যাংকিং",
+          "file": "FIB-2nd/fib-9.md"
+        },
+        {
+          "slug": "fib-10",
+          "title": "অধ্যায় ১০: বিমার মৌলিক ধারণা",
+          "file": "FIB-2nd/fib-10.md"
+        },
+        {
+          "slug": "fib-11",
+          "title": "অধ্যায় ১১: জীবন বিমা",
+          "file": "FIB-2nd/fib-11.md"
+        },
+        {
+          "slug": "fib-12",
+          "title": "অধ্যায় ১২: নৌবিমা",
+          "file": "FIB-2nd/fib-12.md"
+        },
+        {
+          "slug": "fib-13",
+          "title": "অধ্যায় ১৩: অগ্নি বিমা",
+          "file": "FIB-2nd/fib-13.md"
+        },
+        {
+          "slug": "fib-14",
+          "title": "অধ্যায় ১৪: বিবিধ বিমা",
+          "file": "FIB-2nd/fib-14.md"
+        }
+      ]
+    },
+    {
+      "code": "GEO-1st",
+      "shortCode": "GEO",
+      "paper": 1,
+      "name": "ভূগোল ও পরিবেশ",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "geo-1",
+          "title": "অধ্যায় ১: প্রাকৃতিক ভূগোল (Physical Geography)",
+          "file": "GEO-1st/geo-1.md"
+        },
+        {
+          "slug": "geo-2",
+          "title": "অধ্যায় ২: পৃথিবীর গঠন (Structure of the Earth)",
+          "file": "GEO-1st/geo-2.md"
+        },
+        {
+          "slug": "geo-3",
+          "title": "অধ্যায় ৩: ভূমিরূপ পরিবর্তন (Change of Landforms)",
+          "file": "GEO-1st/geo-3.md"
+        },
+        {
+          "slug": "geo-4",
+          "title": "অধ্যায় ৪: বায়ুমণ্ডল ও বায়ু দূষণ (Atmosphere and Air Pollution)",
+          "file": "GEO-1st/geo-4.md"
+        },
+        {
+          "slug": "geo-5",
+          "title": "অধ্যায় ৫: জলবায়ুর উপাদান ও নিয়ামক (Factors and Elements of Climate)",
+          "file": "GEO-1st/geo-5.md"
+        },
+        {
+          "slug": "geo-6",
+          "title": "অধ্যায় ৬: জলবায়ু অঞ্চল ও জলবায়ু পরিবর্তন (Climatic Regions and Climate Change)",
+          "file": "GEO-1st/geo-6.md"
+        },
+        {
+          "slug": "geo-7",
+          "title": "অধ্যায় ৭: বারিমণ্ডল (Hydrosphere)",
+          "file": "GEO-1st/geo-7.md"
+        },
+        {
+          "slug": "geo-8",
+          "title": "অধ্যায় ৮: সমুদ্রস্রোত ও জোয়ার-ভাটা (Ocean Currents & Ebb-Tide)",
+          "file": "GEO-1st/geo-8.md"
+        },
+        {
+          "slug": "geo-9",
+          "title": "অধ্যায় ৯: জীবমণ্ডল (Biosphere)",
+          "file": "GEO-1st/geo-9.md"
+        },
+        {
+          "slug": "geo-10",
+          "title": "অধ্যায় ১০: ব্যবহারিক: মানচিত্র ও স্কেল (Practical: Map and Scale)",
+          "file": "GEO-1st/geo-10.md"
+        }
+      ]
+    },
+    {
+      "code": "GEO-2nd",
+      "shortCode": "GEO",
+      "paper": 2,
+      "name": "ভূগোল ও পরিবেশ",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "geo-1",
+          "title": "অধ্যায় ১: মানব ভূগোল (Human Geography)",
+          "file": "GEO-2nd/geo-1.md"
+        },
+        {
+          "slug": "geo-2",
+          "title": "অধ্যায় ২: জনসংখ্যা (Population)",
+          "file": "GEO-2nd/geo-2.md"
+        },
+        {
+          "slug": "geo-3",
+          "title": "অধ্যায় ৩: মানব বসতি (Human Settlement)",
+          "file": "GEO-2nd/geo-3.md"
+        },
+        {
+          "slug": "geo-4",
+          "title": "অধ্যায় ৪: কৃষি (Agriculture)",
+          "file": "GEO-2nd/geo-4.md"
+        },
+        {
+          "slug": "geo-5",
+          "title": "অধ্যায় ৫: খনিজ ও শক্তি সম্পদ (Mineral & Energy Resources)",
+          "file": "GEO-2nd/geo-5.md"
+        },
+        {
+          "slug": "geo-6",
+          "title": "অধ্যায় ৬: শিল্প (Industry)",
+          "file": "GEO-2nd/geo-6.md"
+        },
+        {
+          "slug": "geo-7",
+          "title": "অধ্যায় ৭: পরিবহন ও যোগাযোগ (Transport and Communication)",
+          "file": "GEO-2nd/geo-7.md"
+        },
+        {
+          "slug": "geo-8",
+          "title": "অধ্যায় ৮: বাণিজ্য (Trade)",
+          "file": "GEO-2nd/geo-8.md"
+        },
+        {
+          "slug": "geo-9",
+          "title": "অধ্যায় ৯: দূষণ ও দুর্যোগ (Pollution and Disaster)",
+          "file": "GEO-2nd/geo-9.md"
+        },
+        {
+          "slug": "geo-10",
+          "title": "অধ্যায় ১০: মানচিত্র অভিক্ষেপ (Map Projection)",
+          "file": "GEO-2nd/geo-10.md"
+        }
+      ]
+    },
+    {
+      "code": "HS-1st",
+      "shortCode": "HS",
+      "paper": 1,
+      "name": "গার্হস্থ্য বিজ্ঞান",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 16,
+      "chapters": [
+        {
+          "slug": "hs-1",
+          "title": "Chapter 1: গৃহ ব্যবস্থাপনা (Home Management)",
+          "file": "HS-1st/hs-1.md"
+        },
+        {
+          "slug": "hs-2",
+          "title": "Chapter 2: গৃহ ব্যবস্থাপনার ধাপ (Stages of Home Management)",
+          "file": "HS-1st/hs-2.md"
+        },
+        {
+          "slug": "hs-3",
+          "title": "Chapter 3: গৃহ সম্পদ ব্যবস্থাপনা (Management of Domestic Resource)",
+          "file": "HS-1st/hs-3.md"
+        },
+        {
+          "slug": "hs-4",
+          "title": "Chapter 4: সময় ও শক্তি ব্যবস্থাপনা (Time and Energy Management)",
+          "file": "HS-1st/hs-4.md"
+        },
+        {
+          "slug": "hs-5",
+          "title": "Chapter 5: সঞ্চয়, বিনিয়োগ ও ঋণ (Savings, Investment and Loan)",
+          "file": "HS-1st/hs-5.md"
+        },
+        {
+          "slug": "hs-6",
+          "title": "Chapter 6: আবাসস্থান পরিকল্পনা (Planning of Residence Area)",
+          "file": "HS-1st/hs-6.md"
+        },
+        {
+          "slug": "hs-7",
+          "title": "Chapter 7: গৃহ নির্মাণসামগ্রী ও আনুষঙ্গিক বিষয় (Construction Materials of House and Related Objects)",
+          "file": "HS-1st/hs-7.md"
+        },
+        {
+          "slug": "hs-8",
+          "title": "Chapter 8: আসবাবপত্র নির্বাচন, বিন্যাস ও গৃহসজ্জা (Furniture Selection, Arrangement and Interior Decoration)",
+          "file": "HS-1st/hs-8.md"
+        },
+        {
+          "slug": "hs-9",
+          "title": "Chapter 9: গৃহ প্রাঙ্গণ, ছাদ ও বারান্দার ব্যবহার (Use of Yard, Roof and Verandah)",
+          "file": "HS-1st/hs-9.md"
+        },
+        {
+          "slug": "hs-10",
+          "title": "Chapter 10: পরিবেশ সংরক্ষণ ও দুর্যোগ ব্যবস্থাপনা (Conservation of Environment and Disaster Management)",
+          "file": "HS-1st/hs-10.md"
+        },
+        {
+          "slug": "hs-11",
+          "title": "Chapter 11: বাংলাদেশের ঐতিহ্যবাহী বস্ত্র (Traditional Cloths of Bangladesh)",
+          "file": "HS-1st/hs-11.md"
+        },
+        {
+          "slug": "hs-12",
+          "title": "Chapter 12: ফ্যাশন, স্টাইল ও ডিজাইন (Fashion, Style and Design)",
+          "file": "HS-1st/hs-12.md"
+        },
+        {
+          "slug": "hs-13",
+          "title": "Chapter 13: বস্ত্র রং ও ছাপা (Dyeing and Printing Cloths)",
+          "file": "HS-1st/hs-13.md"
+        },
+        {
+          "slug": "hs-14",
+          "title": "Chapter 14: পোশাকে শিল্পকলার নীতি ও উপাদান (Application of Principles and Element of Art in Cloths)",
+          "file": "HS-1st/hs-14.md"
+        },
+        {
+          "slug": "hs-15",
+          "title": "Chapter 15: পোশাকের ছাঁট ও সেলাই (Dress Cutting and Stitching)",
+          "file": "HS-1st/hs-15.md"
+        },
+        {
+          "slug": "hs-16",
+          "title": "Chapter 16: বস্ত্রের দাগ অপসারণ ও পোশাক সংস্কার (Stain Removal and Clothing Repair)",
+          "file": "HS-1st/hs-16.md"
+        }
+      ]
+    },
+    {
+      "code": "HS-2nd",
+      "shortCode": "HS",
+      "paper": 2,
+      "name": "গার্হস্থ্য বিজ্ঞান",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 15,
+      "chapters": [
+        {
+          "slug": "hs-1",
+          "title": "Chapter 1: বাংলাদেশের বর্তমান পরিবার কাঠামো (Current Family Structure of Bangladesh)",
+          "file": "HS-2nd/hs-1.md"
+        },
+        {
+          "slug": "hs-2",
+          "title": "Chapter 2: প্রজননতন্ত্র, মাতৃগর্ভে শিশুর বৃদ্ধি ও পারিপার্শ্বিক প্রভাব (Reproductive System, Prenatal Development and Environmental Influences)",
+          "file": "HS-2nd/hs-2.md"
+        },
+        {
+          "slug": "hs-3",
+          "title": "Chapter 3: গর্ভবতী মায়ের যত্ন (Prenatal Care)",
+          "file": "HS-2nd/hs-3.md"
+        },
+        {
+          "slug": "hs-4",
+          "title": "Chapter 4: নবজাতক, প্রসূতি মায়ের যত্ন ও শিশুর টিকা (Newborn Baby, Care of Lactating Mother and Child's Vaccination)",
+          "file": "HS-2nd/hs-4.md"
+        },
+        {
+          "slug": "hs-5",
+          "title": "Chapter 5: শিশুর ক্রমবিকাশ (Gradual Development of Child)",
+          "file": "HS-2nd/hs-5.md"
+        },
+        {
+          "slug": "hs-6",
+          "title": "Chapter 6: বিশেষ চাহিদাসম্পন্ন শিশু (Special Children)",
+          "file": "HS-2nd/hs-6.md"
+        },
+        {
+          "slug": "hs-7",
+          "title": "Chapter 7: তারুণ্যের বিকাশ ও বিপর্যয় রোধ (Adolescent Development and Prevention of Setbacks)",
+          "file": "HS-2nd/hs-7.md"
+        },
+        {
+          "slug": "hs-8",
+          "title": "Chapter 8: মানসিক স্বাস্থ্য ও প্রজনন স্বাস্থ্য (Mental Health and Reproductive Health)",
+          "file": "HS-2nd/hs-8.md"
+        },
+        {
+          "slug": "hs-9",
+          "title": "Chapter 9: খাদ্য ও খাদ্যের উপাদান (Food and Food Elements)",
+          "file": "HS-2nd/hs-9.md"
+        },
+        {
+          "slug": "hs-10",
+          "title": "Chapter 10: পরিপাকতন্ত্র, পরিপাক ও শোষণ (Digestive System, Digestion and Absorption)",
+          "file": "HS-2nd/hs-10.md"
+        },
+        {
+          "slug": "hs-11",
+          "title": "Chapter 11: শক্তি চাহিদা (Energy Requirements)",
+          "file": "HS-2nd/hs-11.md"
+        },
+        {
+          "slug": "hs-12",
+          "title": "Chapter 12: মৌলিক খাদ্যদ্রব্য, সুষম খাদ্য ও মেনু পরিকল্পনা (Basic Food Group, Balanced Diet and Menu Planning)",
+          "file": "HS-2nd/hs-12.md"
+        },
+        {
+          "slug": "hs-13",
+          "title": "Chapter 13: রোগ ও পথ্য ব্যবস্থাপনা (Disease and Diet Management)",
+          "file": "HS-2nd/hs-13.md"
+        },
+        {
+          "slug": "hs-14",
+          "title": "Chapter 14: খাদ্য সংরক্ষণ ও রন্ধন (Food Preservation and Cooking)",
+          "file": "HS-2nd/hs-14.md"
+        },
+        {
+          "slug": "hs-15",
+          "title": "Chapter 15: জনস্বাস্থ্য সমস্যা (Public Health Problem)",
+          "file": "HS-2nd/hs-15.md"
+        }
+      ]
+    },
+    {
+      "code": "HST-1st",
+      "shortCode": "HST",
+      "paper": 1,
+      "name": "ইতিহাস",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "slug": "hst-1",
+          "title": "Chapter ১: ভারতবর্ষে ইউরোপীয়দের আগমন: ইংরেজ আধিপত্য প্রতিষ্ঠা (Advent of the Europeans in India: Setting up Predominance of the English)",
+          "file": "HST-1st/hst-1.md"
+        },
+        {
+          "slug": "hst-2",
+          "title": "Chapter ২: ইংরেজ উপনিবেশিক শাসন: কোম্পানি আমল (Colonial Rule of the English: The Company Period)",
+          "file": "HST-1st/hst-2.md"
+        },
+        {
+          "slug": "hst-3",
+          "title": "Chapter ৩: ইংরেজ উপনিবেশিক শাসন: ব্রিটিশ আমল (Colonial Rule of English: British Period)",
+          "file": "HST-1st/hst-3.md"
+        },
+        {
+          "slug": "hst-4",
+          "title": "Chapter ৪: পাকিস্তানি আমলে বাংলা: ভাষা আন্দোলন ও এর গতিপ্রকৃতি (Bangla Under Pakistani Rule: Language Movement and its Course)",
+          "file": "HST-1st/hst-4.md"
+        },
+        {
+          "slug": "hst-5",
+          "title": "Chapter ৫: পূর্ব বাংলার স্বায়ত্তশাসন ও স্বাধিকার আন্দোলন (Movement for Autonomy and Independence of East Bengal)",
+          "file": "HST-1st/hst-5.md"
+        },
+        {
+          "slug": "hst-6",
+          "title": "Chapter ৬: বাংলাদেশের স্বাধীনতা ঘোষণা ও মুক্তিযুদ্ধ (Declaration of Independence and Liberation War of Bangladesh)",
+          "file": "HST-1st/hst-6.md"
+        },
+        {
+          "slug": "hst-7",
+          "title": "Chapter ৭: মুক্তিযুদ্ধে বাংলাদেশ সরকারের (মুজিবনগর) কার্যক্রম (Activities of Bangladesh Govt. in the War of Liberation)",
+          "file": "HST-1st/hst-7.md"
+        },
+        {
+          "slug": "hst-8",
+          "title": "Chapter ৮: মুক্তিযুদ্ধে প্রবাসী বাঙালি ও বহির্বিশ্ব (Role of Bengalis Living Abroad and Other Countries in Our War of Independence)",
+          "file": "HST-1st/hst-8.md"
+        }
+      ]
+    },
+    {
+      "code": "HST-2nd",
+      "shortCode": "HST",
+      "paper": 2,
+      "name": "ইতিহাস",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "hst-1",
+          "title": "Chapter ১: শিল্পবিপ্লব (The Industrial Revolution)",
+          "file": "HST-2nd/hst-1.md"
+        },
+        {
+          "slug": "hst-2",
+          "title": "Chapter ২: ফরাসি বিপ্লব (French Revolution)",
+          "file": "HST-2nd/hst-2.md"
+        },
+        {
+          "slug": "hst-3",
+          "title": "Chapter ৩: প্রথম বিশ্বযুদ্ধ এবং ভার্সাই সন্ধি ও লীগ অব নেশনস (The First World War and The Treaty of Versailles and League of Nations)",
+          "file": "HST-2nd/hst-3.md"
+        },
+        {
+          "slug": "hst-4",
+          "title": "Chapter ৪: বলশেভিক বিপ্লব (Bolshevik Revolution)",
+          "file": "HST-2nd/hst-4.md"
+        },
+        {
+          "slug": "hst-5",
+          "title": "Chapter ৫: হিটলার ও মুসোলিনির উত্থান এবং দ্বিতীয় বিশ্বযুদ্ধ (The Rise of Hitler and Mussolini and the Second World War)",
+          "file": "HST-2nd/hst-5.md"
+        },
+        {
+          "slug": "hst-6",
+          "title": "Chapter ৬: জাতিসংঘ এবং বিশ্বশান্তি (United Nations and World Peace)",
+          "file": "HST-2nd/hst-6.md"
+        },
+        {
+          "slug": "hst-7",
+          "title": "Chapter ৭: স্নায়ুযুদ্ধ: পুঁজিবাদ ও সমাজতন্ত্রের দ্বন্দ্ব (Cold War: World Conflict Between Capitalism & Socialism)",
+          "file": "HST-2nd/hst-7.md"
+        },
+        {
+          "slug": "hst-8",
+          "title": "Chapter ৮: স্নায়ুযুদ্ধ-পরবর্তী বিশ্ব (The World After The Cold War)",
+          "file": "HST-2nd/hst-8.md"
+        },
+        {
+          "slug": "hst-9",
+          "title": "Chapter ৯: বর্ণবাদবিরোধী আন্দোলন (Movement Against Racism)",
+          "file": "HST-2nd/hst-9.md"
+        },
+        {
+          "slug": "hst-10",
+          "title": "Chapter ১০: বাংলাদেশের সামাজিক উন্নয়ন (Social Development of Bangladesh)",
+          "file": "HST-2nd/hst-10.md"
+        }
+      ]
+    },
+    {
+      "code": "ICT-1st",
+      "shortCode": "ICT",
+      "paper": 1,
+      "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+      "streams": [
+        "SCIENCE",
+        "ARTS",
+        "COMMERCE"
+      ],
+      "chapterCount": 6,
+      "chapters": [
+        {
+          "slug": "ict-1",
+          "title": "অধ্যায় ১: তথ্য ও যোগাযোগ প্রযুক্তি—বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+          "file": "Ict/ict-1.md"
+        },
+        {
+          "slug": "ict-2",
+          "title": "অধ্যায় ২: কমিউনিকেশন সিস্টেম ও কম্পিউটার নেটওয়ার্কিং",
+          "file": "Ict/ict-2.md"
+        },
+        {
+          "slug": "ict-3",
+          "title": "অধ্যায় ৩: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+          "file": "Ict/ict-3.md"
+        },
+        {
+          "slug": "ict-4",
+          "title": "অধ্যায় ৪: ওয়েব ডিজাইন পরিচিতি ও HTML",
+          "file": "Ict/ict-4.md"
+        },
+        {
+          "slug": "ict-5",
+          "title": "অধ্যায় ৫: প্রোগ্রামিং ভাষা — C",
+          "file": "Ict/ict-5.md"
+        },
+        {
+          "slug": "ict-6",
+          "title": "অধ্যায় ৬: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম",
+          "file": "Ict/ict-6.md"
+        }
+      ]
+    },
+    {
+      "code": "IHC-1st",
+      "shortCode": "IHC",
+      "paper": 1,
+      "name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 7,
+      "chapters": [
+        {
+          "slug": "ihc-1",
+          "title": "Chapter ১: প্রাক-ইসলামি আরব (The Pre-Islamic Arab)",
+          "file": "IHC-1st/ihc-1.md"
+        },
+        {
+          "slug": "ihc-2",
+          "title": "Chapter ২: হযরত মুহাম্মদ (স.) (৫৭০–৬৩২ খ্রিষ্টাব্দ) (Hazrat Muhammad (SM.) (570–632 AD))",
+          "file": "IHC-1st/ihc-2.md"
+        },
+        {
+          "slug": "ihc-3",
+          "title": "Chapter ৩: খুলাফায়ে রাশেদিন (৬৩২-৬৬১ খ্রি.) (Khulafa-i-Rashidin)",
+          "file": "IHC-1st/ihc-3.md"
+        },
+        {
+          "slug": "ihc-4",
+          "title": "Chapter ৪: উমাইয়া খিলাফত (৬৬১-৭৫০ খ্রি.) (The Umayyad Khilafat)",
+          "file": "IHC-1st/ihc-4.md"
+        },
+        {
+          "slug": "ihc-5",
+          "title": "Chapter ৫: আব্বাসীয় খিলাফত (৭৫০-১২৫৮ খ্রি.) (The Abbasid Khilafat)",
+          "file": "IHC-1st/ihc-5.md"
+        },
+        {
+          "slug": "ihc-6",
+          "title": "Chapter ৬: স্পেনে উমাইয়া শাসন (৭১১-১৪৯২ খ্রি.) (The Umayyad Rules in Spain)",
+          "file": "IHC-1st/ihc-6.md"
+        },
+        {
+          "slug": "ihc-7",
+          "title": "Chapter ৭: উত্তর আফ্রিকায় ফাতেমী খিলাফত (৯০৯-১১৭১ খ্রি.) (The Fatimids Khilafat in North Africa)",
+          "file": "IHC-1st/ihc-7.md"
+        }
+      ]
+    },
+    {
+      "code": "IHC-2nd",
+      "shortCode": "IHC",
+      "paper": 2,
+      "name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 6,
+      "chapters": [
+        {
+          "slug": "ihc-1",
+          "title": "Chapter ১: ভারতে মুসলিম শাসন প্রতিষ্ঠা (Establishment of Muslim Rule in India)",
+          "file": "IHC-2nd/ihc-1.md"
+        },
+        {
+          "slug": "ihc-2",
+          "title": "Chapter ২: দিল্লি সালতানাত যুগ (১২০৬-১৫২৬ খ্রি.) (The Age of Delhi Sultanate)",
+          "file": "IHC-2nd/ihc-2.md"
+        },
+        {
+          "slug": "ihc-3",
+          "title": "Chapter ৩: ভারতীয় উপমহাদেশে মুঘল শাসন (Rule of the Mughal in India Sub-continent)",
+          "file": "IHC-2nd/ihc-3.md"
+        },
+        {
+          "slug": "ihc-4",
+          "title": "Chapter ৪: বাংলায় কোম্পানি ও ঔপনিবেশিক শাসন (Company and Colonial Rule of Bengal)",
+          "file": "IHC-2nd/ihc-4.md"
+        },
+        {
+          "slug": "ihc-5",
+          "title": "Chapter ৫: বাংলার ইতিহাস (পাকিস্তান আমল) (History of Bengal (Pakistan Period))",
+          "file": "IHC-2nd/ihc-5.md"
+        },
+        {
+          "slug": "ihc-6",
+          "title": "Chapter ৬: স্বাধীন সার্বভৌম বাংলাদেশের অভ্যুদয় (The Emergence of Independent & Sovereign Bangladesh)",
+          "file": "IHC-2nd/ihc-6.md"
+        }
+      ]
+    },
+    {
+      "code": "ISL-1st",
+      "shortCode": "ISL",
+      "paper": 1,
+      "name": "ইসলাম শিক্ষা",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 7,
+      "chapters": [
+        {
+          "slug": "isl-1",
+          "title": "অধ্যায় ১: ইসলামি শিক্ষা ও সংস্কৃতি",
+          "file": "ISL-1st/isl-1.md"
+        },
+        {
+          "slug": "isl-2",
+          "title": "অধ্যায় ২: ইসলাম ও ব্যক্তিজীবন",
+          "file": "ISL-1st/isl-2.md"
+        },
+        {
+          "slug": "isl-3",
+          "title": "অধ্যায় ৩: ইসলাম ও পারিবারিক জীবন",
+          "file": "ISL-1st/isl-3.md"
+        },
+        {
+          "slug": "isl-4",
+          "title": "অধ্যায় ৪: ইসলাম ও সমাজজীবন",
+          "file": "ISL-1st/isl-4.md"
+        },
+        {
+          "slug": "isl-5",
+          "title": "অধ্যায় ৫: ইসলামের অর্থব্যবস্থা",
+          "file": "ISL-1st/isl-5.md"
+        },
+        {
+          "slug": "isl-6",
+          "title": "অধ্যায় ৬: ইসলামি রাষ্ট্রব্যবস্থা",
+          "file": "ISL-1st/isl-6.md"
+        },
+        {
+          "slug": "isl-7",
+          "title": "অধ্যায় ৭: ইসলামের আন্তর্জাতিক ব্যবস্থা",
+          "file": "ISL-1st/isl-7.md"
+        }
+      ]
+    },
+    {
+      "code": "ISL-2nd",
+      "shortCode": "ISL",
+      "paper": 2,
+      "name": "ইসলাম শিক্ষা",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 7,
+      "chapters": [
+        {
+          "slug": "isl-1",
+          "title": "অধ্যায় ১: আল-কুরআন",
+          "file": "ISL-2nd/isl-1.md"
+        },
+        {
+          "slug": "isl-2",
+          "title": "অধ্যায় ২: আল-হাদিস",
+          "file": "ISL-2nd/isl-2.md"
+        },
+        {
+          "slug": "isl-3",
+          "title": "অধ্যায় ৩: আল-ইজমা",
+          "file": "ISL-2nd/isl-3.md"
+        },
+        {
+          "slug": "isl-4",
+          "title": "অধ্যায় ৪: আল-কিয়াস",
+          "file": "ISL-2nd/isl-4.md"
+        },
+        {
+          "slug": "isl-5",
+          "title": "অধ্যায় ৫: ফিকহশাস্ত্র",
+          "file": "ISL-2nd/isl-5.md"
+        },
+        {
+          "slug": "isl-6",
+          "title": "অধ্যায় ৬: মৌলিক ইবাদত",
+          "file": "ISL-2nd/isl-6.md"
+        },
+        {
+          "slug": "isl-7",
+          "title": "অধ্যায় ৭: তাসাউফ",
+          "file": "ISL-2nd/isl-7.md"
+        }
+      ]
+    },
+    {
+      "code": "LGC-1st",
+      "shortCode": "LGC",
+      "paper": 1,
+      "name": "যুক্তিবিদ্যা",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "slug": "lgc-1",
+          "title": "Chapter ১: যুক্তিবিদ্যার পরিচয় (Introduction to Logic)",
+          "file": "LGC-1st/lgc-1.md"
+        },
+        {
+          "slug": "lgc-2",
+          "title": "Chapter ২: যুক্তিবিদ্যার প্রায়োগিক দিক (Applied Aspect of Logic)",
+          "file": "LGC-1st/lgc-2.md"
+        },
+        {
+          "slug": "lgc-3",
+          "title": "Chapter ৩: যুক্তির উপাদান (Elements of Argument)",
+          "file": "LGC-1st/lgc-3.md"
+        },
+        {
+          "slug": "lgc-4",
+          "title": "Chapter ৪: বিধেয়ক (Predicables)",
+          "file": "LGC-1st/lgc-4.md"
+        },
+        {
+          "slug": "lgc-5",
+          "title": "Chapter ৫: অনুমান (Inference)",
+          "file": "LGC-1st/lgc-5.md"
+        },
+        {
+          "slug": "lgc-6",
+          "title": "Chapter ৬: অবরোহ অনুমান (Deductive Inference)",
+          "file": "LGC-1st/lgc-6.md"
+        },
+        {
+          "slug": "lgc-7",
+          "title": "Chapter ৭: আরোহ অনুমান ও আরোহ অনুমানের ভিত্তি (Inductive Inference and the Ground of Inductive Inference)",
+          "file": "LGC-1st/lgc-7.md"
+        },
+        {
+          "slug": "lgc-8",
+          "title": "Chapter ৮: প্রতীকী যুক্তিবিদ্যা (Symbolic Logic)",
+          "file": "LGC-1st/lgc-8.md"
+        }
+      ]
+    },
+    {
+      "code": "LGC-2nd",
+      "shortCode": "LGC",
+      "paper": 2,
+      "name": "যুক্তিবিদ্যা",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "slug": "lgc-1",
+          "title": "Chapter ১: যৌক্তিক সংজ্ঞা (Logical Definition)",
+          "file": "LGC-2nd/lgc-1.md"
+        },
+        {
+          "slug": "lgc-2",
+          "title": "Chapter ২: যৌক্তিক বিভাগ (Logical Division)",
+          "file": "LGC-2nd/lgc-2.md"
+        },
+        {
+          "slug": "lgc-3",
+          "title": "Chapter ৩: আরোহের প্রকারভেদ (Classification of Induction)",
+          "file": "LGC-2nd/lgc-3.md"
+        },
+        {
+          "slug": "lgc-4",
+          "title": "Chapter ৪: প্রকল্প (Hypothesis)",
+          "file": "LGC-2nd/lgc-4.md"
+        },
+        {
+          "slug": "lgc-5",
+          "title": "Chapter ৫: কার্যকারণ সম্পর্ক প্রমাণ পদ্ধতি (Method of Causation Relation Proof)",
+          "file": "LGC-2nd/lgc-5.md"
+        },
+        {
+          "slug": "lgc-6",
+          "title": "Chapter ৬: ব্যাখ্যা (Explanation)",
+          "file": "LGC-2nd/lgc-6.md"
+        },
+        {
+          "slug": "lgc-7",
+          "title": "Chapter ৭: শ্রেণিকরণ (Classification)",
+          "file": "LGC-2nd/lgc-7.md"
+        },
+        {
+          "slug": "lgc-8",
+          "title": "Chapter ৮: সম্ভাবনা (Probability)",
+          "file": "LGC-2nd/lgc-8.md"
+        }
+      ]
+    },
+    {
+      "code": "MAT-1st",
+      "shortCode": "MAT",
+      "paper": 1,
+      "name": "উচ্চতর গণিত",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "mat-1",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১: ম্যাট্রিক্স ও নির্ণায়ক (Matrix & Determinant)",
+          "file": "MAT-1st/mat-1.md"
+        },
+        {
+          "slug": "mat-2",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ২: ভেক্টর (Vector)",
+          "file": "MAT-1st/mat-2.md"
+        },
+        {
+          "slug": "mat-3",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৩: সরলরেখা (Straight Line)",
+          "file": "MAT-1st/mat-3.md"
+        },
+        {
+          "slug": "mat-4",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৪: বৃত্ত (Circle)",
+          "file": "MAT-1st/mat-4.md"
+        },
+        {
+          "slug": "mat-5",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৫: দ্বিপদী বিস্তৃতি ও বিন্যাস-সমাবেশ (Binomial Expansion, Permutation & Combination)",
+          "file": "MAT-1st/mat-5.md"
+        },
+        {
+          "slug": "mat-6",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৬: ত্রিকোণমিতিক অনুপাত (Trigonometric Ratios)",
+          "file": "MAT-1st/mat-6.md"
+        },
+        {
+          "slug": "mat-7",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৭: সংযুক্ত কোণের ত্রিকোণমিতিক অনুপাত ও ত্রিভুজের ধর্ম (Compound Angles & Properties of Triangles)",
+          "file": "MAT-1st/mat-7.md"
+        },
+        {
+          "slug": "mat-8",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৮: ফাংশন ও ফাংশনের লেখচিত্র (Functions & Graphs)",
+          "file": "MAT-1st/mat-8.md"
+        },
+        {
+          "slug": "mat-9",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৯: অন্তরীকরণ (Differentiation)",
+          "file": "MAT-1st/mat-9.md"
+        },
+        {
+          "slug": "mat-10",
+          "title": "📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১০: যোগজীকরণ (Integration)",
+          "file": "MAT-1st/mat-10.md"
+        }
+      ]
+    },
+    {
+      "code": "MAT-2nd",
+      "shortCode": "MAT",
+      "paper": 2,
+      "name": "উচ্চতর গণিত",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "mat-1",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (Real Numbers & Inequalities)",
+          "file": "MAT-2nd/mat-1.md"
+        },
+        {
+          "slug": "mat-2",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ২: যোগাশ্রয়ী প্রোগ্রাম (Linear Programming)",
+          "file": "MAT-2nd/mat-2.md"
+        },
+        {
+          "slug": "mat-3",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৩: জটিল সংখ্যা (Complex Numbers)",
+          "file": "MAT-2nd/mat-3.md"
+        },
+        {
+          "slug": "mat-4",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৪: বহুপদী ও বহুপদী সমীকরণ (Polynomials & Polynomial Equations)",
+          "file": "MAT-2nd/mat-4.md"
+        },
+        {
+          "slug": "mat-5",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৫: দ্বিপদী বিস্তৃতি (Binomial Expansion)",
+          "file": "MAT-2nd/mat-5.md"
+        },
+        {
+          "slug": "mat-6",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৬: কনিক (Conics)",
+          "file": "MAT-2nd/mat-6.md"
+        },
+        {
+          "slug": "mat-7",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৭: বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ (Inverse Trigonometric Functions & Trigonometric Equations)",
+          "file": "MAT-2nd/mat-7.md"
+        },
+        {
+          "slug": "mat-8",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৮: স্থিতিবিদ্যা (Statics)",
+          "file": "MAT-2nd/mat-8.md"
+        },
+        {
+          "slug": "mat-9",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৯: সমতলে বস্তুকণার গতি (Motion of Particles in a Plane)",
+          "file": "MAT-2nd/mat-9.md"
+        },
+        {
+          "slug": "mat-10",
+          "title": "📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১০: বিস্তার পরিমাপ ও সম্ভাবনা (Measures of Dispersion & Probability)",
+          "file": "MAT-2nd/mat-10.md"
+        }
+      ]
+    },
+    {
+      "code": "PHY-1st",
+      "shortCode": "PHY",
+      "paper": 1,
+      "name": "পদার্থবিজ্ঞান",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "phy-1",
+          "title": "অধ্যায় ১: ভৌতজগৎ ও পরিমাপ (Physical World and Measurement)",
+          "file": "PHY-1st/phy-1.md"
+        },
+        {
+          "slug": "phy-2",
+          "title": "অধ্যায় ২: ভেক্টর (Vector)",
+          "file": "PHY-1st/phy-2.md"
+        },
+        {
+          "slug": "phy-3",
+          "title": "অধ্যায় ৩: গতিবিদ্যা (Dynamics)",
+          "file": "PHY-1st/phy-3.md"
+        },
+        {
+          "slug": "phy-4",
+          "title": "অধ্যায় ৪: নিউটনীয় বলবিদ্যা (Newtonian Mechanics)",
+          "file": "PHY-1st/phy-4.md"
+        },
+        {
+          "slug": "phy-5",
+          "title": "অধ্যায় ৫: কাজ, শক্তি ও ক্ষমতা (Work, Energy and Power)",
+          "file": "PHY-1st/phy-5.md"
+        },
+        {
+          "slug": "phy-6",
+          "title": "অধ্যায় ৬: মহাকর্ষ ও অভিকর্ষ (Gravitation and Gravity)",
+          "file": "PHY-1st/phy-6.md"
+        },
+        {
+          "slug": "phy-7",
+          "title": "অধ্যায় ৭: পদার্থের গাঠনিক ধর্ম (Structural Properties of Matter)",
+          "file": "PHY-1st/phy-7.md"
+        },
+        {
+          "slug": "phy-8",
+          "title": "অধ্যায় ৮: পর্যায়বৃত্তিক গতি (Periodic Motion)",
+          "file": "PHY-1st/phy-8.md"
+        },
+        {
+          "slug": "phy-9",
+          "title": "অধ্যায় ৯: তরঙ্গ (Waves)",
+          "file": "PHY-1st/phy-9.md"
+        },
+        {
+          "slug": "phy-10",
+          "title": "অধ্যায় ১০: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব (Ideal Gas and Kinetic Theory of Gas)",
+          "file": "PHY-1st/phy-10.md"
+        }
+      ]
+    },
+    {
+      "code": "PHY-2nd",
+      "shortCode": "PHY",
+      "paper": 2,
+      "name": "পদার্থবিজ্ঞান",
+      "streams": [
+        "SCIENCE"
+      ],
+      "chapterCount": 11,
+      "chapters": [
+        {
+          "slug": "phy-1",
+          "title": "অধ্যায় ১: তাপগতিবিদ্যা (Thermodynamics)",
+          "file": "PHY-2nd/phy-1.md"
+        },
+        {
+          "slug": "phy-2",
+          "title": "অধ্যায় ২: স্থির তড়িৎ (Static Electricity)",
+          "file": "PHY-2nd/phy-2.md"
+        },
+        {
+          "slug": "phy-3",
+          "title": "অধ্যায় ৩: চল তড়িৎ (Current Electricity)",
+          "file": "PHY-2nd/phy-3.md"
+        },
+        {
+          "slug": "phy-4",
+          "title": "অধ্যায় ৪: তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব (Magnetic Effects of Electric Current & Magnetism)",
+          "file": "PHY-2nd/phy-4.md"
+        },
+        {
+          "slug": "phy-5",
+          "title": "অধ্যায় ৫: তাড়িতচৌম্বকীয় আবেশ ও পরিবর্তী প্রবাহ (Electromagnetic Induction and Alternating Current)",
+          "file": "PHY-2nd/phy-5.md"
+        },
+        {
+          "slug": "phy-6",
+          "title": "অধ্যায় ৬: জ্যামিতিক আলোকবিজ্ঞান (Geometrical Optics)",
+          "file": "PHY-2nd/phy-6.md"
+        },
+        {
+          "slug": "phy-7",
+          "title": "অধ্যায় ৭: জ্যোতি আলোকবিজ্ঞান (Physical Optics)",
+          "file": "PHY-2nd/phy-7.md"
+        },
+        {
+          "slug": "phy-8",
+          "title": "অধ্যায় ৮: আধুনিক পদার্থবিজ্ঞানের সূচনা (Beginning of Modern Physics)",
+          "file": "PHY-2nd/phy-8.md"
+        },
+        {
+          "slug": "phy-9",
+          "title": "অধ্যায় ৯: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান (Atomic Model & Nuclear Physics)",
+          "file": "PHY-2nd/phy-9.md"
+        },
+        {
+          "slug": "phy-10",
+          "title": "অধ্যায় ১০: সেমিকন্ডাক্টর ও ইলেকট্রনিক্স (Semiconductor and Electronics)",
+          "file": "PHY-2nd/phy-10.md"
+        },
+        {
+          "slug": "phy-11",
+          "title": "অধ্যায় ১১: জ্যোতির্বিজ্ঞান (Astronomy)",
+          "file": "PHY-2nd/phy-11.md"
+        }
+      ]
+    },
+    {
+      "code": "PMM-1st",
+      "shortCode": "PMM",
+      "paper": 1,
+      "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "pmm-1",
+          "title": "অধ্যায় ১: উৎপাদনের ধারণা, উপযোগ ও উৎপাদনশীলতা",
+          "file": "PMM-1st/pmm-1.md"
+        },
+        {
+          "slug": "pmm-2",
+          "title": "অধ্যায় ২: উৎপাদনের উপকরণসমূহ",
+          "file": "PMM-1st/pmm-2.md"
+        },
+        {
+          "slug": "pmm-3",
+          "title": "অধ্যায় ৩: উৎপাদনের মাত্রা",
+          "file": "PMM-1st/pmm-3.md"
+        },
+        {
+          "slug": "pmm-4",
+          "title": "অধ্যায় ৪: সমষ্টিক পর্যায়ে উৎপাদন",
+          "file": "PMM-1st/pmm-4.md"
+        },
+        {
+          "slug": "pmm-5",
+          "title": "অধ্যায় ৫: উৎপাদন ব্যবস্থাপনা",
+          "file": "PMM-1st/pmm-5.md"
+        },
+        {
+          "slug": "pmm-6",
+          "title": "অধ্যায় ৬: পণ্য ডিজাইন",
+          "file": "PMM-1st/pmm-6.md"
+        },
+        {
+          "slug": "pmm-7",
+          "title": "অধ্যায় ৭: মান ব্যবস্থাপনা",
+          "file": "PMM-1st/pmm-7.md"
+        },
+        {
+          "slug": "pmm-8",
+          "title": "অধ্যায় ৮: উৎপাদন ক্ষমতা",
+          "file": "PMM-1st/pmm-8.md"
+        },
+        {
+          "slug": "pmm-9",
+          "title": "অধ্যায় ৯: ব্যবসায়ের অবস্থান",
+          "file": "PMM-1st/pmm-9.md"
+        },
+        {
+          "slug": "pmm-10",
+          "title": "অধ্যায় ১০: লে-আউট বা বিন্যাস",
+          "file": "PMM-1st/pmm-10.md"
+        }
+      ]
+    },
+    {
+      "code": "PMM-2nd",
+      "shortCode": "PMM",
+      "paper": 2,
+      "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+      "streams": [
+        "COMMERCE"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "pmm-1",
+          "title": "অধ্যায় ১: বিপণন পরিচিতি",
+          "file": "PMM-2nd/pmm-1.md"
+        },
+        {
+          "slug": "pmm-2",
+          "title": "অধ্যায় ২: বিপণন পরিবেশ",
+          "file": "PMM-2nd/pmm-2.md"
+        },
+        {
+          "slug": "pmm-3",
+          "title": "অধ্যায় ৩: বিপণন কার্যাবলি",
+          "file": "PMM-2nd/pmm-3.md"
+        },
+        {
+          "slug": "pmm-4",
+          "title": "অধ্যায় ৪: বাজার বিভক্তিকরণ ও বিপণন মিশ্রণ",
+          "file": "PMM-2nd/pmm-4.md"
+        },
+        {
+          "slug": "pmm-5",
+          "title": "অধ্যায় ৫: পণ্য ও পণ্যের মূল্য নির্ধারণ",
+          "file": "PMM-2nd/pmm-5.md"
+        },
+        {
+          "slug": "pmm-6",
+          "title": "অধ্যায় ৬: পণ্য বণ্টন প্রণালী",
+          "file": "PMM-2nd/pmm-6.md"
+        },
+        {
+          "slug": "pmm-7",
+          "title": "অধ্যায় ৭: পাইকারি ও খুচরা ব্যবসায়",
+          "file": "PMM-2nd/pmm-7.md"
+        },
+        {
+          "slug": "pmm-8",
+          "title": "অধ্যায় ৮: বিপণন প্রসার ও বিজ্ঞাপন",
+          "file": "PMM-2nd/pmm-8.md"
+        },
+        {
+          "slug": "pmm-9",
+          "title": "অধ্যায় ৯: ব্যক্তিক বিক্রয় ও বিক্রয়িকতা",
+          "file": "PMM-2nd/pmm-9.md"
+        },
+        {
+          "slug": "pmm-10",
+          "title": "অধ্যায় ১০: বিপণনে সমসাময়িক বিষয়াবলি",
+          "file": "PMM-2nd/pmm-10.md"
+        }
+      ]
+    },
+    {
+      "code": "PSY-1st",
+      "shortCode": "PSY",
+      "paper": 1,
+      "name": "মনোবিজ্ঞান",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "slug": "psy-1",
+          "title": "Chapter ১: মনোবিজ্ঞান পরিচিতি (Introduction to Psychology)",
+          "file": "PSY-1st/psy-1.md"
+        },
+        {
+          "slug": "psy-2",
+          "title": "Chapter ২: আচরণের ধারণা ও প্রভাববিস্তারকারী উপাদান (Pattern of Behaviour & Influencing Factors)",
+          "file": "PSY-1st/psy-2.md"
+        },
+        {
+          "slug": "psy-3",
+          "title": "Chapter ৩: আচরণের জৈবিক ভিত্তি (Biological Bases of Behaviour)",
+          "file": "PSY-1st/psy-3.md"
+        },
+        {
+          "slug": "psy-4",
+          "title": "Chapter ৪: প্রেষণা ও আবেগ (Motivation and Emotion)",
+          "file": "PSY-1st/psy-4.md"
+        },
+        {
+          "slug": "psy-5",
+          "title": "Chapter ৫: শিক্ষণ ও স্মৃতি (Learning and Memory)",
+          "file": "PSY-1st/psy-5.md"
+        },
+        {
+          "slug": "psy-6",
+          "title": "Chapter ৬: সংবেদন ও প্রত্যক্ষণ (Sensation and Perception)",
+          "file": "PSY-1st/psy-6.md"
+        },
+        {
+          "slug": "psy-7",
+          "title": "Chapter ৭: বয়ঃসন্ধিকাল ও মানসিক স্বাস্থ্য (Puberty and Mental Health)",
+          "file": "PSY-1st/psy-7.md"
+        },
+        {
+          "slug": "psy-8",
+          "title": "Chapter ৮: পরিসংখ্যান পরিচিতি (Introduction to Statistics)",
+          "file": "PSY-1st/psy-8.md"
+        }
+      ]
+    },
+    {
+      "code": "PSY-2nd",
+      "shortCode": "PSY",
+      "paper": 2,
+      "name": "মনোবিজ্ঞান",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "slug": "psy-1",
+          "title": "Chapter ১: বুদ্ধি (Intelligence)",
+          "file": "PSY-2nd/psy-1.md"
+        },
+        {
+          "slug": "psy-2",
+          "title": "Chapter ২: ব্যক্তিত্ব (Personality)",
+          "file": "PSY-2nd/psy-2.md"
+        },
+        {
+          "slug": "psy-3",
+          "title": "Chapter ৩: মনোভাব (Attitudes)",
+          "file": "PSY-2nd/psy-3.md"
+        },
+        {
+          "slug": "psy-4",
+          "title": "Chapter ৪: আচরণের উপর পরিবেশের প্রভাব (Effect of Environment on Behaviour)",
+          "file": "PSY-2nd/psy-4.md"
+        },
+        {
+          "slug": "psy-5",
+          "title": "Chapter ৫: মানসিক চাপ এবং চাপ মোকাবেলা (Mental Stress and Reaction to Stress)",
+          "file": "PSY-2nd/psy-5.md"
+        },
+        {
+          "slug": "psy-6",
+          "title": "Chapter ৬: মূল্যবোধ (Value)",
+          "file": "PSY-2nd/psy-6.md"
+        },
+        {
+          "slug": "psy-7",
+          "title": "Chapter ৭: মনোবিজ্ঞানে গবেষণার পদ্ধতিসমূহ (Research Methods in Psychology)",
+          "file": "PSY-2nd/psy-7.md"
+        },
+        {
+          "slug": "psy-8",
+          "title": "Chapter ৮: পরিসংখ্যান (Statistics)",
+          "file": "PSY-2nd/psy-8.md"
+        }
+      ]
+    },
+    {
+      "code": "SOC-1st",
+      "shortCode": "SOC",
+      "paper": 1,
+      "name": "সমাজবিজ্ঞান",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "soc-1",
+          "title": "Chapter 1: সমাজবিজ্ঞানের উৎপত্তি ও বিকাশ (Origin and Development of Sociology)",
+          "file": "SOC-1st/soc-1.md"
+        },
+        {
+          "slug": "soc-2",
+          "title": "Chapter 2: সমাজবিজ্ঞানের বৈজ্ঞানিক মর্যাদা (Scientific Status of Sociology)",
+          "file": "SOC-1st/soc-2.md"
+        },
+        {
+          "slug": "soc-3",
+          "title": "Chapter 3: সমাজবিজ্ঞানীদের মতবাদ ও অবদান (Theory and Contribution of Sociologists)",
+          "file": "SOC-1st/soc-3.md"
+        },
+        {
+          "slug": "soc-4",
+          "title": "Chapter 4: সমাজবিজ্ঞানের মৌল প্রত্যয় (Basic Concepts of Sociology)",
+          "file": "SOC-1st/soc-4.md"
+        },
+        {
+          "slug": "soc-5",
+          "title": "Chapter 5: সামাজিক প্রতিষ্ঠান (Social Institutions)",
+          "file": "SOC-1st/soc-5.md"
+        },
+        {
+          "slug": "soc-6",
+          "title": "Chapter 6: সমাজজীবনে প্রভাব বিস্তারকারী উপাদান (Factors Influencing on Social Life)",
+          "file": "SOC-1st/soc-6.md"
+        },
+        {
+          "slug": "soc-7",
+          "title": "Chapter 7: সামাজিকীকরণ প্রক্রিয়া (Socialization Process)",
+          "file": "SOC-1st/soc-7.md"
+        },
+        {
+          "slug": "soc-8",
+          "title": "Chapter 8: সামাজিক স্তরবিন্যাস ও অসমতা (Social Stratification and Inequality)",
+          "file": "SOC-1st/soc-8.md"
+        },
+        {
+          "slug": "soc-9",
+          "title": "Chapter 9: সামাজিক ব্যবস্থা (Social System) - অর্থনৈতিক ব্যবস্থা ও সম্পত্তি",
+          "file": "SOC-1st/soc-9.md"
+        },
+        {
+          "slug": "soc-10",
+          "title": "Chapter 10: বিচ্যুতিমূলক আচরণ এবং অপরাধ (Deviant Behaviour and Crime)",
+          "file": "SOC-1st/soc-10.md"
+        }
+      ]
+    },
+    {
+      "code": "SOC-2nd",
+      "shortCode": "SOC",
+      "paper": 2,
+      "name": "সমাজবিজ্ঞান",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 10,
+      "chapters": [
+        {
+          "slug": "soc-1",
+          "title": "Chapter 1: বাংলাদেশে সমাজবিজ্ঞান চর্চার বিকাশ (Manifestation of Sociology Practice in Bangladesh)",
+          "file": "SOC-2nd/soc-1.md"
+        },
+        {
+          "slug": "soc-2",
+          "title": "Chapter 2: বাংলাদেশের সমাজ ও সংস্কৃতি (Society and Culture of Bangladesh)",
+          "file": "SOC-2nd/soc-2.md"
+        },
+        {
+          "slug": "soc-3",
+          "title": "Chapter 3: প্রত্নতত্ত্বের ভিত্তিতে বাংলাদেশের সমাজ ও সভ্যতা (Society and Civilization of Bangladesh on the Basis of Archaeology)",
+          "file": "SOC-2nd/soc-3.md"
+        },
+        {
+          "slug": "soc-4",
+          "title": "Chapter 4: বাংলাদেশের নৃগোষ্ঠীর জীবনধারা (Life Style of Ethnic Group in Bangladesh)",
+          "file": "SOC-2nd/soc-4.md"
+        },
+        {
+          "slug": "soc-5",
+          "title": "Chapter 5: বাংলাদেশের অভ্যুদয়ের সামাজিক প্রেক্ষাপট (Social Background of the Emergence of Bangladesh)",
+          "file": "SOC-2nd/soc-5.md"
+        },
+        {
+          "slug": "soc-6",
+          "title": "Chapter 6: বাংলাদেশের গ্রামীণ ও শহুরে সমাজ (Rural and Urban Society of Bangladesh)",
+          "file": "SOC-2nd/soc-6.md"
+        },
+        {
+          "slug": "soc-7",
+          "title": "Chapter 7: বাংলাদেশে বিবাহ, পরিবার এবং জ্ঞাতিসম্পর্ক (Marriage, Family and Kinship in Bangladesh)",
+          "file": "SOC-2nd/soc-7.md"
+        },
+        {
+          "slug": "soc-8",
+          "title": "Chapter 8: বাংলাদেশের সামাজিক পরিবর্তন (Social Change in Bangladesh)",
+          "file": "SOC-2nd/soc-8.md"
+        },
+        {
+          "slug": "soc-9",
+          "title": "Chapter 9: বাংলাদেশের সামাজিক সমস্যা ও প্রতিকারের উপায় (Social Problem of Bangladesh and Its Way of Remedy)",
+          "file": "SOC-2nd/soc-9.md"
+        },
+        {
+          "slug": "soc-10",
+          "title": "Chapter 10: বাংলাদেশের সামাজিক উন্নয়ন (Social Development of Bangladesh)",
+          "file": "SOC-2nd/soc-10.md"
+        }
+      ]
+    },
+    {
+      "code": "SW-1st",
+      "shortCode": "SW",
+      "paper": 1,
+      "name": "সমাজকর্ম",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "slug": "sw-1",
+          "title": "Chapter 1: সমাজকর্ম: প্রকৃতি ও পরিধি (Social Work: Nature and Scope)",
+          "file": "SW-1st/sw-1.md"
+        },
+        {
+          "slug": "sw-2",
+          "title": "Chapter 2: সমাজকর্ম পেশার ঐতিহাসিক প্রেক্ষাপট (Historical Context of Social Work Profession)",
+          "file": "SW-1st/sw-2.md"
+        },
+        {
+          "slug": "sw-3",
+          "title": "Chapter 3: পেশা ও বৃত্তি (Profession and Occupation)",
+          "file": "SW-1st/sw-3.md"
+        },
+        {
+          "slug": "sw-4",
+          "title": "Chapter 4: সমাজকর্ম সংশ্লিষ্ট প্রত্যয়সমূহ (Concepts Related to Social Work)",
+          "file": "SW-1st/sw-4.md"
+        },
+        {
+          "slug": "sw-5",
+          "title": "Chapter 5: সমাজকর্ম ও সামাজিক বিজ্ঞান (Social Work and Social Sciences)",
+          "file": "SW-1st/sw-5.md"
+        },
+        {
+          "slug": "sw-6",
+          "title": "Chapter 6: সমাজকর্ম পদ্ধতি (Social Work Methods)",
+          "file": "SW-1st/sw-6.md"
+        },
+        {
+          "slug": "sw-7",
+          "title": "Chapter 7: সামাজিক নীতি ও পরিকল্পনা এবং সমাজকর্ম (Social Policy, Planning and Social Work)",
+          "file": "SW-1st/sw-7.md"
+        },
+        {
+          "slug": "sw-8",
+          "title": "Chapter 8: সমাজকর্ম পেশার সমস্যা ও সম্ভাবনা (Problems and Prospects of Social Work Profession)",
+          "file": "SW-1st/sw-8.md"
+        }
+      ]
+    },
+    {
+      "code": "SW-2nd",
+      "shortCode": "SW",
+      "paper": 2,
+      "name": "সমাজকর্ম",
+      "streams": [
+        "ARTS"
+      ],
+      "chapterCount": 9,
+      "chapters": [
+        {
+          "slug": "sw-1",
+          "title": "Chapter 1: বাংলাদেশে মৌলিক মানবিক চাহিদা (Basic Human Needs in Bangladesh)",
+          "file": "SW-2nd/sw-1.md"
+        },
+        {
+          "slug": "sw-2",
+          "title": "Chapter 2: সমাজকর্মের শাখা (Branches of Social Work)",
+          "file": "SW-2nd/sw-2.md"
+        },
+        {
+          "slug": "sw-3",
+          "title": "Chapter 3: সামাজিক সমস্যা সমাধানে সমাজকর্মের অনুশীলন (Social Work Practice in Solving Social Problems)",
+          "file": "SW-2nd/sw-3.md"
+        },
+        {
+          "slug": "sw-4",
+          "title": "Chapter 4: সামাজিক প্রতিষ্ঠান (Social Institutions)",
+          "file": "SW-2nd/sw-4.md"
+        },
+        {
+          "slug": "sw-5",
+          "title": "Chapter 5: সামাজিক আইন ও সমাজকর্ম (Social Legislation and Social Work)",
+          "file": "SW-2nd/sw-5.md"
+        },
+        {
+          "slug": "sw-6",
+          "title": "Chapter 6: বাংলাদেশে সরকারি সমাজসেবা (Government Social Services in Bangladesh)",
+          "file": "SW-2nd/sw-6.md"
+        },
+        {
+          "slug": "sw-7",
+          "title": "Chapter 7: বাংলাদেশে বেসরকারি সমাজ উন্নয়ন কার্যক্রম (Non-government Social Development Activities in Bangladesh)",
+          "file": "SW-2nd/sw-7.md"
+        },
+        {
+          "slug": "sw-8",
+          "title": "Chapter 8: বাংলাদেশে আন্তর্জাতিক সংস্থার সমাজ উন্নয়ন কার্যক্রম (Social Development Activities of International Agencies in Bangladesh)",
+          "file": "SW-2nd/sw-8.md"
+        },
+        {
+          "slug": "sw-9",
+          "title": "Chapter 9: সমাজকর্ম শিক্ষায় মাঠকর্ম ও অনুশীলন (Field Work and Practice in Social Work Education)",
+          "file": "SW-2nd/sw-9.md"
+        }
+      ]
+    }
+  ]
+}

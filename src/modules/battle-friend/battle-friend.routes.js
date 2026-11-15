@@ -1,0 +1,10 @@
+import { Router } from "express";
+import { authenticateUser } from "../../middlewares/auth.middleware.js";
+import { FriendBattleController } from "./battle-friend.controller.js";
+export const friendBattleRouter = Router();
+friendBattleRouter.use(authenticateUser);
+friendBattleRouter.post("/", FriendBattleController.create);
+friendBattleRouter.post("/:requestId/accept", FriendBattleController.accept);
+friendBattleRouter.post("/:requestId/reject", FriendBattleController.reject);
+friendBattleRouter.post("/:requestId/cancel", FriendBattleController.cancel);
+friendBattleRouter.delete("/:requestId", FriendBattleController.cancel);

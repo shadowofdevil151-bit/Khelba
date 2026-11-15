@@ -1,0 +1,276 @@
+MATHEMATICS IMAGE LINK CHECKLIST
+Selected diagrams support concepts that are easier to learn visually. Paste each URL after "Link: -".
+Each image ID is marked in its matching chapter. References are from the existing notes; check page numbers against your textbook edition.
+
+============================================================
+MAT-1st
+============================================================
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১: ম্যাট্রিক্স ও নির্ণায়ক (Matrix & Determinant)
+ID: MAT-1st-C01-I01
+File: MAT-1st\mat-1.md
+Place near: 🔍 নির্ণায়ক বিস্তৃতি (Expansion of Determinant)
+Diagram: 3x3 Determinant expansion using Sarrus rule. Show the matrix elements crossed diagonally (top-left to bottom-right with '+' signs, and top-right to bottom-left with '-' signs) to calculate the value.
+Reference: Page 21-22
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717586/image_dd6d8452_1_hq8lxl.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ২: ভেক্টর (Vector)
+ID: MAT-1st-C02-I01
+File: MAT-1st\mat-2.md
+Place near: ১. যোগ (Addition)
+Diagram: A diagram showing Triangle Law of vector addition (A->B->C) and Parallelogram Law (O->A, O->B completing to C).
+Reference: Page 4
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717654/image_9a7a80cf_1_ksjgrp.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৩: সরলরেখা (Straight Line)
+ID: MAT-1st-C03-I01
+File: MAT-1st\mat-3.md
+Place near: 🔹 পোলার স্থানাংক (Polar Coordinates)
+Diagram: A diagram showing Cartesian and Polar coordinate systems together. Point P with coordinates (x,y) and (r,θ). Lines showing x = r cosθ, y = r sinθ.
+Reference: Page 2-4
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717705/image_6c4fc050_1_qkrhv6.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৩: সরলরেখা (Straight Line)
+ID: MAT-1st-C03-I02
+File: MAT-1st\mat-3.md
+Place near: 🔹 কোণ সমদ্বিখণ্ডক (Angle Bisector)
+Diagram: A diagram showing two intersecting lines and their angle bisectors, indicating the acute and obtuse angle regions.
+Reference: Page 61-63
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717752/image_e46156a9_1_tgsdrn.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৪: বৃত্ত (Circle)
+ID: MAT-1st-C04-I01
+File: MAT-1st\mat-4.md
+Place near: 🛠️ ২. বিশেষ শর্তাধীন বৃত্তের সমীকরণ (Special Circles)
+Diagram: A diagram showing a circle touching the x-axis, y-axis, and both axes, indicating the center coordinates and radius relation with g, f, and c.
+Reference: Page 3-4
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717790/image_ac6c7aa9_1_uplyet.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৪: বৃত্ত (Circle)
+ID: MAT-1st-C04-I02
+File: MAT-1st\mat-4.md
+Place near: 🔹 জ্যা ও স্পর্শ জ্যা (Chord & Chord of Contact)
+Diagram: A diagram showing a circle, an external point P, two tangents from P, the chord of contact connecting the two touch points, and the normal passing through the center.
+Reference: Page 17-20
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717828/image_ee70791d_1_kj5dyd.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৫: দ্বিপদী বিস্তৃতি ও বিন্যাস-সমাবেশ (Binomial Expansion, Permutation & Combination)
+ID: MAT-1st-C05-I01
+File: MAT-1st\mat-5.md
+Place near: 🔹 বৃত্তীয় বিন্যাস (Circular Permutation)
+Diagram: A diagram illustrating circular permutation showing a group of objects in a circle, and a garland showing clockwise/counter-clockwise identical arrangements.
+Reference: Page 276-280
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717877/image_8a76adfe_1_j8kez1.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৫: দ্বিপদী বিস্তৃতি ও বিন্যাস-সমাবেশ (Binomial Expansion, Permutation & Combination)
+ID: MAT-1st-C05-I02
+File: MAT-1st\mat-5.md
+Place near: 📦 ৪. বণ্টন ও গ্রুপিং (Distribution & Grouping) - Stars and Bars Method
+Diagram: A visual representation of the Stars and Bars method, showing "stars" (items) separated by "bars" (dividers) to illustrate partitioning.
+Reference: Page 272
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717916/image_ee6b63e4_1_puyzgi.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৬: ত্রিকোণমিতিক অনুপাত (Trigonometric Ratios)
+ID: MAT-1st-C06-I01
+File: MAT-1st\mat-6.md
+Place near: 🔹 জ্যামিতিক বনাম ত্রিকোণমিতিক কোণ
+Diagram: A diagram showing initial and terminal sides of an angle, illustrating positive (anti-clockwise) and negative (clockwise) rotations.
+Reference: Page 1
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793717967/image_670518b0_1_p3juwq.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৬: ত্রিকোণমিতিক অনুপাত (Trigonometric Ratios)
+ID: MAT-1st-C06-I02
+File: MAT-1st\mat-6.md
+Place near: 🔹 \(y = \tan x\) এর লেখচিত্র
+Diagram: Three separate graphs side-by-side for y = sin x (0 to 2π), y = cos x (0 to 2π), and y = tan x (-π/2 to π/2). Mark the intercepts, maximum/minimum points, and asymptotes for tan.
+Reference: Page 16-18
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718009/image_2bb6f14b_1_a9hhdf.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৭: সংযুক্ত কোণের ত্রিকোণমিতিক অনুপাত ও ত্রিভুজের ধর্ম (Compound Angles & Properties of Triangles)
+ID: MAT-1st-C07-I01
+File: MAT-1st\mat-7.md
+Place near: 🔺 ৪. ত্রিভুজের ধর্ম (Properties of Triangles)
+Diagram: A triangle ABC with sides labeled a, b, c opposite to angles A, B, C respectively. Also show the circumcircle with radius R.
+Reference: Page 36-37
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718047/image_88ead28c_1_mor8dq.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৮: ফাংশন ও ফাংশনের লেখচিত্র (Functions & Graphs)
+ID: MAT-1st-C08-I01
+File: MAT-1st\mat-8.md
+Place near: 🔹 গ্রাফের সাহায্যে বিপরীত ফাংশন
+Diagram: A graph showing a function \(y=f(x)\) and its inverse \(y=f^{-1}(x)\) reflected across the line \(y=x\). Show the symmetry.
+Reference: Page 19-20
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718092/image_c9c9e5ed_1_zpbz2x.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৮: ফাংশন ও ফাংশনের লেখচিত্র (Functions & Graphs)
+ID: MAT-1st-C08-I02
+File: MAT-1st\mat-8.md
+Place near: 🔹 স্থানান্তর (Translation)
+Diagram: A diagram showing \(y=f(x)\) and its translated versions \(y=f(x)+c\), \(y=f(x)-c\), \(y=f(x+c)\), \(y=f(x-c)\).
+Reference: Page 14
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718134/image_923fccf5_1_sbyzjp.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৮: ফাংশন ও ফাংশনের লেখচিত্র (Functions & Graphs)
+ID: MAT-1st-C08-I03
+File: MAT-1st\mat-8.md
+Place near: 📊 ৬. মৌলিক ত্রিকোণমিতিক ফাংশনের লেখচিত্র (Basic Trig Graphs)
+Diagram: Graphs of \(y=\sin x\), \(y=\cos x\), \(y=\tan x\), \(y=\cot x\), \(y=\sec x\), \(y=\csc x\) in standard coordinate planes.
+Reference: Page 12
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718184/image_78585a09_1_pzbq1m.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৯: অন্তরীকরণ (Differentiation)
+ID: MAT-1st-C09-I01
+File: MAT-1st\mat-9.md
+Place near: 🔹 জ্যামিতিক প্রয়োগ (Geometrical Application)
+Diagram: A curve showing tangent and normal at a point (x1, y1). Tangent angle \(\theta\) with x-axis.
+Reference: Page 46
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718221/image_f450f425_1_w39hjy.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ৯: অন্তরীকরণ (Differentiation)
+ID: MAT-1st-C09-I02
+File: MAT-1st\mat-9.md
+Place near: 🔹 ক্রমবর্ধমান ও ক্রমহ্রাসমান ফাংশন (Increasing & Decreasing Function)
+Diagram: Graph showing increasing function (positive slope) and decreasing function (negative slope).
+Reference: Page 51
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718286/image_9b0d6247_1_itpjkq.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১০: যোগজীকরণ (Integration)
+ID: MAT-1st-C10-I01
+File: MAT-1st\mat-10.md
+Place near: 🔹 ৩. কিছু বিশেষ স্ট্যান্ডার্ড যোগজ (Special Standard Integrals)
+Diagram: A right-angled triangle illustrating trigonometric substitution for \(\sqrt{a^2 - x^2}\) with angle \(\theta\), side \(a\) and \(x\).
+Reference: Page 8-9
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718331/image_e743aea1_1_i63xhl.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১০: যোগজীকরণ (Integration)
+ID: MAT-1st-C10-I02
+File: MAT-1st\mat-10.md
+Place near: 📐 ৪. যোগজের জ্যামিতিক প্রয়োগ: ক্ষেত্রফল নির্ণয়
+Diagram: A curve \(y=f(x)\) above the x-axis, with vertical lines \(x=a\) and \(x=b\). The area under the curve is shaded.
+Reference: Page 36
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718407/image_93be4802_1_1_jfxylk.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ১ম পত্র - অধ্যায় ১০: যোগজীকরণ (Integration)
+ID: MAT-1st-C10-I03
+File: MAT-1st\mat-10.md
+Place near: 📊 ৫. সাংখ্যিক সমাকলন: ট্রাপিজয়ডাল সূত্র (Trapezoidal Rule)
+Diagram: A curve approximated by trapeziums, showing x-coordinates \(x_0, x_1, ... x_n\) and corresponding y-coordinates.
+Reference: Page 60
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718454/image_d1a347d_1_p47pm2.jpg
+============================================================
+MAT-2nd
+============================================================
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (Real Numbers & Inequalities)
+ID: MAT-2nd-C01-I01
+File: MAT-2nd\mat-1.md
+Place near: 🔹 সংখ্যার শ্রেণীবিভাগ (Classification of Numbers)
+Diagram: A Venn diagram showing the hierarchy of number sets: Natural (N) inside Integer (Z) inside Rational (Q) inside Real (R), with Irrational (Q') alongside Q.
+Reference: Page 12-13
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718775/image_67a679ab_1_pyzvge.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (Real Numbers & Inequalities)
+ID: MAT-2nd-C01-I02
+File: MAT-2nd\mat-1.md
+Place near: 🔹 ব্যবধি (Intervals)
+Diagram: Number line showing different intervals like (a,b), [a,b], [a,b), (a,∞), (-∞,b] with open and closed circles.
+Reference: Page 17
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718808/image_f309a12f_1_mapqqr.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (Real Numbers & Inequalities)
+ID: MAT-2nd-C01-I03
+File: MAT-2nd\mat-1.md
+Place near: 🔹 এক চলকবিশিষ্ট দ্বিঘাত অসমতা (Quadratic Inequalities)
+Diagram: A number line showing critical points and the '+' or '-' signs in different intervals to solve a quadratic inequality.
+Reference: Page 24
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793718852/image_723decbc_1_uzji9q.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ১: বাস্তব সংখ্যা ও অসমতা (Real Numbers & Inequalities)
+ID: MAT-2nd-C01-I04
+File: MAT-2nd\mat-1.md
+Place near: 🔹 দুই চলকবিশিষ্ট অসমতার লেখচিত্র (Graphical Inequalities)
+Diagram: A graph showing the solution region for a system of two-variable inequalities, e.g., x+y <= 6 and x+2y <= 10, with shaded overlapping area.
+Reference: Page 27
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719388/image_f3309246_1_bf7zbt.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ২: যোগাশ্রয়ী প্রোগ্রাম (Linear Programming)
+ID: MAT-2nd-C02-I01
+File: MAT-2nd\mat-2.md
+Place near: 📈 ৩. লেখচিত্রের সাহায্যে সমাধানের পদ্ধতি (Graphical Method)
+Diagram: A graph showing the feasible region bounded by linear inequalities \(x+y \le 6\), \(x+2y \le 10\), \(x \ge 0\), \(y \ge 0\). Highlight the corner points like \((0,5)\), \((2,4)\), \((6,0)\), \((0,0)\).
+Reference: Page 4, 27
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719015/image_29a5a499_nvbuvr.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৩: জটিল সংখ্যা (Complex Numbers)
+ID: MAT-2nd-C03-I01
+File: MAT-2nd\mat-3.md
+Place near: 📐 ৩. মডুলাস ও আর্গুমেন্ট (Modulus & Argument)
+Diagram: An Argand diagram showing point P(x,y) representing \(z=x+iy\). A line from origin to P with length \(r\) and angle \(\theta\) with x-axis. Show the projections \(x\) and \(y\).
+Reference: Page 3
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719092/image_5eeb645c_1_dzceuf.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৩: জটিল সংখ্যা (Complex Numbers)
+ID: MAT-2nd-C03-I02
+File: MAT-2nd\mat-3.md
+Place near: 🧊 ৫. এককের ঘনমূল (Cube Roots of Unity) - সবচেয়ে গুরুত্বপূর্ণ!
+Diagram: An Argand diagram showing the three cube roots of unity placed at the vertices of an equilateral triangle inscribed in a unit circle. One at (1,0), others at \(120^\circ\) and \(240^\circ\).
+Reference: Page 7-8
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719471/image_8c5c2dab_1_py8o7q.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৪: বহুপদী ও বহুপদী সমীকরণ (Polynomials & Polynomial Equations)
+ID: MAT-2nd-C04-I01
+File: MAT-2nd\mat-4.md
+Place near: 🔄 ৪. মূলের প্রকৃতি (Nature of Roots) - নিশ্চায়ক (Discriminant)
+Diagram: Three graphs of parabolas showing (1) intersecting x-axis at two points for \(\Delta>0\), (2) touching x-axis at one point for \(\Delta=0\), and (3) not intersecting x-axis for \(\Delta<0\).
+Reference: Page 4
+Link: -
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৬: কনিক (Conics)
+ID: MAT-2nd-C06-I01
+File: MAT-2nd\mat-6.md
+Place near: 🛤️ ৩. কোণকের ছেদ থেকে কনিক উৎপাদন (Conic Sections from a Cone)
+Diagram: A diagram showing a double right circular cone being intersected by different planes to form a circle, ellipse, parabola, and hyperbola.
+Reference: Page 6-7
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719549/image_16a43f60_1_diwymu.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৭: বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ (Inverse Trigonometric Functions & Trigonometric Equations)
+ID: MAT-2nd-C07-I01
+File: MAT-2nd\mat-7.md
+Place near: 🔹 ডোমেইন ও রেঞ্জ (Domain & Range)
+Diagram: Graphs of \(\sin^{-1}x\), \(\cos^{-1}x\), and \(\tan^{-1}x\) showing their domains and ranges.
+Reference: Page 2-4
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719610/image_97d8abce_1_fxs3cx.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৮: স্থিতিবিদ্যা (Statics)
+ID: MAT-2nd-C08-I01
+File: MAT-2nd\mat-8.md
+Place near: 🔹 বলের সামান্তরিক সূত্র (Parallelogram Law of Forces)
+Diagram: A parallelogram OACB showing two forces \(P\) and \(Q\) acting at an angle \(\alpha\) at origin O. The diagonal OC represents the resultant \(R\) making an angle \(\theta\) with \(P\).
+Reference: Page 3-4
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719652/image_e886b56_1_y4sfyd.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৮: স্থিতিবিদ্যা (Statics)
+ID: MAT-2nd-C08-I02
+File: MAT-2nd\mat-8.md
+Place near: 🔺 লামির সূত্র (Lami's Theorem)
+Diagram: Three forces P, Q, R acting at a point O in equilibrium. The angles opposite to P, Q, and R are marked as \(\alpha, \beta, \gamma\) respectively.
+Reference: Page 24
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719707/image_12776e65_1_lki7ft.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৯: সমতলে বস্তুকণার গতি (Motion of Particles in a Plane)
+ID: MAT-2nd-C09-I01
+File: MAT-2nd\mat-9.md
+Place near: 📈 লেখচিত্র (Graphs)
+Diagram: Two graphs. 1. Distance-time graph showing a straight line (uniform velocity) and a curve (variable velocity). 2. Velocity-time graph showing a straight line (uniform acceleration) with shaded area under the curve.
+Reference: Page 19-20
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719751/image_6edd9c26_1_sntjjz.jpg
+
+Chapter: 📚 HSC উচ্চতর গণিত ২য় পত্র - অধ্যায় ৯: সমতলে বস্তুকণার গতি (Motion of Particles in a Plane)
+ID: MAT-2nd-C09-I02
+File: MAT-2nd\mat-9.md
+Place near: 🏹 ৫. প্রক্ষেপক (Projectile)
+Diagram: A parabolic trajectory of a projectile showing initial velocity \(u\) at angle \(\alpha\), maximum height \(H\), horizontal range \(R\), and the coordinates \((x,y)\) at any time \(t\).
+Reference: Page 37-39
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793719800/image_6f6fa89d_1_llfd42.jpg
+
+Total selected diagrams: 33

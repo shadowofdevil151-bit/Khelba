@@ -1,0 +1,685 @@
+BIOLOGY IMAGE LINK PLACEHOLDERS
+Paste each image URL after "Link: -". Keep the image IDs unchanged; the matching invisible marker is already placed in the chapter file.
+Image references are taken from the notes where available; verify textbook page numbers against your own edition.
+Total images to link: 75
+
+============================================================
+BLG-1st
+============================================================
+
+Chapter ১: কোষ ও এর গঠন
+ID: BLG-1st-C01-I01
+File: BLG-1st\blg-1.md
+Place at marker: <!-- BLG-1st-C01-I01 --> (after section: কোষঝিল্লি ও কোষপ্রাচীর (Plasma Membrane & Cell Wall) > কোষঝিল্লির মডেল (Membrane Models):)
+Image needed: A detailed diagram of the Fluid Mosaic Model of the plasma membrane showing the phospholipid bilayer, integral proteins, peripheral proteins, glycoproteins, glycolipids, and cholesterol.
+Reference: Page 19 in the provided images
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537353/image_11881b2a_1_1_hguhwj.jpg
+
+Chapter ১: কোষ ও এর গঠন
+ID: BLG-1st-C01-I02
+File: BLG-1st\blg-1.md
+Place at marker: <!-- BLG-1st-C01-I02 --> (after section: সাইটোপ্লাজম ও কোষীয় অঙ্গাণু (Cytoplasm & Cell Organelles) > মাইটোকন্ড্রিয়া (Mitochondria) - পাওয়ার হাউজ)
+Image needed: Cross-section of a Mitochondrion showing outer membrane, inner membrane (cristae), matrix, and F0-F1 particles (oxysomes).
+Reference: Page 27-28
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537431/image_81e76f4b_1_bmdrq2.jpg
+
+Chapter ১: কোষ ও এর গঠন
+ID: BLG-1st-C01-I03
+File: BLG-1st\blg-1.md
+Place at marker: <!-- BLG-1st-C01-I03 --> (after section: ক্রোমোজোম (Chromosome) > সেন্ট্রোমিয়ারের অবস্থানের ভিত্তিতে ক্রোমোজোমের প্রকার (Types):)
+Image needed: Diagram showing the four types of chromosomes based on centromere position (Metacentric, Submetacentric, Acrocentric, Telocentric).
+Reference: Page 86
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537504/image_3fd99757_1_ygqgg2.jpg
+
+Chapter ১: কোষ ও এর গঠন
+ID: BLG-1st-C01-I04
+File: BLG-1st\blg-1.md
+Place at marker: <!-- BLG-1st-C01-I04 --> (after section: DNA রেপ্লিকেশন (DNA Replication) > রেপ্লিকেশন প্রক্রিয়া (Flowchart):)
+Image needed: Diagram of DNA Replication Fork showing leading strand, lagging strand, Okazaki fragments, helicase, primase, and DNA polymerase.
+Reference: Page 58
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537574/image_1c22cf80_1_pjlnn9.jpg
+
+CHAPTER ১: কোষ ও এর গঠন
+Images listed: 4
+
+Chapter ২: কোষ বিভাজন
+ID: BLG-1st-C02-I01
+File: BLG-1st\blg-2.md
+Place at marker: <!-- BLG-1st-C02-I01 --> (after section: কোষচক্র (Cell Cycle) > ইন্টারফেজের ৩টি উপ-দশা (Sub-phases of Interphase):)
+Image needed: Diagram of the Cell Cycle showing Interphase (G1, S, G2) and M-phase (Karyokinesis and Cytokinesis) with their percentage of time.
+Reference: Page 78
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537650/image_540dccb5_1_sewafg.jpg
+
+Chapter ২: কোষ বিভাজন
+ID: BLG-1st-C02-I02
+File: BLG-1st\blg-2.md
+Place at marker: <!-- BLG-1st-C02-I02 --> (after section: মাইটোসিসের ধাপসমূহ (Phases of Mitosis) > ধাপসমূহের বৈশিষ্ট্য:)
+Image needed: Detailed illustration of animal cell mitosis showing Prophase, Metaphase, Anaphase, and Telophase.
+Reference: Page 88-89
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537723/image_5e519da2_1_gxfm1a.jpg
+
+Chapter ২: কোষ বিভাজন
+ID: BLG-1st-C02-I03
+File: BLG-1st\blg-2.md
+Place at marker: <!-- BLG-1st-C02-I03 --> (after section: মিয়োসিস-১ (Meiosis-I) > উপ-ধাপসমূহের বৈশিষ্ট্য:)
+Image needed: Five sub-stages of Prophase-I (Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis) showing homologous chromosomes, chiasmata, and crossing over.
+Reference: Page 86-88
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537810/image_48be5b61_1_asfhty.jpg
+
+CHAPTER ২: কোষ বিভাজন
+Images listed: 3
+
+Chapter ৩: কোষ রসায়ন
+ID: BLG-1st-C03-I01
+File: BLG-1st\blg-3.md
+Place at marker: <!-- BLG-1st-C03-I01 --> (after section: প্রোটিন বা আমিষ (Proteins) > গঠন (Structure):)
+Image needed: Formation of a Peptide bond between two amino acids (e.g., Glycine and Alanine) showing the loss of a water molecule.
+Reference: Page 112
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537910/image_e452de0c_1_junuis.jpg
+
+Chapter ৩: কোষ রসায়ন
+ID: BLG-1st-C03-I02
+File: BLG-1st\blg-3.md
+Place at marker: <!-- BLG-1st-C03-I02 --> (after section: এনজাইম বা উৎসেচক (Enzymes) > এনজাইম কার্যকরণের মডেল (Models of Enzyme Action):)
+Image needed: Diagram illustrating the Lock and Key model vs Induced Fit model of enzyme action.
+Reference: Page 126-127
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793537972/image_688b1273_1_xra0al.jpg
+
+CHAPTER ৩: কোষ রসায়ন
+Images listed: 2
+
+Chapter ৪: অণুজীব
+ID: BLG-1st-C04-I01
+File: BLG-1st\blg-4.md
+Place at marker: <!-- BLG-1st-C04-I01 --> (after section: ভাইরাস (Virus) > ভাইরাসের শ্রেণীবিন্যাস (Classification Flowchart):)
+Image needed: Diagram showing different shapes of viruses (Tadpole, Spherical, Rod-shaped). Reference: Page 137
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793553589/image_c6c62096_1_gu0pdt.jpg
+
+Chapter ৪: অণুজীব
+ID: BLG-1st-C04-I02
+File: BLG-1st\blg-4.md
+Place at marker: <!-- BLG-1st-C04-I02 --> (after section: ব্যাকটেরিওফায (Bacteriophage - T2 Phage) > T2 ফাযের গঠন (Structure):)
+Image needed: Detailed structure of T2 Bacteriophage showing Head, DNA, Collar, Tail, Base plate, and Tail fibers. Reference: Page 141
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538061/image_26641c2d_1_xhojoz.jpg
+
+Chapter ৪: অণুজীব
+ID: BLG-1st-C04-I03
+File: BLG-1st\blg-4.md
+Place at marker: <!-- BLG-1st-C04-I03 --> (after section: ব্যাকটেরিয়া (Bacteria) > ব্যাকটেরিয়ার গঠন (Structure):)
+Image needed: Structure of a typical Bacterium showing Capsule, Cell wall, Plasma membrane, Nucleoid, Plasmid, Ribosome, Flagella, and Pili. Reference: Page 158
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538156/image_14f9ad31_1_mizxue.jpg
+
+Chapter ৪: অণুজীব
+ID: BLG-1st-C04-I04
+File: BLG-1st\blg-4.md
+Place at marker: <!-- BLG-1st-C04-I04 --> (after section: ম্যালেরিয়ার পরজীবী (Malarial Parasite - Plasmodium) > মশার দেহে (যৌন চক্র):)
+Image needed: Complete life cycle of Plasmodium showing Human host (Liver and RBC stages) and Mosquito host (Gut stages). Reference: Page 170
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538230/image_48cf9b6c_1_wvnu5b.jpg
+
+CHAPTER ৪: অণুজীব
+Images listed: 4
+
+Chapter ৫: শৈবাল ও ছত্রাক
+ID: BLG-1st-C05-I01
+File: BLG-1st\blg-5.md
+Place at marker: <!-- BLG-1st-C05-I01 --> (after section: Genus: Ulothrix (ইউলোথ্রিক্স) > জনন (Reproduction):)
+Image needed: Diagram of Ulothrix showing filament, Holdfast, Girdle-shaped chloroplast, and zoospores.
+Reference: Page 191-192
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538300/image_65c201ae_1_fukjpd.jpg
+
+Chapter ৫: শৈবাল ও ছত্রাক
+ID: BLG-1st-C05-I02
+File: BLG-1st\blg-5.md
+Place at marker: <!-- BLG-1st-C05-I02 --> (after section: Genus: Agaricus (ব্যাঙের ছাতা / Mushroom) > গঠন (Structure):)
+Image needed: Diagram of Agaricus showing Mycelium, Stipe, Pilieus, and a cross-section showing Gills.
+Reference: Page 202-203
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538390/image_7610bb99_1_wspcyg.jpg
+
+Chapter ৫: শৈবাল ও ছত্রাক
+ID: BLG-1st-C05-I03
+File: BLG-1st\blg-5.md
+Place at marker: <!-- BLG-1st-C05-I03 --> (after section: লাইকেন (Lichen) - শৈবাল ও ছত্রাকের মিথোজীবিতা > লাইকেনের প্রকারভেদ (Types of Lichen by morphology):)
+Image needed: Three types of Lichen (Crustose, Foliose, Fruticose) and a cross-section showing Upper cortex, Algal layer, Medulla, Lower cortex.
+Reference: Page 209-210
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538586/image_e6b28259_1_s7htw9.jpg
+
+CHAPTER ৫: শৈবাল ও ছত্রাক
+Images listed: 3
+
+Chapter ৬: ব্রায়োফাইটা ও টেরিডোফাইটা
+ID: BLG-1st-C06-I01
+File: BLG-1st\blg-6.md
+Place at marker: <!-- BLG-1st-C06-I01 --> (after section: Genus: Riccia (রিক্সিয়া) > অভ্যন্তরীণ গঠন (Internal Structure):)
+Image needed: Internal structure (T.S.) of Riccia thallus showing Photosynthetic zone with air chambers/pores and Storage zone.
+Reference: Page 218
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538660/image_a1147a9f_1_yrmbi9.jpg
+
+Chapter ৬: ব্রায়োফাইটা ও টেরিডোফাইটা
+ID: BLG-1st-C06-I02
+File: BLG-1st\blg-6.md
+Place at marker: <!-- BLG-1st-C06-I02 --> (after section: Genus: Pteris (টেরিস) > বাহ্যিক গঠন (External Structure):)
+Image needed: External structure of Pteris sporophyte showing Rhizome, Frond, Pinna, Rachis, and Circinate vernation of young leaves.
+Reference: Page 220
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538767/image_65a28abe_1_josruz.jpg
+
+Chapter ৬: ব্রায়োফাইটা ও টেরিডোফাইটা
+ID: BLG-1st-C06-I03
+File: BLG-1st\blg-6.md
+Place at marker: <!-- BLG-1st-C06-I03 --> (after section: জীবনচক্র ও জনুক্রম (Life Cycle & Alternation of Generations) > Pteris-এর জীবনচক্র (Flowchart):)
+Image needed: Complete Life Cycle of Pteris showing Sporophyte, Prothallus, Antheridium, Archegonium, Fertilization, and Alternation of Generations.
+Reference: Page 224 or 225
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538828/image_ffd91d5_1_xa5sak.jpg
+
+CHAPTER ৬: ব্রায়োফাইটা ও টেরিডোফাইটা
+Images listed: 3
+
+Chapter ৭: নগ্নবীজী ও আবৃতবীজী
+ID: BLG-1st-C07-I01
+File: BLG-1st\blg-7.md
+Place at marker: <!-- BLG-1st-C07-I01 --> (after section: নগ্নবীজী উদ্ভিদ (Gymnosperms) > Cycas (সাইকাস) এর পরিচিতি:)
+Image needed: Diagram showing the structure of Cycas plant (showing coralloid roots) and Microsporophyll/Megasporophyll.
+Reference: Page 230-231
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538936/image_42fcbab6_1_drlijl.jpg
+
+Chapter ৭: নগ্নবীজী ও আবৃতবীজী
+ID: BLG-1st-C07-I02
+File: BLG-1st\blg-7.md
+Place at marker: <!-- BLG-1st-C07-I02 --> (after section: গোত্র: Poaceae (একবীজপত্রী) > শনাক্তকারী বৈশিষ্ট্য (Identifying Characters):)
+Image needed: Diagram of a Poaceae flower showing spikelet (Glume, Lemma, Palea) and Floral diagram of Oryza sativa.
+Reference: Page 280
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793538992/image_a2eb7e96_1_e0cn5t.jpg
+
+Chapter ৭: নগ্নবীজী ও আবৃতবীজী
+ID: BLG-1st-C07-I03
+File: BLG-1st\blg-7.md
+Place at marker: <!-- BLG-1st-C07-I03 --> (after section: গোত্র: Malvaceae (দ্বিবীজপত্রী) > শনাক্তকারী বৈশিষ্ট্য (Identifying Characters):)
+Image needed: Diagram of Malvaceae flower (Hibiscus rosa-sinensis) showing Epicalyx, Twisted corolla, Monothecous stamen, and Floral diagram.
+Reference: Page 286
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793539055/image_8a2b2e4b_1_iborwb.jpg
+
+CHAPTER ৭: নগ্নবীজী ও আবৃতবীজী
+Images listed: 3
+
+Chapter ৮: টিস্যু ও টিস্যুতন্ত্র
+ID: BLG-1st-C08-I01
+File: BLG-1st\blg-8.md
+Place at marker: <!-- BLG-1st-C08-I01 --> (after section: টিস্যুতন্ত্র (Tissue System) > পত্ররন্ধ্র বনাম পানি-পত্ররন্ধ্র/হাইডাথোড (Stomata vs Hydathode):)
+Image needed: Diagram showing structure of a stoma with guard cells, subsidiary cells, and stomatal pore.
+Reference: Page 274
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793539134/image_b021d2b1_1_dbwbbi.jpg
+
+Chapter ৮: টিস্যু ও টিস্যুতন্ত্র
+ID: BLG-1st-C08-I02
+File: BLG-1st\blg-8.md
+Place at marker: <!-- BLG-1st-C08-I02 --> (after section: একবীজপত্রী ও দ্বিবীজপত্রী উদ্ভিদের মূল ও কাণ্ডের পার্থক্য > একবীজপত্রী কাণ্ড বনাম দ্বিবীজপত্রী কাণ্ড (Monocot Stem vs Dicot Stem):)
+Image needed: T.S. of Monocot Stem showing scattered vascular bundles and T.S. of Dicot Stem showing ring arrangement of vascular bundles.
+Reference: Page 266 and 280
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793539301/511268909_1108991131251996_8706722430629682131_n_1_ecpwcw.jpg
+
+CHAPTER ৮: টিস্যু ও টিস্যুতন্ত্র
+Images listed: 2
+
+Chapter ৯: উদ্ভিদ শারীরতত্ত্ব
+ID: BLG-1st-C09-I01
+File: BLG-1st\blg-9.md
+Place at marker: <!-- BLG-1st-C09-I01 --> (after section: প্রস্বেদন (Transpiration) > পত্ররন্ধ্র খোলা ও বন্ধ হওয়ার কৌশল (K+ আয়ন মতবাদ):)
+Image needed: Diagram of open and closed stomata showing guard cells and chloroplast.
+Reference: Page 281
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540000/image_909a56dd_1_fpo0mx.jpg
+
+Chapter ৯: উদ্ভিদ শারীরতত্ত্ব
+ID: BLG-1st-C09-I02
+File: BLG-1st\blg-9.md
+Place at marker: <!-- BLG-1st-C09-I02 --> (after section: সালোকসংশ্লেষণ (Photosynthesis) > C3 ও C4 উদ্ভিদের পার্থক্য:)
+Image needed: Clear two-part diagram of photosynthesis showing the light-dependent reactions in the thylakoid membrane and the Calvin cycle in the stroma, including the main inputs and outputs.
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540079/image_84bf7411_1_kozt4r.jpg
+
+Chapter ৯: উদ্ভিদ শারীরতত্ত্ব
+ID: BLG-1st-C09-I03
+File: BLG-1st\blg-9.md
+Place at marker: <!-- BLG-1st-C09-I03 --> (after section: শ্বসন (Respiration) > ধাপসমূহ (Flowchart):)
+Image needed: Overview diagram of aerobic respiration showing glycolysis, pyruvate oxidation, the Krebs cycle, and the electron transport chain, with locations and ATP yield.
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540111/image_aa556b12_1_rpmx4q.jpg
+
+CHAPTER ৯: উদ্ভিদ শারীরতত্ত্ব
+Images listed: 3
+
+Chapter ১০: উদ্ভিদের প্রজনন
+ID: BLG-1st-C10-I01
+File: BLG-1st\blg-10.md
+Place at marker: <!-- BLG-1st-C10-I01 --> (after section: কৃত্রিম প্রজনন ও সংকরায়ন (Artificial Reproduction & Hybridization) > ধাপসমূহ (Steps):)
+Image needed: Diagram showing Emasculation and Bagging process.
+Reference: Page 348
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540197/image_725cd300_1_bfvqnb.jpg
+
+Chapter ১০: উদ্ভিদের প্রজনন
+ID: BLG-1st-C10-I02
+File: BLG-1st\blg-10.md
+Place at marker: <!-- BLG-1st-C10-I02 --> (after section: আউটবিজ্ঞী উদ্ভিদে যৌন প্রজনন (Sexual Reproduction in Angiosperms) > পরাগ রেণুর গঠন:)
+Image needed: Structure of Anther (T.S) and Pollen grain.
+Reference: Page 336-337
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540261/TS-of-Anther_qh9k0y.png
+
+Chapter ১০: উদ্ভিদের প্রজনন
+ID: BLG-1st-C10-I03
+File: BLG-1st\blg-10.md
+Place at marker: <!-- BLG-1st-C10-I03 --> (after section: আউটবিজ্ঞী উদ্ভিদে যৌন প্রজনন (Sexual Reproduction in Angiosperms) > ডিম্বকের (Ovule) গঠন:)
+Image needed: Structure of a mature Ovule and 8-nucleated Embryo Sac.
+Reference: Page 338-339
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540404/d82bab92-fb7f-4ed7-be5d-540b947df7bc8224456490461284613_1_1_axdb2f.png
+
+Chapter ১০: উদ্ভিদের প্রজনন
+ID: BLG-1st-C10-I04
+File: BLG-1st\blg-10.md
+Place at marker: <!-- BLG-1st-C10-I04 --> (after section: নিবেষ ও দ্বি-নিবেষ (Fertilization & Double Fertilization) > দ্বি-নিবেষ প্রক্রিয়া (Flowchart):)
+Image needed: Diagram showing Double Fertilization in Angiosperms.
+Reference: Page 340
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540462/Penetration-of-Embryo-Sac_miwdrv.png
+
+CHAPTER ১০: উদ্ভিদের প্রজনন
+Images listed: 4
+
+Chapter ১১: জীবপ্রযুক্তি
+ID: BLG-1st-C11-I01
+File: BLG-1st\blg-11.md
+Place at marker: <!-- BLG-1st-C11-I01 --> (after section: টিস্যু কালচার (Tissue Culture) > টিস্যু কালচারের ধাপসমূহ (Flowchart):)
+Image needed: Diagram showing the steps of Tissue Culture (Explant ➡️ Callus ➡️ Plantlet).
+Reference: Page 355-356
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540597/image_5b09e336_1_hvx97w.jpg
+
+Chapter ১১: জীবপ্রযুক্তি
+ID: BLG-1st-C11-I02
+File: BLG-1st\blg-11.md
+Place at marker: <!-- BLG-1st-C11-I02 --> (after section: রিকম্বিন্যান্ট DNA প্রযুক্তি (Recombinant DNA Technology) > rDNA প্রযুক্তির ধাপসমূহ (Flowchart):)
+Image needed: Diagram of Recombinant DNA Technology showing Target DNA, Plasmid, Restriction Enzyme, Ligase, and Recombinant Plasmid.
+Reference: Page 360
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540659/image_14e936f5_1_svxk1s.jpg
+
+Chapter ১১: জীবপ্রযুক্তি
+ID: BLG-1st-C11-I03
+File: BLG-1st\blg-11.md
+Place at marker: <!-- BLG-1st-C11-I03 --> (after section: জীবপ্রযুক্তির প্রয়োগ ও সম্ভাবনা (Applications of Biotechnology) > চিকিৎসা ও ঔষধ শিল্প (Medical & Pharmaceutical))
+Image needed: Diagram showing the production of Human Insulin using Recombinant DNA Technology in E. coli.
+Reference: Page 371
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540784/image_9c087966_1_o4hcxn.jpg
+
+CHAPTER ১১: জীবপ্রযুক্তি
+Images listed: 3
+
+Chapter ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ
+ID: BLG-1st-C12-I01
+File: BLG-1st\blg-12.md
+Place at marker: <!-- BLG-1st-C12-I01 --> (after section: খাদ্যশৃঙ্খল, খাদ্যজাল ও পিরামিড (Food Chain, Web & Pyramids) > ইকোলজিক্যাল পিরামিড (Ecological Pyramids):)
+Image needed: Diagram showing an inverted Pyramid of Biomass in an aquatic ecosystem.
+Reference: Page 387
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793540889/image_da8be748_1_wo8wnc.jpg
+
+Chapter ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ
+ID: BLG-1st-C12-I02
+File: BLG-1st\blg-12.md
+Place at marker: <!-- BLG-1st-C12-I02 --> (after section: জীবের অভিযোজন (Adaptations of Organisms) > প্রাণীর অভিযোজন:)
+Image needed: Diagram of Mangrove adaptations (Pneumatophores and Vivipary).
+Reference: Page 395
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793541026/image_366d4823_1_lx81kx.jpg
+
+Chapter ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ
+ID: BLG-1st-C12-I03
+File: BLG-1st\blg-12.md
+Place at marker: <!-- BLG-1st-C12-I03 --> (after section: বাংলাদেশের বনাঞ্চল (Forests of Bangladesh) > গুরুত্বপূর্ণ বনাঞ্চল:)
+Image needed: Map of Bangladesh showing Forest areas (Sundarbans, Ratargul, Shalbon).
+Reference: Page 406
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793541142/image_28dddb4_1_fd37co.jpg
+
+CHAPTER ১২: জীবের পরিবেশ, বিস্তার ও সংরক্ষণ
+Images listed: 3
+
+============================================================
+BLG-2nd
+============================================================
+
+Chapter ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস
+ID: BLG-2nd-C01-I01
+File: BLG-2nd\blg-1.md
+Place at marker: <!-- BLG-2nd-C01-I01 --> (after section: শ্রেণিবিন্যাসের ভিত্তি (Basis of Animal Classification) > প্রতিসাম্য (Symmetry):)
+Image needed: Diagram showing Radial, Bilateral, and Asymmetrical symmetry.
+Reference: Page 05
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545027/image_a7d818a4_1_kyugzo.jpg
+
+Chapter ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস
+ID: BLG-2nd-C01-I02
+File: BLG-2nd\blg-1.md
+Place at marker: <!-- BLG-2nd-C01-I02 --> (after section: শ্রেণিবিন্যাসের ভিত্তি (Basis of Animal Classification) > সিলোমের ভিত্তিতে শ্রেণীবিভাগ:)
+Image needed: Diagram showing Acoelomate, Pseudocoelomate, and Eucoelomate cross-sections.
+Reference: Page 07
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545072/image_f409a14d_1_kneevo.jpg
+
+Chapter ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস
+ID: BLG-2nd-C01-I03
+File: BLG-2nd\blg-1.md
+Place at marker: <!-- BLG-2nd-C01-I03 --> (after section: Chordata পর্বের শ্রেণিবিন্যাস (Classification of Chordata) > উপপর্ব ও শ্রেণি (Subphyla & Classes):)
+Image needed: Diagrams of representative animals from major phyla (e.g., Sponge, Hydra, Tapeworm, Earthworm, Cockroach, Starfish, Shark, Frog, Bird, Mammal).
+Reference: Pages 12-30
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545152/image_a1a61a2d_1_q1eq5h.jpg
+
+CHAPTER ১: প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস
+Images listed: 3
+
+Chapter ২: প্রাণীর পরিচিতি
+ID: BLG-2nd-C02-I01
+File: BLG-2nd\blg-2.md
+Place at marker: <!-- BLG-2nd-C02-I01 --> (after section: হাইড্রা (Hydra) - Hydra vulgaris)
+Image needed: Diagram of Hydra showing Hypostome, Tentacles, Bud, and Pedal disc.
+Reference: Page 89
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545203/image_5d12403e_1_ql7cyc.jpg
+
+Chapter ২: প্রাণীর পরিচিতি
+ID: BLG-2nd-C02-I02
+File: BLG-2nd\blg-2.md
+Place at marker: <!-- BLG-2nd-C02-I02 --> (after section: হাইড্রা (Hydra) - Hydra vulgaris > নেমাটোসিস্টের নিঃসরণ কৌশল (Discharge Mechanism of Nematocyst):)
+Image needed: Diagram showing the structure of a Cnidocyte/Nematocyst and its discharge mechanism.
+Reference: Page 53
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545323/image_5cbce574_1_cbw0tg.jpg
+
+Chapter ২: প্রাণীর পরিচিতি
+ID: BLG-2nd-C02-I03
+File: BLG-2nd\blg-2.md
+Place at marker: <!-- BLG-2nd-C02-I03 --> (after section: ঘাসফড়িং (Grasshopper) - Poekilocerus pictus)
+Image needed: Diagram of Grasshopper mouthparts (Labrum, Mandible, Maxilla, Labium, Hypopharynx).
+Reference: Page 67
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545422/image_d58983d1_1_u75hat.jpg
+
+Chapter ২: প্রাণীর পরিচিতি
+ID: BLG-2nd-C02-I04
+File: BLG-2nd\blg-2.md
+Place at marker: <!-- BLG-2nd-C02-I04 --> (after section: ঘাসফড়িং (Grasshopper) - Poekilocerus pictus > খাদ্য পরিপাকের পথ (Flowchart):)
+Image needed: Structure of an Ommatidium in a Compound eye.
+Reference: Page 82
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545544/image_20f2bc7e_1_t4dbd2.jpg
+
+Chapter ২: প্রাণীর পরিচিতি
+ID: BLG-2nd-C02-I05
+File: BLG-2nd\blg-2.md
+Place at marker: <!-- BLG-2nd-C02-I05 --> (after section: রুই মাছ (Rohu Fish) - Labeo rohita > রক্ত প্রবাহের পথ (Flowchart):)
+Image needed: Diagram showing blood circulation in Fish (Single circuit).
+Reference: Page 92
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545742/image_db77f68c_1_sqtvlr.jpg
+
+Chapter ২: প্রাণীর পরিচিতি
+ID: BLG-2nd-C02-I06
+File: BLG-2nd\blg-2.md
+Place at marker: <!-- BLG-2nd-C02-I06 --> (after section: রুই মাছ (Rohu Fish) - Labeo rohita > রক্ত প্রবাহের পথ (Flowchart):)
+Image needed: Diagram of Rohu fish (External morphology) showing fins, scales, and lateral line.
+Reference: Page 90
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793545909/image_cc6f6487_1_cziwn0.jpg
+
+CHAPTER ২: প্রাণীর পরিচিতি
+Images listed: 6
+
+Chapter ৩: মানব শারীরতত্ত্ব: পরিপাক ও শোষণ
+ID: BLG-2nd-C03-I01
+File: BLG-2nd\blg-3.md
+Place at marker: <!-- BLG-2nd-C03-I01 --> (after section: পরিপাকের মৌলিক ধারণা (Basic Concepts of Digestion) > মানব পরিপাকতন্ত্রের ৬টি ধাপ (Flowchart):)
+Image needed: Diagram of Human Digestive System showing Alimentary Canal and Digestive Glands.
+Reference: Page 109
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793546034/image_bcf0dc21_1_xi67w3.jpg
+
+Chapter ৩: মানব শারীরতত্ত্ব: পরিপাক ও শোষণ
+ID: BLG-2nd-C03-I02
+File: BLG-2nd\blg-3.md
+Place at marker: <!-- BLG-2nd-C03-I02 --> (after section: পরিপাক গ্রন্থি: যকৃত ও অগ্ন্যাশয় (Liver & Pancreas) > অগ্ন্যাশয় (Pancreas) - মিশ্র গ্রন্থি:)
+Image needed: Diagram of Liver and Pancreas showing ducts and Islets of Langerhans.
+Reference: Page 121
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548166/image_2799dc20_1_w7phos.jpg
+
+Chapter ৩: মানব শারীরতত্ত্ব: পরিপাক ও শোষণ
+ID: BLG-2nd-C03-I03
+File: BLG-2nd\blg-3.md
+Place at marker: <!-- BLG-2nd-C03-I03 --> (after section: খাদ্যবস্তুর শোষণ (Absorption of Food) > পুষ্টি উপাদান ও শোষণের মাধ্যম:)
+Image needed: Diagram of a Villus showing absorption pathways (blood capillaries vs lacteal).
+Reference: Page 126
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548243/image_a212498c_1_rmw0qd.jpg
+
+CHAPTER ৩: মানব শারীরতত্ত্ব: পরিপাক ও শোষণ
+Images listed: 3
+
+Chapter ৪: মানব শারীরতত্ত্ব: রক্ত ও সংবহন
+ID: BLG-2nd-C04-I01
+File: BLG-2nd\blg-4.md
+Place at marker: <!-- BLG-2nd-C04-I01 --> (after section: রক্তকণিকা (Blood Corpuscles) > শ্বেত রক্তকণিকার প্রকারভেদ (Types of WBC):)
+Image needed: Diagram showing different types of WBCs (Neutrophil, Eosinophil, Basophil, Lymphocyte, Monocyte).
+Reference: Page 140
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548312/image_6f8100b6_1_b1scco.jpg
+
+Chapter ৪: মানব শারীরতত্ত্ব: রক্ত ও সংবহন
+ID: BLG-2nd-C04-I02
+File: BLG-2nd\blg-4.md
+Place at marker: <!-- BLG-2nd-C04-I02 --> (after section: মানব হৃৎপিণ্ডের গঠন (Structure of Human Heart) > হৃৎপিণ্ডের কপাটিকা (Heart Valves):)
+Image needed: Internal structure of the human heart showing chambers, valves, and major blood vessels.
+Reference: Page 147
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548380/image_bd6df403_1_hxnd7s.jpg
+
+Chapter ৪: মানব শারীরতত্ত্ব: রক্ত ও সংবহন
+ID: BLG-2nd-C04-I03
+File: BLG-2nd\blg-4.md
+Place at marker: <!-- BLG-2nd-C04-I03 --> (after section: মানবদেহে রক্ত সংবহন (Blood Circulation) > ৪টি প্রধান সংবহন (4 Circuits):)
+Image needed: Human double-circulation diagram tracing blood through the heart, lungs, and body; distinguish oxygenated and deoxygenated blood and label pulmonary and systemic circuits.
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548470/image_a4558ab7_1_zkbdaa.jpg
+
+CHAPTER ৪: মানব শারীরতত্ত্ব: রক্ত ও সংবহন
+Images listed: 3
+
+Chapter ৫: মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া
+ID: BLG-2nd-C05-I01
+File: BLG-2nd\blg-5.md
+Place at marker: <!-- BLG-2nd-C05-I01 --> (after section: মানব শ্বসনতন্ত্রের গঠন (Human Respiratory System) > প্রধান অঙ্গসমূহ (Key Organs):)
+Image needed: Diagram of Human Respiratory System showing Nose, Larynx, Trachea, Bronchi, and Lungs.
+Reference: Page 166
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548543/image_1a83516e_1_ixuo67.jpg
+
+Chapter ৫: মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া
+ID: BLG-2nd-C05-I02
+File: BLG-2nd\blg-5.md
+Place at marker: <!-- BLG-2nd-C05-I02 --> (after section: গ্যাসীয় বিনিময় ও পরিবহন (Gas Exchange & Transport) > বাইকার্বোনেট যৌগরূপে (৭০%): প্লাজমায়)
+Image needed: Diagram showing Chloride Shift mechanism in RBC for CO2 transport.
+Reference: Page 172
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548651/image_dfba297b_1_ew8fqg.jpg
+
+CHAPTER ৫: মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া
+Images listed: 2
+
+Chapter ৬: মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন
+ID: BLG-2nd-C06-I01
+File: BLG-2nd\blg-6.md
+Place at marker: <!-- BLG-2nd-C06-I01 --> (after section: বৃক্কের গঠন (Structure of Kidney) > রেনাল কর্পাসলের অংশ (Renal Corpuscle):)
+Image needed: Internal structure of Human Kidney (Cortex, Medulla, Pelvis) and detailed structure of a Nephron.
+Reference: Page 185-186
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793548749/image_b53c701e_1_drgiby.jpg
+
+Chapter ৬: মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন
+ID: BLG-2nd-C06-I02
+File: BLG-2nd\blg-6.md
+Place at marker: <!-- BLG-2nd-C06-I02 --> (after section: মূত্র সৃষ্টির প্রক্রিয়া (Urine Formation) > ধাপসমূহ (Flowchart):)
+Image needed: Flow diagram of urine formation in a nephron, labeling glomerular filtration, tubular reabsorption, secretion, and the final urine pathway.
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793549074/image_c52f1441_1_j3rwpy.jpg
+
+Chapter ৬: মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন
+ID: BLG-2nd-C06-I03
+File: BLG-2nd\blg-6.md
+Place at marker: <!-- BLG-2nd-C06-I03 --> (after section: বৃক্ক বিকল ও তার চিকিৎসা (Kidney Failure & Treatment) > চিকিৎসা পদ্ধতি (Treatments):)
+Image needed: A diagram showing Hemodialysis process with an artificial kidney machine.
+Reference: Page 192
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793549201/image_1cb9381a_1_kdyssb.jpg
+
+CHAPTER ৬: মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন
+Images listed: 3
+
+Chapter ৭: মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা
+ID: BLG-2nd-C07-I01
+File: BLG-2nd\blg-7.md
+Place at marker: <!-- BLG-2nd-C07-I01 --> (after section: অক্ষীয় কঙ্কাল (Axial Skeleton) > বক্ষপিঞ্জর (Thoracic Cage):)
+Image needed: Diagram showing Axial and Appendicular skeleton of human body.
+Reference: Page 202
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793549308/image_54e8a01f_1_vultyu.jpg
+
+Chapter ৭: মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা
+ID: BLG-2nd-C07-I02
+File: BLG-2nd\blg-7.md
+Place at marker: <!-- BLG-2nd-C07-I02 --> (after section: পেশি তন্ত্র (Muscular System) > পেশি সংকোচনের কৌশল (Sliding Filament Theory):)
+Image needed: Diagram showing Smooth, Cardiac, and Skeletal muscles.
+Reference: Page 218-219
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793549427/image_ab37db7c_1_rxb77b.jpg
+
+CHAPTER ৭: মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা
+Images listed: 2
+
+Chapter ৮: মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ
+ID: BLG-2nd-C08-I01
+File: BLG-2nd\blg-8.md
+Place at marker: <!-- BLG-2nd-C08-I01 --> (after section: স্নায়বিক সমন্বয় (Nervous Coordination) > নিউরনের প্রকারভেদ (Flowchart):)
+Image needed: Diagram of a Synapse showing synaptic knob, vesicles, synaptic cleft, and receptors.
+Reference: Page 232
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793549603/synapse_1_averuu.webp
+
+Chapter ৮: মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ
+ID: BLG-2nd-C08-I02
+File: BLG-2nd\blg-8.md
+Place at marker: <!-- BLG-2nd-C08-I02 --> (after section: সংবেদী অঙ্গ (Sensory Organs) > প্রতিবিম্ব গঠনের পথ (Flowchart):)
+Image needed: Cross-section of the human eye showing Cornea, Lens, Retina, and Optic nerve.
+Reference: Page 242
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793549733/image_5aecc236_1_ppm9iy.jpg
+
+Chapter ৮: মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ
+ID: BLG-2nd-C08-I03
+File: BLG-2nd\blg-8.md
+Place at marker: <!-- BLG-2nd-C08-I03 --> (after section: রাসায়নিক সমন্বয় (Chemical Coordination) > হরমোনজনিত রোগসমূহ (Hormonal Diseases):)
+Image needed: Diagram showing the location of major endocrine glands in the human body.
+Reference: Page 254
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552111/image_fa92fb6c_1_ge0mni.jpg
+
+CHAPTER ৮: মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ
+Images listed: 3
+
+Chapter ৯: মানব জীবনের ধারাবাহিকতা
+ID: BLG-2nd-C09-I01
+File: BLG-2nd\blg-9.md
+Place at marker: <!-- BLG-2nd-C09-I01 --> (after section: পুরুষ প্রজননতন্ত্র (Male Reproductive System) > শুক্রাণুজন্ম বা স্পার্মাটোজেনেসিস (Spermatogenesis Flowchart):)
+Image needed: Diagram of Human Sperm showing Head, Acrosome, Neck, Middle piece, and Tail.
+Reference: Page 269
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552184/image_160e9129_1_bugjgv.jpg
+
+Chapter ৯: মানব জীবনের ধারাবাহিকতা
+ID: BLG-2nd-C09-I02
+File: BLG-2nd\blg-9.md
+Place at marker: <!-- BLG-2nd-C09-I02 --> (after section: রজঃচক্র (Menstrual Cycle) > রজঃচক্রের ৪টি পর্যায় (Phases of Menstrual Cycle):)
+Image needed: Graph showing the Menstrual Cycle with hormonal fluctuations (FSH, LH, Estrogen, Progesterone) and endometrium changes.
+Reference: Page 267
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552231/image_3c70c71f_1_wzz6dt.jpg
+
+Chapter ৯: মানব জীবনের ধারাবাহিকতা
+ID: BLG-2nd-C09-I03
+File: BLG-2nd\blg-9.md
+Place at marker: <!-- BLG-2nd-C09-I03 --> (after section: নিষেক ও ভ্রূণের পরিস্ফুটন (Fertilization & Fetal Development) > ভ্রূণ আবরণী (Embryonic Membranes):)
+Image needed: Labeled diagram of the placenta and umbilical cord showing maternal and fetal blood supplies, exchange of oxygen/nutrients, and fetal membranes.
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552277/image_c2427ba6_1_tfek7n.jpg
+
+CHAPTER ৯: মানব জীবনের ধারাবাহিকতা
+Images listed: 3
+
+Chapter ১০: মানবদেহের প্রতিরক্ষা (ইমিউনিটি)
+ID: BLG-2nd-C10-I01
+File: BLG-2nd\blg-10.md
+Place at marker: <!-- BLG-2nd-C10-I01 --> (after section: প্রথম প্রতিরক্ষা স্তর (First Line of Defense) - নন-স্পেসিফিক > প্রধান বাহ্যিক বাধাসমূহ (External Barriers):)
+Image needed: Diagram showing First Line of Defense (Skin, Mucous membranes, Tears, Stomach acid).
+Reference: Page 297
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552325/image_dd00c6ad_1_zmd8iy.jpg
+
+Chapter ১০: মানবদেহের প্রতিরক্ষা (ইমিউনিটি)
+ID: BLG-2nd-C10-I02
+File: BLG-2nd\blg-10.md
+Place at marker: <!-- BLG-2nd-C10-I02 --> (after section: দ্বিতীয় প্রতিরক্ষা স্তর (Second Line of Defense) - নন-স্পেসিফিক > ফ্যাগোসাইটোসিস বা কোষভক্ষণ প্রক্রিয়া (Steps of Phagocytosis):)
+Image needed: Diagram showing the steps of Phagocytosis.
+Reference: Page 302
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552371/image_b553785d_1_xnpkc6.jpg
+
+Chapter ১০: মানবদেহের প্রতিরক্ষা (ইমিউনিটি)
+ID: BLG-2nd-C10-I03
+File: BLG-2nd\blg-10.md
+Place at marker: <!-- BLG-2nd-C10-I03 --> (after section: অ্যান্টিবডি ও অ্যান্টিজেন (Antibody & Antigen) > অ্যান্টিবডির গঠন (Structure of Antibody):)
+Image needed: Structure of an Antibody (Y-shape, Heavy/Light chains, Paratope).
+Reference: Page 307
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552445/image_c7c80979_1_eitntv.jpg
+
+CHAPTER ১০: মানবদেহের প্রতিরক্ষা (ইমিউনিটি)
+Images listed: 3
+
+Chapter ১১: জিনতত্ত্ব ও বিবর্তন
+ID: BLG-2nd-C11-I01
+File: BLG-2nd\blg-11.md
+Place at marker: <!-- BLG-2nd-C11-I01 --> (after section: মেন্ডেলের সূত্র ও ক্রস (Mendel's Laws & Crosses) > মেন্ডেলের সূত্র (Mendel's Laws):)
+Image needed: Dihybrid cross checkerboard (Punnett square) showing 9:3:3:1 ratio.
+Reference: Page 321
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552509/image_1eaf7c13_1_btuyc2.jpg
+
+Chapter ১১: জিনতত্ত্ব ও বিবর্তন
+ID: BLG-2nd-C11-I02
+File: BLG-2nd\blg-11.md
+Place at marker: <!-- BLG-2nd-C11-I02 --> (after section: লিঙ্গ নির্ধারণ ও সেক্স-লিঙ্কড ডিজঅর্ডার (Sex Determination & Disorders) > লিঙ্গ নির্ধারণ পদ্ধতি (Flowchart):)
+Image needed: Criss-cross inheritance diagram of Color Blindness (Carrier mother x Normal father).
+Reference: Page 332
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552567/image_108fd6b1_1_ntdsjh.jpg
+
+Chapter ১১: জিনতত্ত্ব ও বিবর্তন
+ID: BLG-2nd-C11-I03
+File: BLG-2nd\blg-11.md
+Place at marker: <!-- BLG-2nd-C11-I03 --> (after section: বিবর্তনের প্রমাণ (Evidences of Evolution) > জীবাশ্মজনিত প্রমাণ (Paleontological Evidences):)
+Image needed: Evolution of Horse from Eohippus to Equus showing limb changes.
+Reference: Page 348
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552653/image_21c4ebba_1_otutz4.jpg
+
+CHAPTER ১১: জিনতত্ত্ব ও বিবর্তন
+Images listed: 3
+
+Chapter ১২: প্রাণীর আচরণ
+ID: BLG-2nd-C12-I01
+File: BLG-2nd\blg-12.md
+Place at marker: <!-- BLG-2nd-C12-I01 --> (after section: সহজাত আচরণ (Innate Behavior) > প্রতিবর্তী চক্র (Reflex Arc Flowchart):)
+Image needed: Diagram of a Reflex Arc showing Receptor, Afferent nerve, Spinal cord, Efferent nerve, and Effector muscle.
+Reference: Page 361
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552794/images_7_hgdek1.jpg
+
+Chapter ১২: প্রাণীর আচরণ
+ID: BLG-2nd-C12-I02
+File: BLG-2nd\blg-12.md
+Place at marker: <!-- BLG-2nd-C12-I02 --> (after section: অপত্যের প্রতি যত্ন (Parental Care):)
+Image needed: Diagram showing parenting behavior in Stickleback fish (nest building and fanning).
+Reference: Page 366
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793552908/image_ce4a4b7d_1_og8joh.jpg
+
+Chapter ১২: প্রাণীর আচরণ
+ID: BLG-2nd-C12-I03
+File: BLG-2nd\blg-12.md
+Place at marker: <!-- BLG-2nd-C12-I03 --> (after section: অপত্যের প্রতি যত্ন (Parental Care): > সাপেক্ষ প্রতিবর্তী ক্রিয়া বা প্যাভলভের তত্ত্ব (Classical Conditioning):)
+Image needed: Pavlov's dog experiment diagram showing the three stages of conditioning (Before, During, After).
+Reference: Page 370
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793553001/image_5600e341_1_nalwqt.jpg
+
+Chapter ১২: প্রাণীর আচরণ
+ID: BLG-2nd-C12-I04
+File: BLG-2nd\blg-12.md
+Place at marker: <!-- BLG-2nd-C12-I04 --> (after section: অপত্যের প্রতি যত্ন (Parental Care): > মৌমাছির যোগাযোগ (বৃত্তাকার ও ওয়াগল নৃত্য):)
+Image needed: Diagram showing the Round dance and Waggle dance of honey bees.
+Reference: Page 372
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793553063/image_ee4cb248_1_hrridp.jpg
+
+CHAPTER ১২: প্রাণীর আচরণ
+Images listed: 4
+

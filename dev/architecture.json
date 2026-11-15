@@ -1,0 +1,1469 @@
+[
+    {
+        "context": {
+            "module": "Shared & Academics",
+            "focus": "Overall system navigation structure, MongoDB schema definitions (User, MCQ, ChapterReport, SubjectReport, BattleHistory, BattleReport), match point scoring formula, Redis bot state format, and HTTP REST API route mapping."
+        },
+        "definitions": {
+            "database_models": [
+                {
+                    "model_name": "User",
+                    "fields": [
+                        "username",
+                        "email",
+                        "password",
+                        "provider",
+                        "oauthId",
+                        "role",
+                        "tier",
+                        "avatar",
+                        "tokenVersion",
+                        "isEmailVerified",
+                        "status",
+                        "report"
+                    ]
+                },
+                {
+                    "model_name": "Mcq",
+                    "fields": [
+                        "board",
+                        "year",
+                        "college",
+                        "question_number",
+                        "context",
+                        "question",
+                        "options",
+                        "sub_statements",
+                        "sub_questions",
+                        "has_image",
+                        "image",
+                        "subject_code",
+                        "chapter",
+                        "answer"
+                    ]
+                },
+                {
+                    "model_name": "ChapterReport",
+                    "fields": [
+                        "user_id (userId69)",
+                        "subject_code",
+                        "chapter",
+                        "chapter_name",
+                        "right_pool [qid1, qid2]",
+                        "wrong_pool [qid3]",
+                        "total_question",
+                        "completed (Percentage)",
+                        "started_at (Date)",
+                        "last_answered (Date)"
+                    ]
+                },
+                {
+                    "model_name": "SubjectReport",
+                    "fields": [
+                        "userid",
+                        "subject_code",
+                        "chapters_data [ { name, chapter_report_id } ]"
+                    ]
+                },
+                {
+                    "model_name": "BattleHistory",
+                    "fields": [
+                        "battleId",
+                        "subject_code",
+                        "chapter",
+                        "questions [{}]",
+                        "players [pid_1, pid_2]",
+                        "scores { pid_1: 10, pid_2: 0 }",
+                        "players_answers { pid_1: { index: answer }, pid_2: { index: answer } }",
+                        "winner (DRAW | UserId)",
+                        "players_answers_durations { pid_1: { question_index: duration }, pid_2: { question_index: duration } }",
+                        "isForfeit (Boolean)"
+                    ]
+                },
+                {
+                    "model_name": "BattleReport",
+                    "fields": [
+                        "user_id",
+                        "battle_count { total, draw, losses, win }",
+                        "battle_points",
+                        "streak { currentStreak, longest_streak, lastMatchDate (YYYY-MM-DD), timezone (Asia/Dhaka) }"
+                    ]
+                }
+            ],
+            "redis_and_state": [
+                "Redis Bot States: { userid: 'imBot69', isAvailable: false }",
+                "Redis Bot States: { userid: 'botNo420', isAvailable: true }",
+                "Redis Bot States: { userid: 'bokachoda', isAvailable: false }"
+            ],
+            "principles_and_notes": [
+                "Match Points Calculation Formula: Match_Points = Outcome_Points + (Correct_Answers * 2) - (Wrong_Answers * 1) + ((Time_Left / T50) * 5)",
+                "Authentication Payload Standard 1: Header containing Authentication, subject_code, chapter",
+                "Authentication Payload Standard 2: Header containing Authentication, [qid_1, qid_2]"
+            ]
+        },
+        "interfaces": {
+            "api_routes": [
+                {
+                    "method": "POST",
+                    "endpoint": "/battle/start",
+                    "action_name": "START BATTLE"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/battle/history",
+                    "action_name": "GET BATTLE HISTORY"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/battle/report",
+                    "action_name": "GET BATTLE REPORT"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/academic/remaining-questions",
+                    "action_name": "GET REMAINING QUESTIONS"
+                },
+                {
+                    "method": "POST",
+                    "endpoint": "/academic/submit-answer",
+                    "action_name": "SUBMIT ANSWER"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/academic/wrong-questions",
+                    "action_name": "GET WRONG QUESTIONS"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/academic/right-questions",
+                    "action_name": "REVIEW RIGHT ANSWERS"
+                },
+                {
+                    "method": "POST",
+                    "endpoint": "/academic/mark-as-done",
+                    "action_name": "MARK AS DONE"
+                },
+                {
+                    "method": "DELETE",
+                    "endpoint": "/academic/delete",
+                    "action_name": "RESTART PRACTICE"
+                }
+            ],
+            "websocket": {
+                "listen": [],
+                "emit": []
+            },
+            "jobs": []
+        },
+        "logic_flows": [
+            {
+                "flow_name": "Application Architecture Navigation",
+                "trigger": "User Interface Route Navigation",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "condition",
+                        "description": "User enters Home route and selects module branch",
+                        "branches": {
+                            "Battle": [
+                                {
+                                    "step_id": "1.1",
+                                    "type": "action",
+                                    "description": "Navigate to Matchmaking Flow"
+                                }
+                            ],
+                            "Academic": [
+                                {
+                                    "step_id": "1.2",
+                                    "type": "action",
+                                    "description": "Navigate to Academic Options menu"
+                                },
+                                {
+                                    "step_id": "1.3",
+                                    "type": "condition",
+                                    "description": "Select Academic Mode",
+                                    "branches": {
+                                        "Option 1: View Sub Report": [
+                                            {
+                                                "step_id": "1.3.1",
+                                                "type": "action",
+                                                "description": "Fetch and send Subject Report"
+                                            }
+                                        ],
+                                        "Option 2: Study": [
+                                            {
+                                                "step_id": "1.3.2",
+                                                "type": "action",
+                                                "description": "Provide PDF / Text / Notes"
+                                            }
+                                        ],
+                                        "Option 3: Practice": [
+                                            {
+                                                "step_id": "1.3.3",
+                                                "type": "condition",
+                                                "description": "Select Practice Sub-Action",
+                                                "branches": {
+                                                    "1. Complete Remaining": [
+                                                        {
+                                                            "step_id": "1.3.3.1.a",
+                                                            "type": "action",
+                                                            "description": "Execute GET REMAINING QUESTIONS (/academic/remaining-questions)"
+                                                        },
+                                                        {
+                                                            "step_id": "1.3.3.1.b",
+                                                            "type": "action",
+                                                            "description": "Execute SUBMIT ANSWER (/academic/submit-answer)"
+                                                        }
+                                                    ],
+                                                    "2. Review Old Mistakes": [
+                                                        {
+                                                            "step_id": "1.3.3.2.a",
+                                                            "type": "action",
+                                                            "description": "Execute GET WRONG QUESTIONS (/academic/wrong-questions)"
+                                                        },
+                                                        {
+                                                            "step_id": "1.3.3.2.b",
+                                                            "type": "action",
+                                                            "description": "Execute MARK AS DONE (/academic/mark-as-done)"
+                                                        }
+                                                    ],
+                                                    "3. Restart Practice": [
+                                                        {
+                                                            "step_id": "1.3.3.3",
+                                                            "type": "action",
+                                                            "description": "Execute RESTART PRACTICE (/academic/delete)"
+                                                        }
+                                                    ],
+                                                    "4. Review Right Answers": [
+                                                        {
+                                                            "step_id": "1.3.3.4",
+                                                            "type": "action",
+                                                            "description": "Execute REVIEW RIGHT ANSWERS (/academic/right-questions)"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": {
+            "module": "Academics",
+            "focus": "Detailed execution flows and logic paths for the Academic API endpoints, handling progress tracking, MongoDB queries, bulk updates, and practice state management."
+        },
+        "definitions": {
+            "database_models": [
+                {
+                    "model_name": "ChapterReport",
+                    "fields": [
+                        "user_id",
+                        "subject_code",
+                        "chapter",
+                        "right_pool",
+                        "wrong_pool"
+                    ]
+                },
+                {
+                    "model_name": "Mcq",
+                    "fields": [
+                        "_id",
+                        "chapter",
+                        "subject_code",
+                        "options",
+                        "answer"
+                    ]
+                }
+            ],
+            "redis_and_state": [],
+            "principles_and_notes": [
+                "Use MongoDB bulkWrite with upsert operations for batch submission processing to minimize database roundtrips.",
+                "Chapter status tracking splits questions into right_pool and wrong_pool within ChapterReport."
+            ]
+        },
+        "interfaces": {
+            "api_routes": [
+                {
+                    "method": "POST",
+                    "endpoint": "/academic/submit-answer",
+                    "action_name": "SUBMIT ANSWER"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/academic/remaining-questions",
+                    "action_name": "GET REMAINING QUESTIONS"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/academic/right-questions",
+                    "action_name": "REVIEW RIGHT ANSWERS"
+                },
+                {
+                    "method": "POST",
+                    "endpoint": "/academic/mark-as-done",
+                    "action_name": "MARK AS DONE"
+                },
+                {
+                    "method": "DELETE",
+                    "endpoint": "/academic/delete",
+                    "action_name": "RESTART PRACTICE"
+                },
+                {
+                    "method": "GET",
+                    "endpoint": "/academic/wrong-questions",
+                    "action_name": "GET WRONG QUESTIONS"
+                }
+            ],
+            "websocket": {
+                "listen": [],
+                "emit": []
+            },
+            "jobs": []
+        },
+        "logic_flows": [
+            {
+                "flow_name": "SUBMIT ANSWER",
+                "trigger": "POST /academic/submit-answer",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validation"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Fetch Master Questions From MongoDB"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "For each submission create write operation and add to bulkOperations array and use upsert in operation"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "db_operation",
+                        "description": "bulkWrite in MongoDB"
+                    }
+                ]
+            },
+            {
+                "flow_name": "GET REMAINING QUESTIONS",
+                "trigger": "GET /academic/remaining-questions",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validation"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Fetch Chapter Report From MongoDB"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "condition",
+                        "description": "Check if Chapter Report exists",
+                        "branches": {
+                            "Not Found": [
+                                {
+                                    "step_id": "3.1.a",
+                                    "type": "db_operation",
+                                    "description": "Fetch all MCQ for that chapter"
+                                },
+                                {
+                                    "step_id": "3.2.a",
+                                    "type": "action",
+                                    "description": "Send data"
+                                }
+                            ],
+                            "Found": [
+                                {
+                                    "step_id": "3.1.b",
+                                    "type": "action",
+                                    "description": "Extract remaining questions ID's from Chapter Report"
+                                },
+                                {
+                                    "step_id": "3.2.b",
+                                    "type": "db_operation",
+                                    "description": "Fetch remaining questions"
+                                },
+                                {
+                                    "step_id": "3.3.b",
+                                    "type": "action",
+                                    "description": "Send data"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "REVIEW RIGHT ANSWERS",
+                "trigger": "GET /academic/right-questions",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validation"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Fetch Chapter Report From MongoDB"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "condition",
+                        "description": "Check if Chapter Report exists",
+                        "branches": {
+                            "Not Found": [
+                                {
+                                    "step_id": "3.1.a",
+                                    "type": "action",
+                                    "description": "Return empty response"
+                                }
+                            ],
+                            "Found": [
+                                {
+                                    "step_id": "3.1.b",
+                                    "type": "action",
+                                    "description": "Extract right questions ID's from Chapter Report"
+                                },
+                                {
+                                    "step_id": "3.2.b",
+                                    "type": "db_operation",
+                                    "description": "Fetch right questions"
+                                },
+                                {
+                                    "step_id": "3.3.b",
+                                    "type": "action",
+                                    "description": "Send data"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "MARK AS DONE",
+                "trigger": "POST /academic/mark-as-done",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validation"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Fetch Chapter Report From MongoDB"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "condition",
+                        "description": "Check if Chapter Report exists",
+                        "branches": {
+                            "Not Found": [
+                                {
+                                    "step_id": "3.1.a",
+                                    "type": "action",
+                                    "description": "Return empty response"
+                                }
+                            ],
+                            "Found": [
+                                {
+                                    "step_id": "3.1.b",
+                                    "type": "condition",
+                                    "description": "Check if question exist in wrong_pool",
+                                    "branches": {
+                                        "Not Exist": [
+                                            {
+                                                "step_id": "3.1.b.1",
+                                                "type": "action",
+                                                "description": "Return empty response"
+                                            }
+                                        ],
+                                        "Exist": [
+                                            {
+                                                "step_id": "3.1.b.2",
+                                                "type": "db_operation",
+                                                "description": "Remove from wrong_pool"
+                                            },
+                                            {
+                                                "step_id": "3.1.b.3",
+                                                "type": "db_operation",
+                                                "description": "Push in right_pool"
+                                            },
+                                            {
+                                                "step_id": "3.1.b.4",
+                                                "type": "action",
+                                                "description": "Done"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "RESTART PRACTICE",
+                "trigger": "DELETE /academic/delete",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validation"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Delete Chapter Report From MongoDB"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Return empty response"
+                    }
+                ]
+            },
+            {
+                "flow_name": "GET WRONG QUESTIONS",
+                "trigger": "GET /academic/wrong-questions",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validation"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Fetch Chapter Report From MongoDB"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "condition",
+                        "description": "Check if Chapter Report exists",
+                        "branches": {
+                            "Not Found": [
+                                {
+                                    "step_id": "3.1.a",
+                                    "type": "action",
+                                    "description": "Return empty response"
+                                }
+                            ],
+                            "Found": [
+                                {
+                                    "step_id": "3.1.b",
+                                    "type": "action",
+                                    "description": "Extract remaining questions ID's From Chapter Report"
+                                },
+                                {
+                                    "step_id": "3.2.b",
+                                    "type": "db_operation",
+                                    "description": "Fetch remaining questions"
+                                },
+                                {
+                                    "step_id": "3.3.b",
+                                    "type": "action",
+                                    "description": "Send data with: - raw questions data, - selected wrong option"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": {
+            "module": "Battle",
+            "focus": "Matchmaking system initialization (/battle/start), queue checking, room creation, random question retrieval, Redis battle state initialization, background job scheduling, and WebSocket user reconnection flow."
+        },
+        "definitions": {
+            "database_models": [
+                {
+                    "model_name": "Mcq",
+                    "fields": [
+                        "Grab 10 random questions from MongoDB"
+                    ]
+                }
+            ],
+            "redis_and_state": [
+                "USER_IN_BATTLE (userid) - TTL: USER_IN_BATTLE_TTL",
+                "NO_OPP_FOUND_JOB_ID (userid) - TTL: JOB_ID_TTL",
+                "MATCHUP_WITH_BOT (userid) - TTL: JOB_ID_TTL",
+                "BATTLE_OPPONENT {subject_code, chapter} - TTL: BATTLE_OPPONENT_TTL",
+                "BATTLE_STATE_PAYLOAD (roomid) - TTL: BATTLE_STATE_PAYLOAD_TTL",
+                "NEXT_QUESTION (roomid) - TTL: JOB_ID_TTL",
+                "USER_SOCKET_ID (userid) - TTL: USER_SOCKET_ID_TTL",
+                "USER_BATTLE_LOCK (userid) - TTL: USER_BATTLE_LOCK_TTL",
+                "FORFEIT_JOB_ID (userid)",
+                "Battle State Payload in Redis: { roomid, questions: [{}], total_question: 10, current_index: 1, players: [pid_1, pid_2], scores: { pid_1: 0, pid_2: 0 }, players_answered: { pid_1: { index: answer }, pid_2: { index: answer } }, players_answered: 0, players_last_answered_at: { pid_1: Date.now(), pid_2: Date.now() }, players_last_answered_at_duration: { pid_1: { question_index: duration }, pid_2: { question_index: duration } }, isBot: false, botuserid: null }"
+            ],
+            "principles_and_notes": [
+                "Matchmaking endpoint requires payload parameters: Authentication, subject_code, chapter.",
+                "Job IDs and queue parameters use combination of userid, subject_code, and chapter.",
+                "Reconnecting sockets rely on Redis Adapter to automatically delete old sockets from the room."
+            ]
+        },
+        "interfaces": {
+            "api_routes": [
+                {
+                    "method": "POST",
+                    "endpoint": "/battle/start",
+                    "action_name": "Matchmaking / Battle Start Request"
+                }
+            ],
+            "websocket": {
+                "listen": [
+                    "connection (Reconnection Flow)"
+                ],
+                "emit": [
+                    "STARTING_BATTLE",
+                    "USER_RECONNECTED"
+                ]
+            },
+            "jobs": [
+                "no_opp_found (Delay: NO_OPP_FOUND_DELAY)",
+                "matchup_with_bot (Delay: random 20-40 sec)",
+                "next_question (Delay: 2 sec)"
+            ]
+        },
+        "logic_flows": [
+            {
+                "flow_name": "Matchmaking Request Flow",
+                "trigger": "POST /battle/start",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validate payload (Authentication, subject_code, chapter)"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "condition",
+                        "description": "Check waiting_queue",
+                        "branches": {
+                            "Opp. Found": [
+                                {
+                                    "step_id": "2.1.a",
+                                    "type": "action",
+                                    "description": "Set Users in battle (USER_IN_BATTLE_TTL for userid)"
+                                },
+                                {
+                                    "step_id": "2.2.a",
+                                    "type": "action",
+                                    "description": "Delete jobs: NO_OPP_FOUND_JOB_ID (userid) and MATCHUP_WITH_BOT (userid)"
+                                },
+                                {
+                                    "step_id": "2.3.a",
+                                    "type": "action",
+                                    "description": "Create Battle Room and join users"
+                                },
+                                {
+                                    "step_id": "2.4.a",
+                                    "type": "db_operation",
+                                    "description": "Grab 10 random questions from MongoDB"
+                                },
+                                {
+                                    "step_id": "2.5.a",
+                                    "type": "action",
+                                    "description": "Save battle_state in Redis (BATTLE_STATE_PAYLOAD for roomid with BATTLE_STATE_PAYLOAD_TTL)"
+                                },
+                                {
+                                    "step_id": "2.6.a",
+                                    "type": "action",
+                                    "description": "Execute Battle Start Preprocess"
+                                },
+                                {
+                                    "step_id": "2.7.a",
+                                    "type": "emit",
+                                    "description": "Emit WS Event 'STARTING_BATTLE'"
+                                },
+                                {
+                                    "step_id": "2.8.a",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'next_question' with Delay 2 sec"
+                                },
+                                {
+                                    "step_id": "2.9.a",
+                                    "type": "action",
+                                    "description": "Save Job Id: NEXT_QUESTION (roomid) with TTL JOB_ID_TTL"
+                                }
+                            ],
+                            "Opp. Not Found": [
+                                {
+                                    "step_id": "2.1.b",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'no_opp_found' with Delay NO_OPP_FOUND_DELAY"
+                                },
+                                {
+                                    "step_id": "2.2.b",
+                                    "type": "action",
+                                    "description": "Save Job Id: NO_OPP_FOUND_JOB_ID (userid) with TTL JOB_ID_TTL"
+                                },
+                                {
+                                    "step_id": "2.3.b",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'matchup_with_bot' with Delay random (20-40) sec"
+                                },
+                                {
+                                    "step_id": "2.4.b",
+                                    "type": "action",
+                                    "description": "Save Job Id: MATCHUP_WITH_BOT (userid) with TTL JOB_ID_TTL"
+                                },
+                                {
+                                    "step_id": "2.5.b",
+                                    "type": "action",
+                                    "description": "Add user to waiting queue: BATTLE_OPPONENT {subject_code, chapter} with TTL BATTLE_OPPONENT_TTL"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "WebSocket User Reconnection Flow",
+                "trigger": "WebSocket Connection Event",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Authentication"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Validate subject_code and chapter"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Set USER_SOCKET_ID (userid) with TTL USER_SOCKET_ID_TTL"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "condition",
+                        "description": "Check User in battle (USER_IN_BATTLE userid)",
+                        "branches": {
+                            "False": [
+                                {
+                                    "step_id": "4.1.a",
+                                    "type": "action",
+                                    "description": "Check if User is locked (USER_BATTLE_LOCK userid)"
+                                },
+                                {
+                                    "step_id": "4.2.a",
+                                    "type": "action",
+                                    "description": "Delete jobs: NO_OPP_FOUND_JOB_ID (userid) and MATCHUP_WITH_BOT (userid)"
+                                },
+                                {
+                                    "step_id": "4.3.a",
+                                    "type": "action",
+                                    "description": "Lock the user: USER_BATTLE_LOCK (userid) with TTL USER_BATTLE_LOCK_TTL"
+                                }
+                            ],
+                            "True": [
+                                {
+                                    "step_id": "4.1.b",
+                                    "type": "action",
+                                    "description": "Fetch and verify battle"
+                                },
+                                {
+                                    "step_id": "4.2.b",
+                                    "type": "action",
+                                    "description": "Connect new socket to battle room"
+                                },
+                                {
+                                    "step_id": "4.3.b",
+                                    "type": "action",
+                                    "description": "Delete old socket from battle room (Redis Adapter automatically does this)"
+                                },
+                                {
+                                    "step_id": "4.4.b",
+                                    "type": "action",
+                                    "description": "Calculate and send current data from battle_state in Redis"
+                                },
+                                {
+                                    "step_id": "4.5.b",
+                                    "type": "action",
+                                    "description": "Delete Job: FORFEIT_JOB_ID (userid)"
+                                },
+                                {
+                                    "step_id": "4.6.b",
+                                    "type": "emit",
+                                    "description": "Emit WS Event 'USER_RECONNECTED'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": {
+            "module": "Battle",
+            "focus": "Battle module configuration, redis state keys, time-to-live (TTL) timers, architectural principles, background job definitions, and WebSocket event payload specifications."
+        },
+        "definitions": {
+            "database_models": [],
+            "redis_and_state": [
+                "NO_OPP_FOUND_DELAY = 50",
+                "BATTLE_START_DELAY = 2",
+                "USER_BATTLE_LOCK_TTL = 900 (15 min)",
+                "USER_IN_BATTLE_TTL = 900",
+                "USER_SOCKET_ID_TTL = 900 (15 min)",
+                "JOB_ID_TTL = 300 (5 min)",
+                "BATTLE_OPPONENT_TTL = 50",
+                "BATTLE_STATE_PAYLOAD_TTL = 900 (15 min)",
+                "FORFEIT_BATTLE_DELAY = 15",
+                "ROUND_TURN_DELAY = 2",
+                "ROUND_TIMEOUT_DELAY = 45",
+                "BATTLE_STATE_PAYLOAD (roomid) -> 'battle:{roomid}:payload' >> Object",
+                "USER_IN_BATTLE (userid) -> '{userid}:battle-room' >> roomid",
+                "USER_BATTLE_LOCK (userid) -> '{userid}:battle-lock' >> true",
+                "USER_SOCKET_ID (userid) -> '{userid}:socket' >> socketid",
+                "NO_OPP_FOUND_JOB_ID (userid) -> '{userid}:no-opp-found-jobid' >> jobid",
+                "FORFEIT_JOB_ID (userid) -> '{userid}:forfeit-jobid' >> jobid",
+                "MATCHUP_WITH_BOT (userid) -> '{userid}:matchup-with-bot-jobid' >> jobid",
+                "BATTLE_OPPONENT (subject_code, chapter) -> 'opponent:{subject_code}:{chapter}' >> userid",
+                "NEXT_QUESTION (roomid) -> '{roomid}:next-question-jobid' >> jobid",
+                "ROUND_TIMEOUT (roomid) -> '{roomid}:round-timeout-jobid' >> jobid",
+                "BOT_SUBMIT_ANSWER (userid) -> '{userid}:bot-submit-answer-jobid' >> jobid"
+            ],
+            "principles_and_notes": [
+                "Always use TTL's in redis so that user don't get stuck into any state forever if something occurs wrong.",
+                "Every function/job/step will update redis before it handover to another step.",
+                "Always use redis lock when any task or battle processing to avoid concurrency or race condition problems.",
+                "In all tasks if battle_state or other data not found fail silently. This fault tolerant behaviour strip concurrency edge cases mostly.",
+                "We will manage Constants and Registry of business constraints. Such as subject_code-subject_name map, each class's valid subjects, each subject's chapters names with numbers and so on.",
+                "Use MongoDB Upsert and BulkWrite as much as possible and efficiently to reduce database throughput. And use locks on MongoDB so that multiple workers cant create rat race condition.",
+                "While deleting/performing any task or job, delete all of its cache keys from redis to prevent stale data/state. And also save jobid before schedule, so that job can be traced later if needed.",
+                "To emit events from job of independent workers, use pub/sub. And before emitting any event check if battle room exist or not."
+            ]
+        },
+        "interfaces": {
+            "api_routes": [],
+            "websocket": {
+                "listen": [
+                    {
+                        "event_name": "SUBMIT_ANSWER",
+                        "payload": {
+                            "1": "userid",
+                            "2": "selected_option"
+                        }
+                    },
+                    {
+                        "event_name": "QUIT_BATTLE",
+                        "payload": null
+                    },
+                    {
+                        "event_name": "connection",
+                        "payload": null
+                    },
+                    {
+                        "event_name": "disconnect",
+                        "payload": null
+                    }
+                ],
+                "emit": [
+                    {
+                        "event_name": "STARTING_BATTLE",
+                        "payload": {
+                            "1": "userid { username, tier, avatar_url }",
+                            "2": "userid { username, tier, avatar_url }"
+                        }
+                    },
+                    {
+                        "event_name": "NO_OPPONENT_FOUND",
+                        "payload": null
+                    },
+                    {
+                        "event_name": "NEXT_QUESTION",
+                        "payload": {
+                            "1": "question_data()",
+                            "2": "total_questions",
+                            "3": "current_index"
+                        }
+                    },
+                    {
+                        "event_name": "PLAYER_ANSWERED",
+                        "payload": {
+                            "1": "userid",
+                            "2": "isCorrectAnswered"
+                        }
+                    },
+                    {
+                        "event_name": "FINALIZE_BATTLE",
+                        "payload": {
+                            "1": "battle_stat()"
+                        }
+                    },
+                    {
+                        "event_name": "FORFEITING_BATTLE",
+                        "payload": null
+                    },
+                    {
+                        "event_name": "ROUND_TIMEOUT",
+                        "payload": null
+                    },
+                    {
+                        "event_name": "USER_DISCONNECTED",
+                        "payload": {
+                            "1": "userid"
+                        }
+                    },
+                    {
+                        "event_name": "USER_RECONNECTED",
+                        "payload": {
+                            "1": "userid"
+                        }
+                    }
+                ]
+            },
+            "jobs": [
+                "no_opp_found",
+                "next_question",
+                "round_timeout",
+                "finalize_battle(battleId)",
+                "forfeit_battle"
+            ]
+        },
+        "logic_flows": []
+    },
+    {
+        "context": {
+            "module": "Battle",
+            "focus": "Execution logic and state transitions for background jobs in the Battle module, including battle termination, round timeouts, turn switching, bot answer automation, bot matchmaking, finalization, and no-opponent timeouts."
+        },
+        "definitions": {
+            "database_models": [
+                {
+                    "model_name": "BattleHistory",
+                    "fields": [
+                        "Save data to MongoDB BattleHistory"
+                    ]
+                },
+                {
+                    "model_name": "Mcq",
+                    "fields": [
+                        "Grab 10 random questions from MongoDB"
+                    ]
+                }
+            ],
+            "redis_and_state": [
+                "USER_SOCKET_ID (userid)",
+                "USER_BATTLE_LOCK (userid)",
+                "USER_IN_BATTLE (userid) - TTL: USER_IN_BATTLE_TTL",
+                "ROUND_TIMEOUT (roomid) - TTL: ROUND_TIMEOUT_DELAY",
+                "BOT_SUBMIT_ANSWER (roomid) / (userid)",
+                "BATTLE_STATE_PAYLOAD (roomid) - TTL: BATTLE_STATE_PAYLOAD_TTL",
+                "NO_OPP_FOUND_JOB_ID (userid)",
+                "MATCHUP_WITH_BOT (userid)",
+                "NEXT_QUESTION (roomid) - TTL: JOB_ID_TTL",
+                "BATTLE_OPPONENT {subject_code, chapter}"
+            ],
+            "principles_and_notes": [
+                "All jobs clean up associated Redis keys and socket connections upon battle termination or forfeit.",
+                "Bot matchmaking dynamically constructs a battle payload from MongoDB and sets up background bot answer triggers.",
+                "WS connections are force disconnected at finalization using io.in(roomid).disconnectSockets(true)."
+            ]
+        },
+        "interfaces": {
+            "api_routes": [],
+            "websocket": {
+                "listen": [],
+                "emit": [
+                    "FORFEITING_BATTLE",
+                    "ROUND_TIMEOUT",
+                    "NEXT_QUESTION",
+                    "PLAYER_ANSWERED",
+                    "STARTING_BATTLE",
+                    "FINALIZE_BATTLE",
+                    "NO_OPPONENT_FOUND"
+                ]
+            },
+            "jobs": [
+                "forfeit_battle (battleid)",
+                "round_timeout (roomid)",
+                "next_question (roomid)",
+                "bot_submit_answer (roomid)",
+                "matchup_with_bot (userid)",
+                "finalize_battle (roomid)",
+                "no_opp_found (userid)"
+            ]
+        },
+        "logic_flows": [
+            {
+                "flow_name": "forfeit_battle",
+                "trigger": "Background Job (battleid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "emit",
+                        "description": "Emit WS Event 'FORFEITING_BATTLE'"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Delete Job and Ids for both users: USER_SOCKET_ID (userid), USER_BATTLE_LOCK (userid), USER_IN_BATTLE (userid), ROUND_TIMEOUT (roomid), BOT_SUBMIT_ANSWER (roomid)"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "schedule_job",
+                        "description": "Add job 'finalize_battle (battleid)' with No Delay, isForfeit: true, forfeitedUserId"
+                    }
+                ]
+            },
+            {
+                "flow_name": "round_timeout",
+                "trigger": "Background Job (roomid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "emit",
+                        "description": "Emit WS Event 'ROUND_TIMEOUT'"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Push null to answer if user hasn't answered current question"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Calculate, Update and Reset: players_answer_durations, players_last_answered_at"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "schedule_job",
+                        "description": "Add job 'next_question (roomid)' with No Delay"
+                    }
+                ]
+            },
+            {
+                "flow_name": "next_question",
+                "trigger": "Background Job (roomid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Set players_answered = 0"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Fetch battle_state"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Calculate and update current_index (+1)"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "condition",
+                        "description": "Check current_index > total_questions",
+                        "branches": {
+                            "False": [
+                                {
+                                    "step_id": "4.1.a",
+                                    "type": "action",
+                                    "description": "Fetch and sanitize current question"
+                                },
+                                {
+                                    "step_id": "4.2.a",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'round_timeout' with Delay 50 sec"
+                                },
+                                {
+                                    "step_id": "4.3.a",
+                                    "type": "action",
+                                    "description": "Save to redis: ROUND_TIMEOUT (roomid) with ROUND_TIMEOUT_DELAY"
+                                },
+                                {
+                                    "step_id": "4.4.a",
+                                    "type": "condition",
+                                    "description": "Check User isBot true",
+                                    "branches": {
+                                        "True": [
+                                            {
+                                                "step_id": "4.4.a.1",
+                                                "type": "schedule_job",
+                                                "description": "Add job 'BOT_SUBMIT_ANSWER (roomid)' with Delay random(10-30) sec"
+                                            }
+                                        ],
+                                        "False": []
+                                    }
+                                },
+                                {
+                                    "step_id": "4.5.a",
+                                    "type": "emit",
+                                    "description": "Emit WS Event 'NEXT_QUESTION'"
+                                }
+                            ],
+                            "True": [
+                                {
+                                    "step_id": "4.1.b",
+                                    "type": "action",
+                                    "description": "Delete Job and Ids for both users: USER_SOCKET_ID (userid), USER_BATTLE_LOCK (userid), USER_IN_BATTLE (userid)"
+                                },
+                                {
+                                    "step_id": "4.2.b",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'finalize_battle (roomid)' with No Delay"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "bot_submit_answer",
+                "trigger": "Background Job (roomid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validate question_index and random generated answer"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Update player score and answer"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Calculate, Update and Reset: players_answer_durations, players_last_answered_at"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "action",
+                        "description": "Increase players_answered in battle_state"
+                    },
+                    {
+                        "step_id": 5,
+                        "type": "emit",
+                        "description": "Emit WS Event 'PLAYER_ANSWERED'"
+                    },
+                    {
+                        "step_id": 6,
+                        "type": "condition",
+                        "description": "Check players_answered >= 2",
+                        "branches": {
+                            "True": [
+                                {
+                                    "step_id": "6.1",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'next_question (roomid)' with ROUND_TURN_DELAY"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "matchup_with_bot",
+                "trigger": "Background Job (userid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Fetch Free Bot User from Redis"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "condition",
+                        "description": "Check if Bot Opponent was found",
+                        "branches": {
+                            "Opp. Not Found": [
+                                {
+                                    "step_id": "2.1.a",
+                                    "type": "action",
+                                    "description": "Gracefully End"
+                                }
+                            ],
+                            "Opp. Found": [
+                                {
+                                    "step_id": "2.1.b",
+                                    "type": "action",
+                                    "description": "Set Users in battle: USER_IN_BATTLE_TTL (userid), USER_IN_BATTLE_TTL"
+                                },
+                                {
+                                    "step_id": "2.2.b",
+                                    "type": "action",
+                                    "description": "Delete jobs: NO_OPP_FOUND_JOB_ID (userid), MATCHUP_WITH_BOT (userid)"
+                                },
+                                {
+                                    "step_id": "2.3.b",
+                                    "type": "action",
+                                    "description": "Create Battle Room and join user"
+                                },
+                                {
+                                    "step_id": "2.4.b",
+                                    "type": "db_operation",
+                                    "description": "Grab 10 random questions from MongoDB"
+                                },
+                                {
+                                    "step_id": "2.5.b",
+                                    "type": "action",
+                                    "description": "Save battle_state in Redis: BATTLE_STATE_PAYLOAD (roomid) with BATTLE_STATE_PAYLOAD_TTL"
+                                },
+                                {
+                                    "step_id": "2.6.b",
+                                    "type": "action",
+                                    "description": "Battle Start Preprocess"
+                                },
+                                {
+                                    "step_id": "2.7.b",
+                                    "type": "emit",
+                                    "description": "Emit WS Event 'STARTING_BATTLE'"
+                                },
+                                {
+                                    "step_id": "2.8.b",
+                                    "type": "schedule_job",
+                                    "description": "Add job 'next_question' with Delay BATTLE_START_DELAY"
+                                },
+                                {
+                                    "step_id": "2.9.b",
+                                    "type": "action",
+                                    "description": "Save Job Id: NEXT_QUESTION (roomid) with TTL JOB_ID_TTL"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "finalize_battle",
+                "trigger": "Background Job (roomid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Fetch and Sanitize Data BATTLE_STATE_PAYLOAD (roomid)"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "db_operation",
+                        "description": "Save data to MongoDB BattleHistory"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "emit",
+                        "description": "Emit WS Event 'FINALIZE_BATTLE'"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "action",
+                        "description": "Update report: battle_point, streak"
+                    },
+                    {
+                        "step_id": 5,
+                        "type": "action",
+                        "description": "Clear WS connections and Battle Room: io.in(roomid).disconnectSockets(true)"
+                    }
+                ]
+            },
+            {
+                "flow_name": "no_opp_found",
+                "trigger": "Background Job (userid)",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "emit",
+                        "description": "Emit WS Event 'NO_OPPONENT_FOUND'"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Delete: USER_SOCKET_ID (userid), USER_BATTLE_LOCK (userid), MATCHUP_WITH_BOT (userid), BATTLE_OPPONENT {subject_code, chapter}"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Disconnect user socket"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": {
+            "module": "Battle",
+            "focus": "WebSocket disconnect handling, live player answer submission during battle rounds, and voluntary battle forfeiture (QUIT_BATTLE) logic."
+        },
+        "definitions": {
+            "database_models": [],
+            "redis_and_state": [
+                "USER_SOCKET_ID (userid)",
+                "USER_BATTLE_LOCK (userid)",
+                "USER_IN_BATTLE (userid)",
+                "ROUND_TIMEOUT (roomid)",
+                "BOT_SUBMIT_ANSWER (roomid)",
+                "FORFEIT_JOB_ID (userid) - TTL / Delay: FORFEIT_BATTLE_DELAY",
+                "MATCHUP_WITH_BOT (userid)",
+                "BATTLE_OPPONENT (subject_code, chapter)",
+                "ROUND_TURN_DELAY"
+            ],
+            "principles_and_notes": [
+                "If a disconnected user is the last player in the room, the match immediately aborts and schedules finalize_battle without delay.",
+                "If other players remain in the room upon disconnect, a delayed forfeit job (FORFEIT_BATTLE_DELAY) is scheduled while notifying remaining players via USER_DISCONNECTED.",
+                "When both players submit their answers (players_answered == 2), the system schedules next_question after ROUND_TURN_DELAY."
+            ]
+        },
+        "interfaces": {
+            "api_routes": [],
+            "websocket": {
+                "listen": [
+                    "disconnect",
+                    "SUBMIT_ANSWER",
+                    "QUIT_BATTLE"
+                ],
+                "emit": [
+                    "USER_DISCONNECTED",
+                    "PLAYER_ANSWERED"
+                ]
+            },
+            "jobs": [
+                "finalize_battle (roomid)",
+                "Forfeit_battle",
+                "next_question (roomid)"
+            ]
+        },
+        "logic_flows": [
+            {
+                "flow_name": "disconnect",
+                "trigger": "WebSocket Disconnect Event",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "condition",
+                        "description": "Check if user socket is connected with any battle room",
+                        "branches": {
+                            "Connected": [
+                                {
+                                    "step_id": "1.1.a",
+                                    "type": "condition",
+                                    "description": "Check if user is last player since now",
+                                    "branches": {
+                                        "True": [
+                                            {
+                                                "step_id": "1.1.a.1",
+                                                "type": "action",
+                                                "description": "Delete Job and Ids for both users: USER_SOCKET_ID (userid), USER_BATTLE_LOCK (userid), USER_IN_BATTLE (userid), ROUND_TIMEOUT (roomid), BOT_SUBMIT_ANSWER (roomid)"
+                                            },
+                                            {
+                                                "step_id": "1.1.a.2",
+                                                "type": "schedule_job",
+                                                "description": "Add job finalize_battle (roomid) - No Delay"
+                                            }
+                                        ],
+                                        "False": [
+                                            {
+                                                "step_id": "1.1.a.3",
+                                                "type": "emit",
+                                                "description": "Emit WS Event 'USER_DISCONNECTED'"
+                                            },
+                                            {
+                                                "step_id": "1.1.a.4",
+                                                "type": "schedule_job",
+                                                "description": "Add Job and Save Id: FORFEIT_JOB_ID (userid) with Delay FORFEIT_BATTLE_DELAY"
+                                            },
+                                            {
+                                                "step_id": "1.1.a.5",
+                                                "type": "action",
+                                                "description": "Delete USER_SOCKET_ID (userid)"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Not Connected": [
+                                {
+                                    "step_id": "1.1.b",
+                                    "type": "action",
+                                    "description": "Delete Job and Ids: USER_SOCKET_ID (userid), USER_BATTLE_LOCK (userid), MATCHUP_WITH_BOT (userid), BATTLE_OPPONENT (subject_code, chapter)"
+                                },
+                                {
+                                    "step_id": "1.2.b",
+                                    "type": "action",
+                                    "description": "Disconnect user socket"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "SUBMIT_ANSWER",
+                "trigger": "WebSocket Event 'SUBMIT_ANSWER'",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "action",
+                        "description": "Validate answer and question_index"
+                    },
+                    {
+                        "step_id": 2,
+                        "type": "action",
+                        "description": "Update player score and answer"
+                    },
+                    {
+                        "step_id": 3,
+                        "type": "action",
+                        "description": "Calculate, Update and Reset: players_answer_durations, players_last_answered_at"
+                    },
+                    {
+                        "step_id": 4,
+                        "type": "action",
+                        "description": "Increase players_answered in battle_state"
+                    },
+                    {
+                        "step_id": 5,
+                        "type": "emit",
+                        "description": "Emit WS Event 'PLAYER_ANSWERED'"
+                    },
+                    {
+                        "step_id": 6,
+                        "type": "condition",
+                        "description": "Check players_answered == 2",
+                        "branches": {
+                            "True": [
+                                {
+                                    "step_id": "6.1",
+                                    "type": "schedule_job",
+                                    "description": "Add job next_question(roomid) with Delay ROUND_TURN_DELAY"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "flow_name": "QUIT_BATTLE",
+                "trigger": "WebSocket Event 'QUIT_BATTLE'",
+                "steps": [
+                    {
+                        "step_id": 1,
+                        "type": "schedule_job",
+                        "description": "Add job 'Forfeit_battle' - No Delay, isForfeit: true, forfeitedUserId"
+                    }
+                ]
+            }
+        ]
+    }
+]

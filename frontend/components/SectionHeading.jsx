@@ -1,0 +1,1 @@
+export default function SectionHeading({ eyebrow, title, description, action }) { return <div className="mb-8 flex flex-wrap items-end justify-between gap-4"><div><div className="eyebrow mb-2">{eyebrow}</div><h1 className="font-serif text-4xl text-paper md:text-5xl">{title}</h1>{description && <p className="muted mt-2 max-w-2xl">{description}</p>}</div>{action}</div>; }

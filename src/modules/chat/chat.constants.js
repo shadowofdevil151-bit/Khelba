@@ -1,0 +1,6 @@
+export const CHAT_CONFIG = Object.freeze({
+    MAX_MESSAGE_LENGTH: 500,
+    RATE_LIMIT: 50,
+    RATE_WINDOW_SECONDS: 60,
+    HISTORY_LIMIT: 100
+});

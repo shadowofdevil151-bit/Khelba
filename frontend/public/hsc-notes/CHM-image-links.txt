@@ -1,0 +1,93 @@
+CHEMISTRY IMAGE LINK CHECKLIST
+Selected one high-value diagram per chapter to keep image-generation costs down.
+Paste each URL after "Link: -". The matching invisible ID marker is already in its chapter.
+References are from the existing notes; check page numbers against your own textbook edition.
+Total selected diagrams: 10
+
+============================================================
+CHM-1st
+============================================================
+
+Chapter ১: ল্যাবরেটরির নিরাপদ ব্যবহার
+ID: CHM-1st-C01-I01
+File: CHM-1st\chm-1.md
+Place after: ব্যক্তিগত সুরক্ষা সরঞ্জাম (Personal Protective Equipment - PPE)
+Diagram: Essential laboratory personal protective equipment: apron/lab coat, safety goggles, and suitable gloves, each clearly labeled.
+Reference: Pages 2-3
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646581/image_8563b404_1_z56nze.jpg
+
+Chapter ২: গুণগত রসায়ন
+ID: CHM-1st-C02-I01
+File: CHM-1st\chm-2.md
+Place after: রাসায়নিক পদার্থের বিচ্ছেদ ও বিশোধন (Separation & Purification)
+Diagram: Simple distillation apparatus and paper chromatography setup, labeled with the key components and direction of movement.
+Reference: Pages 209, 220
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646652/image_73f1600f_1_dja6t3.jpg
+
+Chapter ৩: মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন
+ID: CHM-1st-C03-I01
+File: CHM-1st\chm-3.md
+Place after: ব্লকভিত্তিক মৌলের সাধারণ ধর্ম (General Properties of Blocks)
+Diagram: Periodic table with the s, p, d, and f blocks highlighted and labeled.
+Reference: Page 259
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646711/image_90c14c69_1_yckpik.jpg
+
+Chapter ৪: রাসায়নিক পরিবর্তন
+ID: CHM-1st-C04-I01
+File: CHM-1st\chm-4.md
+Place after: বিক্রিয়ার হারকে প্রভাবিত করার উপাদান (Factors Affecting Rate)
+Diagram: Reaction-coordinate profiles for exothermic and endothermic reactions, labeling activation energy and enthalpy change.
+Reference: Page 835
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646761/image_75924ed7_1_vti2nn.jpg
+
+Chapter ৫: কর্মমুখী রসায়ন
+ID: CHM-1st-C05-I01
+File: CHM-1st\chm-5.md
+Place after: ক্যানিং বা কোটাজাতকরণ (Canning)
+Diagram: Pressure canner with pressure gauge, safety valve, and food cans clearly labeled.
+Reference: Page 596
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646801/image_9c3cc8e2_1_kp5f3l.jpg
+
+============================================================
+CHM-2nd
+============================================================
+
+Chapter ১: পরিবেশ রসায়ন
+ID: CHM-2nd-C01-I01
+File: CHM-2nd\chm-1.md
+Place after: বায়ুমণ্ডল (Atmosphere)
+Diagram: Four atmospheric layers labeled by altitude, showing the temperature trend with height.
+Reference: Page 3
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646842/image_7b99ba98_1_uohzrc.jpg
+
+Chapter ২: জৈব রসায়ন
+ID: CHM-2nd-C02-I01
+File: CHM-2nd\chm-2.md
+Place after: অ্যারোমেটিক হাইড্রোকার্বন: বেনজিন (Aromatic Hydrocarbon: Benzene)
+Diagram: Electrophilic substitution of benzene, showing attack on the ring, sigma-complex formation, and restoration of aromaticity.
+Reference: Page 48
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646891/image_bdff2176_1_abpmxf.jpg
+
+Chapter ৩: পরিমাণগত রসায়ন
+ID: CHM-2nd-C03-I01
+File: CHM-2nd\chm-3.md
+Place after: এসিড-ক্ষারক প্রশমন ও টাইট্রেশন (Acid-Base Neutralization & Titration)
+Diagram: Representative acid-base titration curves for strong/strong, weak/strong, and strong/weak combinations, with equivalence points marked.
+Reference: Page 369
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646933/image_407114db_1_zscsix.jpg
+
+Chapter ৪: তড়িৎ রসায়ন
+ID: CHM-2nd-C04-I01
+File: CHM-2nd\chm-4.md
+Place after: তড়িৎ রাসায়নিক কোষ (Electrochemical Cells)
+Diagram: Daniell cell showing zinc anode, copper cathode, salt bridge, electron-flow direction, and the Zn/Zn²⁺ || Cu²⁺/Cu notation.
+Reference: Page 510
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793646978/image_af6c7699_1_dwdo4w.jpg
+
+Chapter ৫: অর্থনৈতিক রসায়ন
+ID: CHM-2nd-C05-I01
+File: CHM-2nd\chm-5.md
+Place after: শিল্প দূষণ ও নিয়ন্ত্রণ (Industrial Pollution & Control)
+Diagram: Automotive catalytic converter with honeycomb catalyst and exhaust-gas flow, showing conversion of harmful gases into less harmful products.
+Reference: Page 588
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793647014/image_43ada060_1_qbqzcd.jpg

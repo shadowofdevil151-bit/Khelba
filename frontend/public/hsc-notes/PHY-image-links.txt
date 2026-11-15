@@ -1,0 +1,181 @@
+PHYSICS IMAGE LINK CHECKLIST
+Selected high-value diagrams only: one per chapter to keep image-generation costs down.
+Paste each URL after "Link: -". The matching invisible ID marker is already in its chapter.
+References are from the existing notes; check page numbers against your own textbook edition.
+Total selected diagrams: 21
+
+============================================================
+PHY-1st
+============================================================
+
+Chapter ১: ভৌতজগৎ ও পরিমাপ
+ID: PHY-1st-C01-I01
+File: PHY-1st\phy-1.md
+Place after: পরিমাপের কয়েকটি যন্ত্র (Measuring Instruments)
+Diagram: A labeled comparison sheet of a vernier caliper and screw gauge, showing their scales, measuring parts, and how to read a measurement.
+Reference: Pages 25-26
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633594/image_7670ca37_1_lfgcjl.jpg
+
+Chapter ২: ভেক্টর
+ID: PHY-1st-C02-I01
+File: PHY-1st\phy-2.md
+Place after: সামান্তরিকের সূত্র (Law of Parallelogram)
+Diagram: Vector addition by the parallelogram law, with vectors P and Q, included angle, diagonal resultant R, and resultant angle.
+Reference: Not specified
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633674/image_dac0f41b_1_e5qomh.jpg
+
+Chapter ৩: গতিবিদ্যা
+ID: PHY-1st-C03-I01
+File: PHY-1st\phy-3.md
+Place after: গতির লেখচিত্র (Motion Graphs)
+Diagram: Position-time curve with a tangent at a point for instantaneous velocity, alongside a velocity-time graph with shaded area for displacement.
+Reference: Pages 137, 139
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633737/image_221081dd_1_uipeuf.jpg
+
+Chapter ৪: নিউটনীয় বলবিদ্যা
+ID: PHY-1st-C04-I01
+File: PHY-1st\phy-4.md
+Place after: সংঘর্ষ (Collision)
+Diagram: Side-by-side elastic and perfectly inelastic collisions, showing the objects before and after impact and the conserved quantities.
+Reference: Page 257
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633798/image_5aa195_1_bgk8mz.jpg
+
+Chapter ৫: কাজ, শক্তি ও ক্ষমতা
+ID: PHY-1st-C05-I01
+File: PHY-1st\phy-5.md
+Place after: পরিবর্তনশীল বল দ্বারা কাজ (Work Done by a Variable Force)
+Diagram: Force-displacement graph for a variable force, with the area under the curve between the initial and final positions shaded as work.
+Reference: Page 325
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633867/image_897c92c9_1_iobbbe.jpg
+
+Chapter ৬: মহাকর্ষ ও অভিকর্ষ
+ID: PHY-1st-C06-I01
+File: PHY-1st\phy-6.md
+Place after: কৃত্রিম উপগ্রহ (Artificial Satellites)
+Diagram: Earth with a satellite in circular orbit at height h, showing orbital radius and tangential orbital velocity.
+Reference: Page 400
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633897/image_e73437e6_1_hgb8ad.jpg
+
+Chapter ৭: পদার্থের গাঠনিক ধর্ম
+ID: PHY-1st-C07-I01
+File: PHY-1st\phy-7.md
+Place after: স্থিতিস্থাপকতা (Elasticity)
+Diagram: Stress-strain curve for a ductile material, clearly labeling proportional limit, elastic limit, yield point, and breaking point.
+Reference: Page 460
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793633969/image_906ba67a_1_yu0km9.jpg
+
+Chapter ৮: পর্যায়বৃত্তিক গতি
+ID: PHY-1st-C08-I01
+File: PHY-1st\phy-8.md
+Place after: সরল দোলন গতিতে শক্তি (Energy in SHM)
+Diagram: SHM energy-displacement graph showing kinetic energy, potential energy, and constant total energy against displacement.
+Reference: Page 538
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634052/f-d_a4c53b8a23c2a750aaef49760b3c54fc4acc519b9dd96d7d9fdd1e2e_IMAGE_THUMB_POSTCARD_TINY_IMAGE_THUMB_POSTCARD_TINY_qspb7t.png
+
+Chapter ৯: তরঙ্গ
+ID: PHY-1st-C09-I01
+File: PHY-1st\phy-9.md
+Place after: স্থির তরঙ্গ (Standing or Stationary Wave)
+Diagram: Standing wave on a string with clearly labeled nodes and antinodes.
+Reference: Page 499
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634116/image_816a5232_1_bdtydr.jpg
+
+Chapter ১০: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব
+ID: PHY-1st-C10-I01
+File: PHY-1st\phy-10.md
+Place after: গ্যাস সূত্রাবলি (Gas Laws)
+Diagram: Paired Boyle and Charles law graphs, labeling the variables and showing the correct curve or straight-line relationship.
+Reference: Pages 675-676
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634167/image_cb08c657_1_ue8ufz.jpg
+
+============================================================
+PHY-2nd
+============================================================
+
+Chapter ১: তাপগতিবিদ্যা
+ID: PHY-2nd-C01-I01
+File: PHY-2nd\phy-1.md
+Place after: তাপ ইঞ্জিন ও কার্নো ইঞ্জিন (Heat Engine and Carnot Engine)
+Diagram: Pressure-volume diagram of a Carnot cycle with two isotherms, two adiabats, and the four labeled states.
+Reference: Page 19
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634217/image_83db9fea_1_jiqynl.jpg
+
+Chapter ২: স্থির তড়িৎ
+ID: PHY-2nd-C02-I01
+File: PHY-2nd\phy-2.md
+Place after: তড়িৎ দ্বিমেরু (Electric Dipole)
+Diagram: Electric dipole with charges +q and -q, separation 2l, and labeled axial and equatorial lines.
+Reference: Page 87
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634259/image_639c2490_1_vlkupv.jpg
+
+Chapter ৩: চল তড়িৎ
+ID: PHY-2nd-C03-I01
+File: PHY-2nd\phy-3.md
+Place after: হুইটস্টোন ব্রিজ ও মিটার ব্রিজ (Wheatstone Bridge and Meter Bridge)
+Diagram: Meter bridge circuit with known and unknown resistances, galvanometer, jockey, 1 m wire, and balance point.
+Reference: Page 101
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634308/image_9eb7a1c1_1_tvanxt.jpg
+
+Chapter ৪: তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব
+ID: PHY-2nd-C04-I01
+File: PHY-2nd\phy-4.md
+Place after: তড়িৎবাহী পরিবাহী ও সমান্তরাল তারের উপর বল (Force on Current-Carrying Conductor & Parallel Wires)
+Diagram: Fleming left-hand rule with labeled force, field, and current directions, plus parallel current-carrying wires showing attraction and repulsion.
+Reference: Pages 131, 133
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634536/image_b450805b_1_a3f2xp.jpg
+
+Chapter ৫: তাড়িতচৌম্বকীয় আবেশ ও পরিবর্তী প্রবাহ
+ID: PHY-2nd-C05-I01
+File: PHY-2nd\phy-5.md
+Place after: ট্রান্সফর্মার (Transformer)
+Diagram: Labeled step-up transformer showing primary and secondary coils, laminated iron core, and load.
+Reference: Page 163
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634580/image_7fa0450b_1_zmk7wd.jpg
+
+Chapter ৬: জ্যামিতিক আলোকবিজ্ঞান
+ID: PHY-2nd-C06-I01
+File: PHY-2nd\phy-6.md
+Place after: লেন্স ও লেন্স নির্মাতার সমীকরণ (Lens and Lens Maker's Formula)
+Diagram: Labeled convex and concave lenses with principal axis, optical center, principal focus, and center of curvature.
+Reference: Pages 215-216
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634619/image_570bc2b1_1_rjpcjs.jpg
+
+Chapter ৭: জ্যোতি আলোকবিজ্ঞান
+ID: PHY-2nd-C07-I01
+File: PHY-2nd\phy-7.md
+Place after: হাইগেনসের নীতি (Huygens' Principle)
+Diagram: Huygens construction for refraction, showing the incident and refracted wavefronts, secondary wavelets, and angles of incidence and refraction.
+Reference: Page 238
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634667/image_eb742949_1_togash.jpg
+
+Chapter ৮: আধুনিক পদার্থবিজ্ঞানের সূচনা
+ID: PHY-2nd-C08-I01
+File: PHY-2nd\phy-8.md
+Place after: ফটোইলেকট্রিক ক্রিয়া (Photoelectric Effect)
+Diagram: Photoelectric-effect graph of maximum kinetic energy versus frequency, marking threshold frequency and slope h.
+Reference: Page 261
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634711/image_94b11880_1_u8ugb4.jpg
+
+Chapter ৯: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান
+ID: PHY-2nd-C09-I01
+File: PHY-2nd\phy-9.md
+Place after: নিউক্লিয়ার বিক্রিয়া ও শক্তি (Nuclear Reaction & Energy)
+Diagram: Uranium-235 fission chain reaction showing an incident neutron, fission fragments, and released neutrons causing further fissions.
+Reference: Page 294
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634751/image_4936f2f2_1_um6ynn.jpg
+
+Chapter ১০: সেমিকন্ডাক্টর ও ইলেকট্রনিক্স
+ID: PHY-2nd-C10-I01
+File: PHY-2nd\phy-10.md
+Place after: p-n জাংশন ডায়োড (p-n Junction Diode)
+Diagram: p-n junction cross-section and forward/reverse bias comparison, with the corresponding current-voltage characteristic.
+Reference: Pages 312, 315
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634802/image_6217b4b3_1_gjox3y.jpg
+
+Chapter ১১: জ্যোতির্বিজ্ঞান
+ID: PHY-2nd-C11-I01
+File: PHY-2nd\phy-11.md
+Place after: জ্যোতির্বৈজ্ঞানিক যন্ত্রপাতি (Astronomical Instruments)
+Diagram: Side-by-side labeled refracting and reflecting telescopes, showing their main optical components and light paths.
+Reference: Pages 359-360
+Link: -https://res.cloudinary.com/de4qffsit/image/upload/v1793634903/image_5536e2c6_1_olnsr3.jpg

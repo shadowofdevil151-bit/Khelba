@@ -1,0 +1,16 @@
+import { Router } from "express";
+import { authenticateUser } from "../../middlewares/auth.middleware.js";
+import { handleAvatarUpload } from "../../middlewares/upload.middleware.js";
+import { UserController } from "./user.controller.js";
+export const userRouter = Router();
+userRouter.use(authenticateUser);
+userRouter.get("/me", UserController.me);
+userRouter.get("/friends", UserController.friends);
+userRouter.post("/search", UserController.search);
+userRouter.patch("/me", handleAvatarUpload, UserController.update);
+userRouter.get("/:userId/profile", UserController.publicProfile);
+userRouter.post("/:userId/friend-request", UserController.request);
+userRouter.post("/:userId/friend-response", UserController.respond);
+userRouter.delete("/:userId/friend-request", UserController.cancelRequest);
+userRouter.delete("/friends/:userId", UserController.remove);
+userRouter.delete("/:userId/friend", UserController.remove);

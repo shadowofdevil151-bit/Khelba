@@ -1,0 +1,21 @@
+config:
+  target: "{{ $processEnvironment.TARGET_URL }}"
+  processor: "./processor.cjs"
+  phases:
+    - name: Warm up
+      duration: 30
+      arrivalRate: 1
+      rampTo: 5
+    - name: Gradual load
+      duration: 60
+      arrivalRate: 5
+      rampTo: 15
+  maxVusers: 300
+scenarios:
+  - name: Authenticated player completes a ten-question battle
+    engine: http
+    flow:
+      - function: "generateAccessToken"
+      - function: "openBattleSocket"
+      - function: "runBattle"
+      - function: "closeBattleSocket"

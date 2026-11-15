@@ -1,0 +1,1900 @@
+[
+  {
+    "subject_code": "HSC-253",
+    "subject_name": "হিসাববিজ্ঞান",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "হিসাববিজ্ঞানের পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "হিসাবের বইসমূহ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "ব্যাংক সমন্বয় বিবরণী"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "রেওয়ামিল"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "হিসাববিজ্ঞানের নীতিমালা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "প্রাপ্য হিসাবসমূহের হিসাবরক্ষণ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "কার্যপত্র"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "দৃশ্যমান ও অদৃশ্যমান সম্পদের হিসাবরক্ষণ"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "আর্থিক বিবরণী"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "একতরফা দাখিলা পদ্ধতি"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-254",
+    "subject_name": "হিসাববিজ্ঞান",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "অব্যবসায়ী প্রতিষ্ঠানের হিসাব"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "অংশীদারী প্রতিষ্ঠানের হিসাব"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "নগদ প্রবাহ বিবরণী"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "যৌথ মূলধনী কোম্পানির মূলধন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "যৌথ মূলধনী কোম্পানির আর্থিক বিবরণী"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "আর্থিক বিবরণী বিশ্লেষণ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "উৎপাদন ব্যয় হিসাববিজ্ঞান"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "মজুদ পণ্যের হিসাবরক্ষণ পদ্ধতি"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "ব্যয় ও ব্যয়ের শ্রেণীবিভাগ"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "ব্যবস্থাপনা হিসাববিজ্ঞান পরিচিতি"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-239",
+    "subject_name": "কৃষিশিক্ষা",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বাংলাদেশের কৃষি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ভূমি সম্পৃক্ত কৃষি প্রযুক্তি"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "বিশেষ উৎপাদন সম্পৃক্ত কৃষি প্রযুক্তি"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "কৃষি ও জলবায়ু"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "মাঠ ও উদ্যান ফসল উৎপাদন"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "ফল ও শাকসবজি প্রক্রিয়াজাতকরণ ও সংরক্ষণ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-240",
+    "subject_name": "কৃষিশিক্ষা",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "মৎস্য চাষ"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "পোল্ট্রি পালন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "পশুপালন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বনায়ন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "কৃষি অর্থনীতি ও সমবায়"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-178",
+    "subject_name": "জীববিজ্ঞান",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "কোষ ও এর গঠন"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "কোষ বিভাজন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "কোষ রসায়ন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "অণুজীব"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "শৈবাল ও ছত্রাক"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "ব্রায়োফাইটা ও টেরিডোফাইটা"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "নগ্নবীজী ও আবৃতবীজী"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "টিস্যু ও টিস্যুতন্ত্র"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "উদ্ভিদ শারীরতত্ত্ব"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "উদ্ভিদের প্রজনন"
+      },
+      {
+        "chapter_index": 11,
+        "chapter_name": "জীবপ্রযুক্তি"
+      },
+      {
+        "chapter_index": 12,
+        "chapter_name": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-179",
+    "subject_name": "জীববিজ্ঞান",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "প্রাণীর বিভিন্নতা ও শ্রেণিবিন্যাস"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "প্রাণীর পরিচিতি"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "মানব শারীরতত্ত্ব: পরিপাক ও শোষণ"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "মানব শারীরতত্ত্ব: রক্ত ও সংবহন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "মানব শারীরতত্ত্ব: শ্বসন ও শ্বাসক্রিয়া"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "মানব শারীরতত্ত্ব: বর্জ্য ও নিষ্কাশন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "মানব শারীরতত্ত্ব: চলন ও অঙ্গচালনা"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "মানব শারীরতত্ত্ব: সমন্বয় ও নিয়ন্ত্রণ"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "মানব জীবনের ধারাবাহিকতা"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "মানবদেহের প্রতিরক্ষা (ইমিউনিটি)"
+      },
+      {
+        "chapter_index": 11,
+        "chapter_name": "জিনতত্ত্ব ও বিবর্তন"
+      },
+      {
+        "chapter_index": 12,
+        "chapter_name": "প্রাণীর আচরণ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-101",
+    "subject_name": "বাংলা",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "খাঁতু বর্ণন"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "বিভীষণের প্রতি মেঘনাদ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "সোনার তরী"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "একতান"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "বিদ্রোহী"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "সাম্যবাদী"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সুচেতনা"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "প্রতিদান"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "তাহারেই পড়ে মনে"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "সেই অস্ত্র"
+      },
+      {
+        "chapter_index": 11,
+        "chapter_name": "পদ্মা"
+      },
+      {
+        "chapter_index": 12,
+        "chapter_name": "আঠারো বছর বয়স"
+      },
+      {
+        "chapter_index": 13,
+        "chapter_name": "ফেব্রুয়ারি ১৯৬৯"
+      },
+      {
+        "chapter_index": 14,
+        "chapter_name": "আমি কিংবদন্তির কথা বলছি"
+      },
+      {
+        "chapter_index": 15,
+        "chapter_name": "নূরলদীনের কথা মনে পড়ে যায়"
+      },
+      {
+        "chapter_index": 16,
+        "chapter_name": "প্রত্যাবর্তনের লজ্জা"
+      },
+      {
+        "chapter_index": 17,
+        "chapter_name": "বাঙালার নব্য লেখকদিগের প্রতি নিবেদন"
+      },
+      {
+        "chapter_index": 18,
+        "chapter_name": "অপরিচিতা"
+      },
+      {
+        "chapter_index": 19,
+        "chapter_name": "সাহিত্যে খেলা"
+      },
+      {
+        "chapter_index": 20,
+        "chapter_name": "বিলাসী"
+      },
+      {
+        "chapter_index": 21,
+        "chapter_name": "অর্ধাঙ্গী"
+      },
+      {
+        "chapter_index": 22,
+        "chapter_name": "আহ্বান"
+      },
+      {
+        "chapter_index": 23,
+        "chapter_name": "যৌবনের গান"
+      },
+      {
+        "chapter_index": 24,
+        "chapter_name": "জীবন ও বৃক্ষ"
+      },
+      {
+        "chapter_index": 25,
+        "chapter_name": "মানব-কল্যাণ"
+      },
+      {
+        "chapter_index": 26,
+        "chapter_name": "গন্তব্য কাবুল"
+      },
+      {
+        "chapter_index": 27,
+        "chapter_name": "মাসি-পিসি"
+      },
+      {
+        "chapter_index": 28,
+        "chapter_name": "কপিলদাস মুর্মুর শেষ কাজ"
+      },
+      {
+        "chapter_index": 29,
+        "chapter_name": "জাদুঘরে কেন যাব"
+      },
+      {
+        "chapter_index": 30,
+        "chapter_name": "নেকলেস"
+      },
+      {
+        "chapter_index": 31,
+        "chapter_name": "রেইনকোট"
+      },
+      {
+        "chapter_index": 32,
+        "chapter_name": "লালসালু"
+      },
+      {
+        "chapter_index": 33,
+        "chapter_name": "সিরাজউদ্দৌলা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-277",
+    "subject_name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ব্যবসায়ের মৌলিক ধারণা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ব্যবসায় পরিবেশ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "একমালিকানা ব্যবসায়"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "অংশীদারি ব্যবসায়"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "যৌথ মূলধনী ব্যবসায়"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "সমবায় সমিতি"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "রাষ্ট্রীয় ব্যবসায়"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "ব্যবসায়ের আইনগত দিক"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "ব্যবসায় সহায়ক সেবা"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "ব্যবসায় উদ্যোগ"
+      },
+      {
+        "chapter_index": 11,
+        "chapter_name": "ব্যবসায়ে তথ্য ও যোগাযোগ প্রযুক্তির ব্যবহার"
+      },
+      {
+        "chapter_index": 12,
+        "chapter_name": "ব্যবসায় নৈতিকতা ও সামাজিক দায়বদ্ধতা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-278",
+    "subject_name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ব্যবস্থাপনার প্রাথমিক পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ব্যবস্থাপনার নীতি"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "পরিকল্পনা প্রণয়ন ও সিদ্ধান্ত গ্রহণ"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "সংগঠিতকরণ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "কর্মীসংস্থান"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "নেতৃত্ব"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "প্রেষণা"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "যোগাযোগ"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "সমন্বয়সাধন"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "নিয়ন্ত্রণ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-269",
+    "subject_name": "পৌরনীতি ও সুশাসন",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "পৌরনীতি ও সুশাসন পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "সুশাসন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "মূল্যবোধ, আইন, স্বাধীনতা ও সাম্য"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "ই-গভর্নেন্স"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "নাগরিক অধিকার ও কর্তব্য এবং মানবাধিকার"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "রাজনৈতিক দল, নেতৃত্ব ও সুশাসন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সরকার ও সরকারের অঙ্গসমূহ"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "জনমত ও রাজনৈতিক সংস্কৃতি"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "জনসেবা ও আমলাতন্ত্র"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "জাতি, জাতীয়তা ও দেশপ্রেম"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-270",
+    "subject_name": "পৌরনীতি ও সুশাসন",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ব্রিটিশ ভারতের প্রতিনিধিত্বশীল সরকারের বিকাশ ও ভারত বিভাগ"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "পাকিস্তান থেকে বাংলাদেশ (১৯৪৭-১৯৭১)"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "রাজনৈতিক ব্যক্তিত্ব: বাংলাদেশের স্বাধীনতা লাভ"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বাংলাদেশের সংবিধান"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "বাংলাদেশের সরকার ও প্রশাসনিক কাঠামো"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "স্থানীয় শাসন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সাংবিধানিক প্রতিষ্ঠান"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বাংলাদেশের নির্বাচন ব্যবস্থা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "বাংলাদেশের বৈদেশিক নীতি"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "নাগরিক সমস্যা ও আমাদের করণীয়"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-176",
+    "subject_name": "রসায়ন",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ল্যাবরেটরির নিরাপদ ব্যবহার"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "গুণগত রসায়ন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "রাসায়নিক পরিবর্তন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "কর্মমুখী রসায়ন"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-177",
+    "subject_name": "রসায়ন",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "পরিবেশ রসায়ন"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "জৈব রসায়ন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "পরিমাণগত রসায়ন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "তড়িৎ রসায়ন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "অর্থনৈতিক রসায়ন"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-109",
+    "subject_name": "অর্থনীতি",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "মৌলিক অর্থনৈতিক সমস্যা এবং এর সমাধান"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ভোক্তা ও উৎপাদকের আচরণ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "উৎপাদন, উৎপাদন ব্যয় ও আয়"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বাজার"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "শ্রমবাজার"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "মূলধন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সংগঠন"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "খাজনা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "সামগ্রিক আয় ও ব্যয়"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "মুদ্রা ও ব্যাংক ব্যবস্থা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-110",
+    "subject_name": "অর্থনীতি",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বাংলাদেশের অর্থনীতি পরিচয়"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "বাংলাদেশের কৃষি"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "বাংলাদেশের শিল্প"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "জনসংখ্যা, মানব সম্পদ এবং আত্মকর্মসংস্থান"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "খাদ্য নিরাপত্তা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "অর্থায়ন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "মুদ্রাস্ফীতি"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "আন্তর্জাতিক বাণিজ্য"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "সরকারি অর্থব্যবস্থা"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "উন্নয়ন পরিকল্পনা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-292",
+    "subject_name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "প্রাথমিক পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "আর্থিক বাজারের আইনগত দিকসমূহ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "অর্থের সময় মূল্য"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "আর্থিক বিশ্লেষণ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "স্বল্প ও মধ্যমেয়াদি অর্থায়ন"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "দীর্ঘমেয়াদি অর্থায়ন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "মূলধন ব্যয়"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "মূলধন বাজেটিং ও বিনিয়োগ সিদ্ধান্ত"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "ঝুঁকি এবং মুনাফার হার"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-293",
+    "subject_name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ব্যাংক ব্যবস্থার প্রাথমিক পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "কেন্দ্রীয় ব্যাংক"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "বাণিজ্যিক ব্যাংক"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "ব্যাংকিং হিসাব"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "হস্তান্তরযোগ্য ঋণের দলিল"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "চেক, বিনিময় বিল ও প্রতিশ্রুতিপত্র"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "ব্যাংক ফান্ড"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বৈদেশিক বিনিময় ও বৈদেশিক মুদ্রা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "ইলেকট্রনিক ও আধুনিক ব্যাংকিং"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "বিমার মৌলিক ধারণা"
+      },
+      {
+        "chapter_index": 11,
+        "chapter_name": "জীবন বিমা"
+      },
+      {
+        "chapter_index": 12,
+        "chapter_name": "নৌবিমা"
+      },
+      {
+        "chapter_index": 13,
+        "chapter_name": "অগ্নি বিমা"
+      },
+      {
+        "chapter_index": 14,
+        "chapter_name": "বিবিধ বিমা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-125",
+    "subject_name": "ভূগোল ও পরিবেশ",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "প্রাকৃতিক ভূগোল"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "পৃথিবীর গঠন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "ভূমিরূপ পরিবর্তন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বায়ুমণ্ডল ও বায়ু দূষণ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "জলবায়ুর উপাদান ও নিয়ামক"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "জলবায়ু অঞ্চল ও জলবায়ু পরিবর্তন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "বারিমণ্ডল"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "সমুদ্রস্রোত ও জোয়ার-ভাটা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "জীবমণ্ডল"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "ব্যবহারিক: মানচিত্র ও স্কেল"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-126",
+    "subject_name": "ভূগোল ও পরিবেশ",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "মানব ভূগোল"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "জনসংখ্যা"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "মানব বসতি"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "কৃষি"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "খনিজ ও শক্তি সম্পদ"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "শিল্প"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "পরিবহন ও যোগাযোগ"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বাণিজ্য"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "দূষণ ও দুর্যোগ"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "মানচিত্র অভিক্ষেপ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-304",
+    "subject_name": "ইতিহাস",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ভারতবর্ষে ইউরোপীয়দের আগমন: ইংরেজ আধিপত্য প্রতিষ্ঠা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ইংরেজ উপনিবেশিক শাসন: কোম্পানি আমল"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "ইংরেজ উপনিবেশিক শাসন: ব্রিটিশ আমল"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "পাকিস্তানি আমলে বাংলা: ভাষা আন্দোলন ও এর গতিপ্রকৃতি"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "পূর্ব বাংলার স্বায়ত্তশাসন ও স্বাধিকার আন্দোলন"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "বাংলাদেশের স্বাধীনতা ঘোষণা ও মুক্তিযুদ্ধ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "মুক্তিযুদ্ধে বাংলাদেশ সরকারের (মুজিবনগর) কার্যক্রম"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "মুক্তিযুদ্ধে প্রবাসী বাঙালি ও বহির্বিশ্ব"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-305",
+    "subject_name": "ইতিহাস",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "শিল্পবিপ্লব"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ফরাসি বিপ্লব"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "প্রথম বিশ্বযুদ্ধ এবং ভার্সাই সন্ধি ও লীগ অব নেশনস"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বলশেভিক বিপ্লব"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "হিটলার ও মুসোলিনির উত্থান এবং দ্বিতীয় বিশ্বযুদ্ধ"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "জাতিসংঘ এবং বিশ্বশান্তি"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "স্নায়ুযুদ্ধ: পুঁজিবাদ ও সমাজতন্ত্রের দ্বন্দ্ব"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "স্নায়ুযুদ্ধ-পরবর্তী বিশ্ব"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "বর্ণবাদবিরোধী আন্দোলন"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "বাংলাদেশের সামাজিক উন্নয়ন"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-275",
+    "subject_name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "তথ্য ও যোগাযোগ প্রযুক্তি—বিশ্ব ও বাংলাদেশ প্রেক্ষিত"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "কমিউনিকেশন সিস্টেম ও কম্পিউটার নেটওয়ার্কিং"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "ওয়েব ডিজাইন পরিচিতি এবং HTML"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "প্রোগ্রামিং ভাষা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "ডেটাবেজ ম্যানেজমেন্ট সিস্টেম"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-267",
+    "subject_name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "প্রাক-ইসলামি আরব"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "হযরত মুহাম্মদ (স.) (৫৭০–৬৩২ খ্রিষ্টাব্দ))"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "খুলাফায়ে রাশেদিন (৬৩২-৬৬১ খ্রি.)"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "উমাইয়া খিলাফত (৬৬১-৭৫০ খ্রি.)"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "আব্বাসীয় খিলাফত (৭৫০-১২৫৮ খ্রি.)"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "স্পেনে উমাইয়া শাসন (৭১১-১৪৯২ খ্রি.)"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "উত্তর আফ্রিকায় ফাতেমী খিলাফত (৯০৯-১১৭১ খ্রি.)"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-268",
+    "subject_name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ভারতে মুসলিম শাসন প্রতিষ্ঠা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "দিল্লি সালতানাত যুগ (১২০৬-১৫২৬ খ্রি.)"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "ভারতীয় উপমহাদেশে মুঘল শাসন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বাংলায় কোম্পানি ও ঔপনিবেশিক শাসন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "বাংলার ইতিহাস (পাকিস্তান আমল))"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "স্বাধীন সার্বভৌম বাংলাদেশের অভ্যুদয়"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-249",
+    "subject_name": "ইসলাম শিক্ষা",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ইসলামি শিক্ষা ও সংস্কৃতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ইসলাম ও ব্যক্তিজীবন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "ইসলাম ও পারিবারিক জীবন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "ইসলাম ও সমাজজীবন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "ইসলামের অর্থব্যবস্থা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "ইসলামি রাষ্ট্রব্যবস্থা"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "ইসলামের আন্তর্জাতিক ব্যবস্থা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-250",
+    "subject_name": "ইসলাম শিক্ষা",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "আল-কুরআন"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "আল-হাদিস"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "আল-ইজমা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "আল-কিয়াস"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "ফিকহশাস্ত্র"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "মৌলিক ইবাদত"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "তাসাউফ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-121",
+    "subject_name": "যুক্তিবিদ্যা",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "যুক্তিবিদ্যার পরিচয়"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "যুক্তিবিদ্যার প্রায়োগিক দিক"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "যুক্তির উপাদান"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বিধেয়ক"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "অনুমান"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "অবরোহ অনুমান"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "আরোহ অনুমান ও আরোহ অনুমানের ভিত্তি"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "প্রতীকী যুক্তিবিদ্যা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-122",
+    "subject_name": "যুক্তিবিদ্যা",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "যৌক্তিক সংজ্ঞা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "যৌক্তিক বিভাগ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "আরোহের প্রকারভেদ"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "প্রকল্প"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "কার্যকারণ সম্পর্ক প্রমাণ পদ্ধতি"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "ব্যাখ্যা"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "শ্রেণিকরণ"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "সম্ভাবনা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-265",
+    "subject_name": "উচ্চতর গণিত",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ম্যাট্রিক্স ও নির্ণায়ক"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ভেক্টর"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "সরলরেখা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বৃত্ত"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "দ্বিপদী বিস্তৃতি ও বিন্যাস-সমাবেশ"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "ত্রিকোণমিতিক অনুপাত"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সংযুক্ত কোণের ত্রিকোণমিতিক অনুপাত ও ত্রিভুজের ধর্ম"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "ফাংশন ও ফাংশনের লেখচিত্র"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "অন্তরীকরণ"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "যোগজীকরণ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-266",
+    "subject_name": "উচ্চতর গণিত",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বাস্তব সংখ্যা ও অসমতা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "যোগাশ্রয়ী প্রোগ্রাম"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "জটিল সংখ্যা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বহুপদী ও বহুপদী সমীকরণ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "দ্বিপদী বিস্তৃতি"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "কনিক"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "বিপরীত ত্রিকোণমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "স্থিতিবিদ্যা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "সমতলে বস্তুকণার গতি"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "বিস্তার পরিমাপ ও সম্ভাবনা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-174",
+    "subject_name": "পদার্থবিজ্ঞান",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "ভৌতজগৎ ও পরিমাপ"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ভেক্টর"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "গতিবিদ্যা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "নিউটনীয় বলবিদ্যা"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "কাজ, শক্তি ও ক্ষমতা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "মহাকর্ষ ও অভিকর্ষ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "পদার্থের গাঠনিক ধর্ম"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "পর্যায়বৃত্তিক গতি"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "তরঙ্গ"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-175",
+    "subject_name": "পদার্থবিজ্ঞান",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "তাপগতিবিদ্যা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "স্থির তড়িৎ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "চল তড়িৎ"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "তাড়িতচৌম্বকীয় আবেশ ও পরিবর্তী প্রবাহ"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "জ্যামিতিক আলোকবিজ্ঞান"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "জ্যোতি আলোকবিজ্ঞান"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "আধুনিক পদার্থবিজ্ঞানের সূচনা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "সেমিকন্ডাক্টর ও ইলেকট্রনিক্স"
+      },
+      {
+        "chapter_index": 11,
+        "chapter_name": "জ্যোতির্বিজ্ঞান"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-286",
+    "subject_name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "উৎপাদনের ধারণা, উপযোগ ও উৎপাদনশীলতা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "উৎপাদনের উপকরণসমূহ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "উৎপাদনের মাত্রা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "সমষ্টিক পর্যায়ে উৎপাদন"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "উৎপাদন ব্যবস্থাপনা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "পণ্য ডিজাইন"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "মান ব্যবস্থাপনা"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "উৎপাদন ক্ষমতা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "ব্যবসায়ের অবস্থান"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "লে-আউট বা বিন্যাস"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-287",
+    "subject_name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বিপণন পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "বিপণন পরিবেশ"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "বিপণন কার্যাবলি"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বাজার বিভক্তিকরণ ও বিপণন মিশ্রণ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "পণ্য ও পণ্যের মূল্য নির্ধারণ"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "পণ্য বণ্টন প্রণালী"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "পাইকারি ও খুচরা ব্যবসায়"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বিপণন প্রসার ও বিজ্ঞাপন"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "ব্যক্তিক বিক্রয় ও বিক্রয়িকতা"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "বিপণনে সমসাময়িক বিষয়াবলি"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-123",
+    "subject_name": "মনোবিজ্ঞান",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "মনোবিজ্ঞান পরিচিতি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "আচরণের ধারণা ও প্রভাববিস্তারকারী উপাদান"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "আচরণের জৈবিক ভিত্তি"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "প্রেষণা ও আবেগ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "শিক্ষণ ও স্মৃতি"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "সংবেদন ও প্রত্যক্ষণ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "বয়ঃসন্ধিকাল ও মানসিক স্বাস্থ্য"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "পরিসংখ্যান পরিচিতি"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-124",
+    "subject_name": "মনোবিজ্ঞান",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বুদ্ধি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "ব্যক্তিত্ব"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "মনোভাব"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "আচরণের উপর পরিবেশের প্রভাব"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "মানসিক চাপ এবং চাপ মোকাবেলা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "মূল্যবোধ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "মনোবিজ্ঞানে গবেষণার পদ্ধতিসমূহ"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "পরিসংখ্যান"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-129",
+    "subject_name": "পরিসংখ্যান",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "চলক, ধ্রুবক ও প্রতীকের ধারণা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "তথ্য সংগ্রহ, সংক্ষিপ্তকরণ ও উপস্থাপন"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "কেন্দ্রীয় প্রবণতার পরিমাপ"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বিস্তার পরিমাপ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "পরিঘাত, বঙ্কিমতা ও সুচলতা"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "সংশ্লেষ ও নির্ভরণ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "কালীন সারি"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বাংলাদেশের প্রকাশিত পরিসংখ্যান"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-130",
+    "subject_name": "পরিসংখ্যান",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "সম্ভাবনা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "দৈব চলক ও সম্ভাবনা বিন্যাস"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "গাণিতিক প্রত্যাশা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "দ্বিপদী বিন্যাস"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "পয়সন বিন্যাস"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "পরিমিত বিন্যাস"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সূচক সংখ্যা"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "নমুনায়ন"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "জীবপরিসংখ্যান"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-117",
+    "subject_name": "সমাজবিজ্ঞান",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "সমাজবিজ্ঞানের উৎপত্তি ও বিকাশ"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "সমাজবিজ্ঞানের বৈজ্ঞানিক মর্যাদা"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "সমাজবিজ্ঞানীদের মতবাদ ও অবদান"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "সমাজবিজ্ঞানের মৌল প্রত্যয়"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "সামাজিক প্রতিষ্ঠান"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "সমাজজীবনে প্রভাব বিস্তারকারী উপাদান"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সামাজিকীকরণ প্রক্রিয়া"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "সামাজিক স্তরবিন্যাস ও অসমতা"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "সামাজিক ব্যবস্থা - অর্থনৈতিক ব্যবস্থা ও সম্পত্তি"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "বিচ্যুতিমূলক আচরণ এবং অপরাধ"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-118",
+    "subject_name": "সমাজবিজ্ঞান",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বাংলাদেশে সমাজবিজ্ঞান চর্চার বিকাশ"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "বাংলাদেশের সমাজ ও সংস্কৃতি"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "প্রত্নতত্ত্বের ভিত্তিতে বাংলাদেশের সমাজ ও সভ্যতা"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "বাংলাদেশের নৃগোষ্ঠীর জীবনধারা"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "বাংলাদেশের অভ্যুদয়ের সামাজিক প্রেক্ষাপট"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "বাংলাদেশের গ্রামীণ ও শহুরে সমাজ"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "বাংলাদেশে বিবাহ, পরিবার এবং জ্ঞাতিসম্পর্ক"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বাংলাদেশের সামাজিক পরিবর্তন"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "বাংলাদেশের সামাজিক সমস্যা ও প্রতিকারের উপায়"
+      },
+      {
+        "chapter_index": 10,
+        "chapter_name": "বাংলাদেশের সামাজিক উন্নয়ন"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-271",
+    "subject_name": "সমাজকর্ম",
+    "paper": 1,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "সমাজকর্ম: প্রকৃতি ও পরিধি"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "সমাজকর্ম পেশার ঐতিহাসিক প্রেক্ষাপট"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "পেশা ও বৃত্তি"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "সমাজকর্ম সংশ্লিষ্ট প্রত্যয়সমূহ"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "সমাজকর্ম ও সামাজিক বিজ্ঞান"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "সমাজকর্ম পদ্ধতি"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "সামাজিক নীতি ও পরিকল্পনা এবং সমাজকর্ম"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "সমাজকর্ম পেশার সমস্যা ও সম্ভাবনা"
+      }
+    ]
+  },
+  {
+    "subject_code": "HSC-272",
+    "subject_name": "সমাজকর্ম",
+    "paper": 2,
+    "chapters": [
+      {
+        "chapter_index": 1,
+        "chapter_name": "বাংলাদেশে মৌলিক মানবিক চাহিদা"
+      },
+      {
+        "chapter_index": 2,
+        "chapter_name": "সমাজকর্মের শাখা"
+      },
+      {
+        "chapter_index": 3,
+        "chapter_name": "সামাজিক সমস্যা সমাধানে সমাজকর্মের অনুশীলন"
+      },
+      {
+        "chapter_index": 4,
+        "chapter_name": "সামাজিক প্রতিষ্ঠান"
+      },
+      {
+        "chapter_index": 5,
+        "chapter_name": "সামাজিক আইন ও সমাজকর্ম"
+      },
+      {
+        "chapter_index": 6,
+        "chapter_name": "বাংলাদেশে সরকারি সমাজসেবা"
+      },
+      {
+        "chapter_index": 7,
+        "chapter_name": "বাংলাদেশে বেসরকারি সমাজ উন্নয়ন কার্যক্রম"
+      },
+      {
+        "chapter_index": 8,
+        "chapter_name": "বাংলাদেশে আন্তর্জাতিক সংস্থার সমাজ উন্নয়ন কার্যক্রম"
+      },
+      {
+        "chapter_index": 9,
+        "chapter_name": "সমাজকর্ম শিক্ষায় মাঠকর্ম ও অনুশীলন"
+      }
+    ]
+  }
+]

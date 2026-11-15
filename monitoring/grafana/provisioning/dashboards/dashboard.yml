@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Khelba
+    orgId: 1
+    folder: Khelba
+    type: file
+    disableDeletion: true
+    editable: false
+    options:
+      path: /var/lib/grafana/dashboards

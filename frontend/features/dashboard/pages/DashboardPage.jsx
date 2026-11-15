@@ -31,17 +31,21 @@ export default function DashboardPage() {
 
     const retry = () => setRetryKey((key) => key + 1);
 
-    return <div className="mx-auto max-w-[1500px] space-y-3 lg:flex lg:h-[calc(100vh-3rem)] lg:flex-col lg:overflow-hidden">
-        <header className="flex shrink-0 justify-start">
+    return <div className="mx-auto flex max-w-[1500px] flex-col gap-3 lg:h-[calc(100vh-3rem)] lg:overflow-hidden">
+        <header className="hidden shrink-0 md:block">
             <h1 className="text-[2rem] font-semibold leading-tight tracking-wide text-white">Dashboard</h1>
         </header>
-        <div className="grid gap-4 lg:min-h-0 lg:flex-1 lg:grid-cols-[minmax(0,1.5fr)_minmax(300px,1fr)]">
-            <div className="grid min-h-0 min-w-0 gap-4 lg:grid-rows-[auto_minmax(0,1fr)]">
+        <div className="grid gap-4 lg:min-h-0 lg:flex-1 lg:grid-cols-[minmax(0,1.5fr)_minmax(300px,1fr)] lg:grid-rows-[auto_minmax(0,1fr)]">
+            <div className="lg:col-start-2 lg:row-start-1 lg:flex lg:min-h-0 lg:min-w-0 lg:flex-col">
+                <DashboardStreakCard rank={snapshot.rank} loading={snapshot.loading} error={snapshot.error}/>
+            </div>
+            <div className="lg:col-start-1 lg:row-start-1 lg:min-w-0">
                 <DashboardActions/>
+            </div>
+            <div className="lg:col-start-1 lg:row-start-2 lg:flex lg:min-h-0 lg:min-w-0 lg:flex-col">
                 <DashboardReport leaderboard={snapshot.entries.slice(0, 3)} mine={snapshot.rank} comparisonLoading={snapshot.loading} comparisonError={snapshot.error} retryComparison={retry}/>
             </div>
-            <div className="flex min-h-0 min-w-0 flex-col gap-4">
-                <DashboardStreakCard rank={snapshot.rank} loading={snapshot.loading} error={snapshot.error}/>
+            <div className="lg:col-start-2 lg:row-start-2 lg:flex lg:min-h-0 lg:min-w-0 lg:flex-col">
                 <DashboardLeaderboard entries={snapshot.entries} loading={snapshot.loading} error={snapshot.error} onRetry={retry}/>
             </div>
         </div>

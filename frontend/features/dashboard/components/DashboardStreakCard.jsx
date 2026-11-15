@@ -19,27 +19,26 @@ export default function DashboardStreakCard({ rank = null, error = false, loadin
               : "আজ পড়ে স্ট্রিক শুরু করো";
 
     return (
-        <section className="panel relative isolate flex min-h-[168px] items-center overflow-hidden rounded-2xl border-orange-300/15 p-4 sm:p-5">
-            {/* Warm glow layers */} 
+        <section className="panel relative isolate flex min-h-[156px] items-center overflow-hidden rounded-2xl border-orange-300/15 p-4 sm:min-h-[168px] sm:p-5">
             <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,rgba(251,146,60,0.14),transparent_55%)]" />
             <div className="pointer-events-none absolute -right-10 -top-16 -z-10 h-44 w-44 rounded-full bg-orange-500/15 blur-3xl streak-glow-anim" />
             <div className="pointer-events-none absolute -left-12 bottom-0 -z-10 h-32 w-32 rounded-full bg-amber-500/10 blur-3xl" />
 
-            <div className="flex w-full items-start justify-between gap-4">
+            <div className="flex w-full items-center justify-between gap-3 sm:gap-4">
                 <div className="relative z-10 min-w-0 flex-1">
                     <div className="eyebrow flex items-center gap-2 text-sm text-orange-300/90 sm:text-base">
                         <Flame size={17} /> পড়ার ধারাবাহিকতা
                     </div>
 
-                    <div className="mt-2 flex items-baseline gap-2">
-                        <span className="bangla-digits text-4xl font-black leading-none text-white sm:text-5xl">
+                    <div className="mt-1.5 flex items-baseline gap-2 sm:mt-2">
+                        <span className="bangla-digits text-3xl font-black leading-none text-white sm:text-5xl">
                             {loading ? "—" : formatBanglaNumber(currentStreak)}
                         </span>
-                        <span className="text-base text-white/65 sm:text-lg">দিনের স্ট্রিক</span>
+                        <span className="text-sm text-white/65 sm:text-lg">দিনের স্ট্রিক</span>
                     </div>
 
-                    <div className="mt-4 space-y-1.5">
-                        <div className="flex items-center justify-between text-xs uppercase tracking-wider text-white/55 sm:text-sm">
+                    <div className="mt-3 space-y-1.5 sm:mt-4">
+                        <div className="flex items-center justify-between text-[11px] uppercase tracking-wider text-white/55 sm:text-sm">
                             <span>সেরা রেকর্ড</span>
                             <span className="bangla-digits font-semibold text-white/75">{loading ? "—" : `${formatBanglaNumber(longestStreak)} দিন`}</span>
                         </div>
@@ -49,17 +48,15 @@ export default function DashboardStreakCard({ rank = null, error = false, loadin
                                 style={{ width: `${Math.max(progress, currentStreak > 0 ? 4 : 0)}%` }}
                             />
                         </div>
-                        <p className="bangla-digits text-xs text-white/55 sm:text-sm">{milestoneCopy}</p>
+                        <p className="bangla-digits text-[11px] text-white/55 sm:text-sm">{milestoneCopy}</p>
                     </div>
 
                     {error && <p className="mt-2 max-w-56 text-xs text-amber-200">স্ট্রিকের তথ্য পাওয়া যায়নি।</p>}
-
                 </div>
 
-                {/* Flame with progress ring */}
                 <div className="relative z-10 shrink-0">
                     <div className="absolute inset-0 rounded-full bg-orange-500/25 blur-2xl streak-glow-anim" />
-                    <div className="relative grid h-[88px] w-[88px] place-items-center sm:h-[104px] sm:w-[104px]">
+                    <div className="relative grid h-[78px] w-[78px] place-items-center sm:h-[104px] sm:w-[104px]">
                         <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full -rotate-90">
                             <defs>
                                 <linearGradient id="dashStreakGrad" x1="0" y1="0" x2="1" y2="1">
@@ -78,7 +75,7 @@ export default function DashboardStreakCard({ rank = null, error = false, loadin
                                 style={{ transition: "stroke-dashoffset 900ms ease" }}
                             />
                         </svg>
-                        <span className="streak-flame-anim text-4xl sm:text-5xl" aria-hidden="true">🔥</span>
+                        <span className="streak-flame-anim text-3xl sm:text-5xl" aria-hidden="true">🔥</span>
                     </div>
                 </div>
             </div>

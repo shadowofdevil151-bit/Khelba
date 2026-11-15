@@ -45,8 +45,8 @@ function Avatar({ user, preview, onPick, uploading }) {
         <div className="grid h-24 w-24 place-items-center overflow-hidden rounded-full bg-gradient-to-br from-sky-400 via-indigo-500 to-violet-500 text-3xl font-bold text-white ring-4 ring-[#111318]">
             {source ? <img src={source} alt="প্রোফাইল ছবি" className="h-full w-full object-cover"/> : name.slice(0, 1).toUpperCase()}
         </div>
-        <button type="button" onClick={onPick} disabled={uploading} className="absolute -bottom-1 -right-1 grid h-9 w-9 place-items-center rounded-full border-4 border-[#111318] bg-sky-500 text-white shadow-lg transition hover:bg-sky-400 disabled:cursor-wait disabled:opacity-70" aria-label="প্রোফাইল ছবি বদলান">
-            {uploading ? <Upload size={15} className="animate-pulse"/> : <Camera size={15}/>}
+        <button type="button" onClick={onPick} disabled={uploading} className="absolute -bottom-1 -right-1 grid h-9 w-9 place-items-center rounded-full border-4 border-[#111318] bg-sky-500 text-white shadow-lg transition hover:bg-sky-400 disabled:cursor-wait disabled:opacity-70 before:absolute before:-inset-2 before:rounded-full before:content-['']" aria-label="প্রোফাইল ছবি বদলান">
+            {uploading ? <Upload size={15} className="animate-pulse motion-reduce:animate-none"/> : <Camera size={15}/>}
         </button>
     </div>;
 }
@@ -59,6 +59,9 @@ function Stat({ icon: Icon, label, value, detail, accent }) {
     </div>;
 }
 
+const sheetInput = "h-12 w-full rounded-xl border border-white/10 bg-[#26262a] px-3.5 text-base text-white placeholder:text-zinc-500 focus:border-sky-500/60 focus:outline-none";
+const sheetLabel = "block text-sm text-zinc-400 mb-1.5";
+
 export default function ProfilePage() {
     const router = useRouter();
     const { user, setUser, logout } = useAuth();
@@ -68,11 +71,13 @@ export default function ProfilePage() {
     const [saving, setSaving] = useState(false);
     const [uploading, setUploading] = useState(false);
     const [editing, setEditing] = useState(false);
+    const [sheetVisible, setSheetVisible] = useState(false);
     const [preview, setPreview] = useState("");
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
     const inputRef = useRef(null);
     const previewUrlRef = useRef("");
+    const sheetFormRef = useRef(null);
 
     const load = async () => {
         setLoading(true);
@@ -105,6 +110,32 @@ export default function ProfilePage() {
             if (previewUrlRef.current) URL.revokeObjectURL(previewUrlRef.current);
         };
     }, []);
+
+    // Body scroll lock while mobile sheet is open (mobile only, re-evaluates on resize).
+    useEffect(() => {
+        if (!editing) return undefined;
+        if (typeof window === "undefined") return undefined;
+        const mql = window.matchMedia("(max-width: 767px)");
+        const apply = () => {
+            const value = mql.matches ? "hidden" : "";
+            document.body.style.overflow = value;
+            document.documentElement.style.overflow = value;
+        };
+        apply();
+        mql.addEventListener("change", apply);
+        return () => {
+            mql.removeEventListener("change", apply);
+            document.body.style.overflow = "";
+            document.documentElement.style.overflow = "";
+        };
+    }, [editing]);
+
+    // Mobile sheet open animation (motion-reduce handled via Tailwind variant on element).
+    useEffect(() => {
+        if (!editing) { setSheetVisible(false); return undefined; }
+        const id = requestAnimationFrame(() => setSheetVisible(true));
+        return () => cancelAnimationFrame(id);
+    }, [editing]);
 
     const stream = STREAMS[form.education_stream] || STREAMS.SCIENCE;
     const avatarSource = preview || user?.avatar?.url || "";
@@ -232,9 +263,10 @@ export default function ProfilePage() {
             </div>
         </section>
 
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">{statsData.map((item) => <Stat key={item.label} {...item}/>)}</div>
+        <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-1 md:grid md:grid-cols-4 md:gap-3 md:overflow-visible md:snap-none">{statsData.map((item) => <div key={item.label} className="snap-start shrink-0 basis-[calc(50%-1rem)] md:basis-auto"><Stat {...item}/></div>)}</div>
 
-        {editing && <form onSubmit={save} className="panel p-5 sm:p-7">
+        {/* Desktop / tablet inline edit form — unchanged appearance */}
+        {editing && <form onSubmit={save} className="hidden md:block panel p-5 sm:p-7">
             <div className="mb-5 flex items-center justify-between"><div><div className="eyebrow">তথ্য সম্পাদনা</div><h2 className="mt-1 text-xl font-bold text-white">আপনার পরিচয়</h2></div><button type="button" onClick={cancelEdit} className="rounded-lg p-2 text-zinc-500 hover:bg-white/5 hover:text-white" aria-label="সম্পাদনা বন্ধ করুন"><X size={18}/></button></div>
             <div className="grid gap-4 md:grid-cols-2">
                 <label className="text-sm text-zinc-400">ইউজারনেম<input className="field mt-2" value={form.username} maxLength={50} onChange={(event) => update("username", event.target.value)}/><span className="mt-1 block text-xs text-zinc-500">ইউজারনেম মাসে একবার পরিবর্তন করা যাবে।</span></label>
@@ -245,6 +277,77 @@ export default function ProfilePage() {
             </div>
             <div className="mt-6 flex flex-wrap justify-end gap-2"><button type="button" onClick={cancelEdit} className="ghost">বাতিল</button><button type="submit" disabled={saving || !changed || !form.username.trim()} className="primary flex items-center gap-2"><Check size={16}/>{saving ? "সংরক্ষণ হচ্ছে…" : "সংরক্ষণ করুন"}</button></div>
         </form>}
+
+        {/* Mobile full-screen edit sheet (md:hidden) — covers bottom nav via z-[70] */}
+        {editing && <div className={`fixed inset-0 z-[70] flex flex-col bg-[#202020] md:hidden transition-transform duration-200 ease-out motion-reduce:transition-none ${sheetVisible ? "translate-y-0" : "translate-y-full"}`}>
+            <header className="h-14 shrink-0 px-4 border-b border-white/[0.08] bg-[#202020]/95 backdrop-blur-xl flex items-center justify-between">
+                <button type="button" onClick={cancelEdit} className="h-11 w-11 rounded-full bg-white/[0.06] flex items-center justify-center text-zinc-200 active:scale-95 transition motion-reduce:transition-none" aria-label="সম্পাদনা বন্ধ করুন"><X size={18}/></button>
+                <div className="flex flex-col items-center leading-tight">
+                    <span className="text-[10px] uppercase tracking-widest text-zinc-500">তথ্য হালনাগাদ</span>
+                    <h2 className="text-base font-bold text-white">আপনার পরিচয়</h2>
+                </div>
+                <button type="button" onClick={() => sheetFormRef.current?.requestSubmit()} disabled={saving || !changed || !form.username.trim()} className="h-11 w-11 rounded-full bg-[#3b82f6]/15 text-[#93c5fd] flex items-center justify-center disabled:opacity-40 active:scale-95 transition motion-reduce:transition-none" aria-label="সংরক্ষণ করুন"><Check size={18}/></button>
+            </header>
+            <form ref={sheetFormRef} onSubmit={save} className="flex-1 flex flex-col min-h-0">
+                <div className="flex-1 overflow-y-auto px-4 py-4 space-y-4">
+                    <div className="flex items-center gap-3">
+                        <div className="relative h-16 w-16 shrink-0">
+                            <div className="grid h-16 w-16 place-items-center overflow-hidden rounded-full bg-gradient-to-br from-sky-400 via-indigo-500 to-violet-500 text-xl font-bold text-white ring-2 ring-amber-400/40">
+                                {avatarSource ? <img src={avatarSource} alt="প্রোফাইল ছবি" className="h-full w-full object-cover"/> : (user?.username || "শিক্ষার্থী").slice(0, 1).toUpperCase()}
+                            </div>
+                            <button type="button" onClick={chooseAvatar} disabled={uploading} className="absolute -bottom-1 -right-1 grid h-11 w-11 place-items-center rounded-full border-2 border-[#202020] bg-sky-500 text-white shadow-lg active:scale-95 transition motion-reduce:transition-none disabled:opacity-60" aria-label="প্রোফাইল ছবি বদলান">
+                                {uploading ? <Upload size={14} className="animate-pulse motion-reduce:animate-none"/> : <Camera size={14}/>}
+                            </button>
+                        </div>
+                        <p className="text-xs leading-relaxed text-zinc-500">ছবি বদলাতে ক্যামেরা আইকনে ট্যাপ করুন।</p>
+                    </div>
+
+                    <label className="block">
+                        <span className={sheetLabel}>ইউজারনেম</span>
+                        <input className={sheetInput} value={form.username} maxLength={50} onChange={(event) => update("username", event.target.value)} autoComplete="username"/>
+                        <span className="mt-1.5 block text-[11px] leading-relaxed text-zinc-500">ছোট হাতের অক্ষর, সংখ্যা এবং আন্ডারস্কোর (_) ব্যবহার করা যাবে</span>
+                    </label>
+
+                    <label className="block">
+                        <span className={sheetLabel}>শিক্ষাপ্রতিষ্ঠান</span>
+                        <input className={sheetInput} value={form.institution} maxLength={160} onChange={(event) => update("institution", event.target.value)}/>
+                    </label>
+
+                    <div>
+                        <label htmlFor="mobile-bio" className={sheetLabel}>পরিচিতি</label>
+                        <div className="relative">
+                            <textarea id="mobile-bio" className="w-full min-h-[104px] rounded-xl border border-white/10 bg-[#26262a] p-3.5 pr-16 text-base leading-relaxed text-white placeholder:text-zinc-500 focus:border-sky-500/60 focus:outline-none resize-y" maxLength={160} value={form.bio} onChange={(event) => update("bio", event.target.value)}/>
+                            <span className="pointer-events-none absolute bottom-2 right-3 text-[11px] font-medium text-zinc-500 bangla-digits">{formatBanglaNumber(form.bio.length)}/{formatBanglaNumber(160)}</span>
+                        </div>
+                    </div>
+
+                    <label className="block">
+                        <span className={sheetLabel}>শিক্ষা বিভাগ</span>
+                        <select className={sheetInput} value={form.education_stream} onChange={(event) => update("education_stream", event.target.value)}>
+                            <option value="SCIENCE">বিজ্ঞান</option>
+                            <option value="ARTS">মানবিক</option>
+                            <option value="COMMERCE">ব্যবসায় শিক্ষা</option>
+                        </select>
+                    </label>
+
+                    <label className="block">
+                        <span className={sheetLabel}>শ্রেণি</span>
+                        <select className={sheetInput} value={form.class_level} onChange={(event) => update("class_level", event.target.value)}>
+                            <option value="11">১১</option>
+                            <option value="12">১২</option>
+                        </select>
+                    </label>
+                </div>
+                <footer className="shrink-0 border-t border-white/[0.08] bg-[#1a1a1f]/95 backdrop-blur-xl px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
+                    <div className="grid grid-cols-[1fr_1.5fr] gap-2.5">
+                        <button type="button" onClick={cancelEdit} className="h-12 rounded-xl border border-white/12 bg-white/[0.05] text-sm font-semibold text-zinc-200 active:scale-[0.98] transition motion-reduce:transition-none">বাতিল</button>
+                        <button type="submit" disabled={saving || !changed || !form.username.trim()} className="h-12 rounded-xl bg-[#3b82f6] text-sm font-bold text-white shadow-[0_6px_20px_rgba(59,130,246,0.35)] flex items-center justify-center gap-1.5 active:scale-[0.98] transition motion-reduce:transition-none disabled:opacity-50 disabled:cursor-not-allowed">
+                            <Check size={16}/>{saving ? "সংরক্ষণ হচ্ছে…" : "সংরক্ষণ করুন"}
+                        </button>
+                    </div>
+                </footer>
+            </form>
+        </div>}
 
         <section className="panel p-5 sm:p-7"><div className="flex flex-wrap items-start justify-between gap-4"><div><div className="eyebrow">অ্যাকাউন্ট</div><h2 className="mt-1 text-xl font-bold text-white">অ্যাকাউন্টের তথ্য</h2></div><button type="button" onClick={handleLogout} className="social-btn-ghost border-rose-400/25 text-rose-300 hover:border-rose-400/50 hover:bg-rose-400/10"><LogOut size={15}/>লগ আউট</button></div><div className="mt-5 grid gap-4 border-t border-white/10 pt-5 sm:grid-cols-3"><div><div className="text-xs text-zinc-500">ইমেইল</div><div className="mt-1 truncate text-sm text-zinc-200">{user?.email || "—"}</div></div><div><div className="text-xs text-zinc-500">সদস্য হওয়ার তারিখ</div><div className="mt-1 text-sm text-zinc-200">{joinedDate(user?.createdAt).replace("সদস্য হয়েছেন ", "")}</div></div><div><div className="text-xs text-zinc-500">বর্তমান বিভাগ</div><div className="mt-1 text-sm text-zinc-200">{stream.label}</div></div></div></section>
 

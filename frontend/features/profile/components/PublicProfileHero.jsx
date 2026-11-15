@@ -9,7 +9,7 @@ const streamStyles = {
     COMMERCE: { label: "ব্যবসায় শিক্ষা", color: "rgba(245, 158, 11, .28)", pill: "border-amber-300/25 bg-amber-300/10 text-amber-200" }
 };
 
-const buttonBase = "inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:opacity-50";
+const buttonBase = "inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-h-11 sm:min-h-0";
 
 export default function PublicProfileHero({ profile, friendStatus, onFriendAction, onReject, onMessage, onBattle }) {
     const stream = streamStyles[profile?.profile?.education_stream] || streamStyles.SCIENCE;

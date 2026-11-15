@@ -51,6 +51,28 @@ function SubjectIconGrid() {
     </div>;
 }
 
+function MobileAccuracyBar({ percentage }) {
+    return <div aria-hidden="true" className="h-1.5 w-full overflow-hidden rounded-full bg-zinc-700">
+        <div className="h-full rounded-full bg-cyan-300 transition-[width] duration-700" style={{ width: `${boundedPercent(percentage)}%` }}/>
+    </div>;
+}
+
+function MobileCompletionSegments({ percentage }) {
+    const progress = boundedPercent(percentage) / 20;
+    return <div aria-hidden="true" className="flex items-center gap-1">
+        {Array.from({ length: 5 }, (_, index) => {
+            const fill = Math.min(1, Math.max(0, progress - index));
+            return <span key={index} className="h-1.5 w-3 overflow-hidden rounded-full border border-white/10 bg-zinc-700">
+                <span className="block h-full rounded-full bg-emerald-400" style={{ width: `${fill * 100}%` }}/>
+            </span>;
+        })}
+    </div>;
+}
+
+function MobileStreamBadge({ name }) {
+    return <span className="inline-flex max-w-full items-center truncate rounded-full border border-violet-400/25 bg-violet-500/10 px-2 py-0.5 text-[10px] leading-tight text-violet-200">{name || "এইচএসসি"}</span>;
+}
+
 export default function Academy() {
     const { user } = useAuth();
     const [report, setReport] = useState(null);
@@ -99,32 +121,32 @@ export default function Academy() {
     const currentStream = noteStreams.find((stream) => stream.id === selectedStream);
 
     return <>
-        <header className="mb-6">
-            <h1 className="text-3xl font-bold text-white">Academic</h1>
-            <p className="mt-1 text-sm text-zinc-400">পড়াশোনা বাদ দিয়ে আগে নিজের অবস্থাটা দেখে নাও।</p>
+        <header className="mb-5 sm:mb-6">
+            <h1 className="text-2xl font-bold text-white sm:text-3xl">Academic</h1>
+            <p className="mt-1 text-sm leading-relaxed text-zinc-400">পড়াশোনা বাদ দিয়ে আগে নিজের অবস্থাটা দেখে নাও।</p>
         </header>
-        <div className="mb-8 grid items-stretch gap-4 md:grid-cols-3">
-            <AcademyMetric accent="cyan" icon={Target} label="সঠিক উত্তরের হার" value={accuracyValue} detail={reportError ? "রিপোর্ট লোড হয়নি" : `মোট চেষ্টা: ${formatBanglaNumber(totals.total_attempts || 0)}`} visual={<AccuracyRing percentage={totals.accuracy}/>}/>
-            <AcademyMetric accent="emerald" icon={TrendingUp} label="সম্পন্ন প্রশ্ন" value={completionValue} detail={reportError ? "রিপোর্ট লোড হয়নি" : `চর্চিত অধ্যায়ে: ${formatBanglaNumber(totals.completed_questions || 0)}/${formatBanglaNumber(totals.total_questions || 0)}`} visual={<CompletionSegments percentage={totals.completion_percentage}/>}/>
-            <AcademyMetric accent="violet" icon={Layers3} label="বিষয়" value={formatBanglaNumber(subjectCount)} detail={currentStream?.name || "এইচএসসি পাঠ্যক্রম"} visual={<SubjectIconGrid/>}/>
+        <div className="mb-8 grid grid-cols-3 items-stretch gap-2 sm:gap-4">
+            <AcademyMetric accent="cyan" icon={Target} label="সঠিক উত্তরের হার" value={accuracyValue} detail={reportError ? "রিপোর্ট লোড হয়নি" : `মোট চেষ্টা: ${formatBanglaNumber(totals.total_attempts || 0)}`} visual={<AccuracyRing percentage={totals.accuracy}/>} mobileVisual={<MobileAccuracyBar percentage={totals.accuracy}/>}/>
+            <AcademyMetric accent="emerald" icon={TrendingUp} label="সম্পন্ন প্রশ্ন" value={completionValue} detail={reportError ? "রিপোর্ট লোড হয়নি" : `চর্চিত অধ্যায়ে: ${formatBanglaNumber(totals.completed_questions || 0)}/${formatBanglaNumber(totals.total_questions || 0)}`} visual={<CompletionSegments percentage={totals.completion_percentage}/>} mobileVisual={<MobileCompletionSegments percentage={totals.completion_percentage}/>}/>
+            <AcademyMetric accent="violet" icon={Layers3} label="বিষয়" value={formatBanglaNumber(subjectCount)} detail={currentStream?.name || "এইচএসসি পাঠ্যক্রম"} visual={<SubjectIconGrid/>} mobileVisual={<MobileStreamBadge name={currentStream?.name}/>}/>
         </div>
         <section aria-label="বিভাগ বেছে নিন" className="mb-7 grid grid-cols-3 gap-2 rounded-2xl border border-white/10 bg-white/[.025] p-2 sm:gap-3 sm:p-3">
             {noteStreams.map(({ id, name }) => {
                 const Icon = streamIcons[id];
                 const active = selectedStream === id;
                 return <button key={id} type="button" aria-pressed={active} onClick={() => selectStream(id)}
-                    className={`group flex min-h-16 items-center justify-center gap-2 rounded-xl border px-2 py-3 text-center text-sm font-semibold transition sm:min-h-[72px] sm:gap-3 sm:text-base ${active ? "border-sky-200/30 bg-sky-200/[.1] text-white shadow-[0_6px_24px_rgba(56,189,248,.09)]" : "border-transparent text-white/65 hover:border-white/10 hover:bg-white/[.04] hover:text-white"}`}>
+                    className={`group flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl border px-1.5 py-2 text-center text-xs font-semibold transition sm:min-h-[72px] sm:flex-row sm:items-center sm:justify-center sm:gap-3 sm:px-2 sm:py-3 sm:text-base ${active ? "border-sky-200/30 bg-sky-200/[.1] text-white shadow-[0_6px_24px_rgba(56,189,248,.09)]" : "border-transparent text-white/65 hover:border-white/10 hover:bg-white/[.04] hover:text-white"}`}>
                     <Icon size={18} className={active ? "text-sky-100" : "text-white/45"}/>
                     <span><span className="block">{name}</span><span className="mt-0.5 hidden text-[10px] font-medium tracking-wide text-white/45 sm:block">{id === "SCIENCE" ? "Science" : id === "ARTS" ? "Arts" : "Commerce"}</span></span>
                 </button>;
             })}
         </section>
-        <div className="mb-5 flex flex-wrap items-end justify-between gap-3"><div><div className="eyebrow">আপনার পাঠ্যক্রম</div><h2 className="mt-1 font-serif text-2xl">একটি বিষয় বেছে নিন</h2></div><div className="flex items-center gap-3">{currentStream && <span className="rounded-full border border-white/10 bg-white/[.04] px-3 py-1.5 text-xs text-white/70">{currentStream.name} · {formatBanglaNumber(subjects.length)}টি বিষয়</span>}</div></div>
-        {subjects.length ? <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">{subjects.map((subject) => <Link key={subject.code} href={`/academy/${subject.code}?stream=${selectedStream.toLowerCase()}&paper=1`} className={`academy-subject-card academy-subject-card-${subject.shortCode} group relative isolate overflow-hidden rounded-2xl border border-white/10 border-t px-0 transition-all duration-300 hover:-translate-y-0.5`}>
+        <div className="mb-5 flex flex-wrap items-end justify-between gap-3"><div><div className="eyebrow">আপনার পাঠ্যক্রম</div><h2 className="mt-1 font-serif text-2xl">একটি বিষয় বেছে নিন</h2></div><div className="flex items-center gap-3">{currentStream && <span className="rounded-full border border-white/10 bg-white/[.04] px-3 py-1.5 text-xs text-white/70">{currentStream.name} · {formatBanglaNumber(subjects.length)}টি বিষয়</span>}</div></div>
+        {subjects.length ? <div className="grid gap-3 sm:gap-5 md:grid-cols-2 lg:grid-cols-3">{subjects.map((subject) => <Link key={subject.code} href={`/academy/${subject.code}?stream=${selectedStream.toLowerCase()}&paper=1`} className={`academy-subject-card academy-subject-card-${subject.shortCode} group relative isolate overflow-hidden rounded-2xl border border-white/10 border-t px-0 transition-all duration-300 hover:-translate-y-0.5`}>
             <SubjectArtwork code={subject.shortCode} variant="academy"/>
-            <div className="relative z-10 flex min-h-64 flex-col justify-between p-7">
-                <div className="flex items-center justify-between"><span className="rounded-full border border-white/10 bg-black/40 px-3 py-1 text-xs uppercase tracking-widest text-white/85 backdrop-blur-sm">এইচএসসি · {formatBanglaNumber(subject.papers.length)} পত্র</span><BookOpen className="text-white/75 transition group-hover:scale-110 group-hover:text-white" size={24}/></div>
-                <div><h3 className="max-w-[18rem] font-serif text-3xl leading-tight text-white">{subject.name}</h3><div className="mt-4 flex items-center justify-between text-sm text-white/75"><span className="bangla-digits">{formatBanglaNumber(subject.totalChapters)}টি অধ্যায়</span><span className="flex items-center gap-1 text-white transition group-hover:gap-2">বিষয় খুলুন <ArrowRight size={15}/></span></div></div>
+            <div className="relative z-10 flex min-h-[112px] flex-col justify-between p-4 sm:min-h-64 sm:p-7">
+                <div className="flex items-center justify-between"><span className="rounded-full border border-white/10 bg-black/40 px-2 py-0.5 text-[9px] uppercase tracking-widest text-white/75 backdrop-blur-sm sm:px-3 sm:py-1 sm:text-xs sm:text-white/85">এইচএসসি · {formatBanglaNumber(subject.papers.length)} পত্র</span><BookOpen className="text-white/60 transition group-hover:scale-110 group-hover:text-white sm:text-white/75" size={22}/></div>
+                <div><h3 className="max-w-full font-serif text-[26px] leading-tight text-white sm:max-w-[18rem] sm:text-3xl sm:leading-tight">{subject.name}</h3><div className="mt-2 flex items-center justify-between text-[10px] text-white/60 sm:mt-4 sm:text-sm sm:text-white/75"><span className="bangla-digits">{formatBanglaNumber(subject.totalChapters)}টি অধ্যায়</span><span className="flex items-center gap-1 text-white/80 transition group-hover:gap-2 group-hover:text-white sm:text-white">বিষয় খুলুন <ArrowRight size={13}/></span></div></div>
             </div>
         </Link>)}</div> : <div className="panel p-10 text-center"><BookOpen className="mx-auto text-white/35" size={30}/><h3 className="mt-3 text-lg font-semibold">এই বিভাগে এখনো অনুশীলন নেই</h3><p className="muted mt-2">এই বিভাগের MCQ যোগ হলে এখানে দেখা যাবে।</p></div>}
     </>;

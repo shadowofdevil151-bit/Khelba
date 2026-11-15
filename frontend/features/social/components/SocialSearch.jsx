@@ -4,11 +4,11 @@ import { Loader2, Search, X } from "lucide-react";
 
 export default function SocialSearch({ query, onChange, loading }) {
     return <div className="relative border-b border-white/10 p-4">
-        <div className="relative flex items-center gap-2 rounded-xl border border-white/10 bg-[#191c23] px-3 py-2.5 transition-colors focus-within:border-sky-400/50 focus-within:ring-2 focus-within:ring-sky-400/15">
+        <div className="relative flex min-h-11 items-center gap-2 rounded-xl border border-white/10 bg-[#191c23] px-3 py-2.5 transition-colors focus-within:border-sky-400/50 focus-within:ring-2 focus-within:ring-sky-400/15">
             <Search className="shrink-0 text-zinc-500" size={14}/>
             <input
                 data-social-search
-                className="w-full bg-transparent text-sm text-white placeholder:text-zinc-500 outline-none"
+                className="w-full bg-transparent text-base text-white placeholder:text-zinc-500 outline-none md:text-sm"
                 placeholder="ইউজারনেম দিয়ে খুঁজুন…"
                 value={query}
                 onChange={(event) => onChange(event.target.value)}

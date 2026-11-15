@@ -43,7 +43,7 @@ export default function SocialPage() {
             const body = await api("/users/friends", { signal });
             if (!signal?.aborted) setFriends(body.data || []);
         } catch (requestError) {
-            if (requestError.name !== "AbortError") setFriendsError(requestError.message || "বন্ধুদের তালিকা লোড করা যায়নি।");
+            if (requestError.name !== "AbortError") setFriendsError(requestError.message || "বন্ধুদের তালিকা লোড করা যায়নি।");
         } finally {
             if (!signal?.aborted) setFriendsLoading(false);
         }
@@ -143,7 +143,7 @@ export default function SocialPage() {
             await api(`/users/${targetId}/friend-response`, { method: "POST", body: JSON.stringify({ accept }), signal: controller.signal });
             if (!controller.signal.aborted) await loadFriends(controller.signal);
         } catch (requestError) {
-            if (requestError.name !== "AbortError") setFriendsError(requestError.message || "অনুরোধটি সম্পন্ন করা যায়নি।");
+            if (requestError.name !== "AbortError") setFriendsError(requestError.message || "অনুরোধটি সম্পন্ন করা যায়নি।");
         }
     };
     const updateFriendState = (targetId, friendStatus) => {
@@ -185,7 +185,7 @@ export default function SocialPage() {
             await loadFriends();
             return true;
         } catch (requestError) {
-            setFriendActionError(requestError.message || "বন্ধুত্বের অনুরোধটি সম্পন্ন করা যায়নি।");
+            setFriendActionError(requestError.message || "বন্ধুত্বের অনুরোধটি সম্পন্ন করা যায়নি।");
             return false;
         }
     };
@@ -199,7 +199,7 @@ export default function SocialPage() {
             await loadFriends();
             setRemoveFriendTarget(null);
         } catch (requestError) {
-            setFriendActionError(requestError.message || "বন্ধুকে সরানো যায়নি।");
+            setFriendActionError(requestError.message || "বন্ধুকে সরানো যায়নি।");
         } finally {
             setFriendActionPending(false);
         }
@@ -242,12 +242,12 @@ export default function SocialPage() {
     const incomingPeople = incomingRequests.map((item) => toPerson(item, "pending_in"));
     const outgoingPeople = outgoingRequests.map((item) => toPerson(item, "pending_out"));
 
-    return <div className="flex h-[calc(100dvh-3rem)] flex-col overflow-hidden">
+    return <div className="flex h-[calc(100dvh-7.5rem)] flex-col overflow-hidden p-2 md:h-[calc(100dvh-3rem)] md:p-0">
         <div className="grid min-h-0 flex-1 gap-4 md:grid-cols-[340px_minmax(0,1fr)]">
             <section className={`flex min-h-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#14161b] ${mobileView === "detail" ? "hidden md:flex" : "flex"}`}>
                 <SocialSearch query={searchQuery} onChange={setSearchQuery} loading={searchLoading}/>
                 <div className="chat-scroll min-h-0 flex-1 overflow-y-auto">
-                {friendsLoading ? <LoadingState compact title="তালিকা লোড হচ্ছে…"/> : friendsError ? <RequestErrorState title="সামাজিক তালিকা লোড করা যায়নি" detail={friendsError} onRetry={() => loadFriends()}/> : <SocialList
+                {friendsLoading ? <LoadingState compact title="তালিকা লোড হচ্ছে…"/> : friendsError ? <RequestErrorState title="সামাজিক তালিকা লোড করা যায়নি" detail={friendsError} onRetry={() => loadFriends()}/> : <SocialList
                     tab={tab}
                     onTabChange={(nextTab) => { setTab(nextTab); clearSelection(); }}
                     searching={searchQuery.trim().length >= 2}
@@ -270,7 +270,7 @@ export default function SocialPage() {
                 />}
                 </div>
             </section>
-            <section className={`flex min-h-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#14161b] ${mobileView === "detail" ? "flex" : "hidden md:flex"}`}>
+            <section className={`${mobileView === "detail" ? "fixed inset-0 z-50 flex h-[100dvh]" : "hidden"} min-h-0 flex-col overflow-hidden bg-[#18191e] md:static md:z-auto md:h-auto md:flex md:rounded-2xl md:border md:border-white/10 md:bg-[#14161b]`}>
                 <SocialRightPanel
                     tab={tab}
                     selectedChatUserId={selectedChatUserId}

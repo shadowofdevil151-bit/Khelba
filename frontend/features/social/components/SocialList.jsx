@@ -121,7 +121,7 @@ export default function SocialList({
                     return <Row key={id} active={selectedChatUserId === id} avatar={<UserAvatar user={item?.profile || item} size="sm"/>} title={nameFor(item)} subtitle={<span className="social-chip social-chip-emerald">বন্ধু</span>} right={<MessageCircle aria-hidden="true" size={15} className="text-zinc-600"/>} onClick={() => onSelectChat(id, { ...(item?.profile || {}), _id: id, username: nameFor(item) })}/>;
                 }) : <EmptyList text="কোনো চ্যাট নেই" action="বন্ধু তালিকা" onAction={() => onTabChange("friends")}/>
                 : tab === "requests" ? <div className="space-y-4">
-                    {!incomingRequests?.length && !outgoingRequests?.length && <div className="p-8 text-center"><p className="text-lg font-semibold text-white">No friend requests</p><p className="mt-2 text-sm text-zinc-400">আপনার কোনো আসন্ন বা পাঠানো অনুরোধ নেই।</p></div>}
+                    {!incomingRequests?.length && !outgoingRequests?.length && <div className="p-8 text-center"><p className="text-base font-bold text-paper/80 md:text-lg md:font-semibold md:text-white">No friend requests</p><p className="mt-2 text-xs text-paper/50 md:text-sm md:text-zinc-400">আপনার কোনো আসন্ন বা পাঠানো অনুরোধ নেই।</p></div>}
                     {incomingRequests?.length > 0 && <section>
                         <div className="px-3 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-wider text-zinc-500">Incoming · <span className="bangla-digits">{formatBanglaNumber(incomingRequests.length)}</span></div>
                         {incomingRequests.map((item) => {
@@ -144,20 +144,20 @@ export default function SocialList({
                 : tab === "friends" ? friends?.length ? friends.map((item) => <UserRow key={String(item._id)} user={item} onClick={() => onSelectUser(item)} right={<ChevronRight aria-hidden="true" size={16} className="text-zinc-600"/>}/>) : <EmptyList text="এখনো বন্ধু নেই · প্রথম বন্ধু খুঁজুন" action="সার্চ করুন" onAction={() => { onTabChange("chat"); document.querySelector("[data-social-search]")?.focus(); }}/>
                 : <div>
                     <div className="px-2 pb-2 pt-2">
-                        <div className="flex flex-wrap gap-1.5">
+                        <div className="flex flex-nowrap gap-1.5 overflow-x-auto pb-1 md:flex-wrap md:overflow-visible md:pb-0">
                             {[
                                 { id: "all", label: "All" },
                                 { id: "unread", label: "Unread", count: notificationItems.filter((item) => !item.seen).length },
                                 { id: "messages", label: "Messages" },
                                 { id: "requests", label: "Requests" },
                                 { id: "battles", label: "Battles" }
-                            ].map((chip) => <button key={chip.id} type="button" onClick={() => setFilter(chip.id)} className={`rounded-full border px-2.5 py-1 text-[11px] font-semibold transition-colors ${filter === chip.id ? "border-amber-400/50 bg-amber-400/15 text-amber-200" : "border-white/10 bg-white/[.02] text-zinc-400 hover:border-white/20 hover:text-white"}`}>
+                            ].map((chip) => <button key={chip.id} type="button" onClick={() => setFilter(chip.id)} className={`shrink-0 whitespace-nowrap rounded-full border px-2.5 py-1 text-[11px] font-semibold transition-colors ${filter === chip.id ? "border-amber-400/50 bg-amber-400/15 text-amber-200" : "border-white/10 bg-white/[.02] text-zinc-400 hover:border-white/20 hover:text-white"}`}>
                                 {chip.label}
                                 {chip.count > 0 && <span className="bangla-digits ml-1">({formatBanglaNumber(chip.count)})</span>}
                             </button>)}
                         </div>
                     </div>
-                    {!groupedNotifications.length && <div className="px-5 py-10 text-center"><Bell aria-hidden="true" className="mx-auto text-zinc-500" size={40}/><div className="mt-3 text-lg font-semibold text-white">All caught up</div><div className="mt-2 text-sm text-zinc-400">নতুন কিছু এলে এখানে দেখাবে।</div></div>}
+                    {!groupedNotifications.length && <div className="px-5 py-10 text-center"><Bell aria-hidden="true" className="mx-auto text-zinc-500" size={40}/><div className="mt-3 text-base font-bold text-paper/80 md:text-lg md:font-semibold md:text-white">All caught up</div><div className="mt-2 text-xs text-paper/50 md:text-sm md:text-zinc-400">নতুন কিছু এলে এখানে দেখাবে।</div></div>}
                     {groupedNotifications.map(([label, items]) => <div key={label}>
                         <div className="px-3 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-wider text-zinc-500">{label}</div>
                         {items.map((item) => {
@@ -184,5 +184,5 @@ export default function SocialList({
 }
 
 function EmptyList({ text, action, onAction }) {
-    return <div className="p-8 text-center"><Users aria-hidden="true" className="mx-auto mb-3 text-zinc-500" size={40}/><p className="text-lg font-semibold text-white">{text}</p>{action && <button type="button" onClick={onAction} className="social-btn-ghost mt-4 px-3 py-1.5 text-xs">{action}</button>}</div>;
+    return <div className="p-8 text-center"><Users aria-hidden="true" className="mx-auto mb-3 text-zinc-500" size={40}/><p className="text-base font-bold text-paper/80 md:text-lg md:font-semibold md:text-white">{text}</p>{action && <button type="button" onClick={onAction} className="social-btn-ghost mt-4 px-3 py-1.5 text-xs">{action}</button>}</div>;
 }
